@@ -1,0 +1,10 @@
+position: 3
+name: Bennett
+star: 4
+constellation: 1
+weapon:
+  name: Freedom-Sworn
+  refinement: 5
+artifacts:
+  - Thundering Fury
+  - Gladiator's Finale

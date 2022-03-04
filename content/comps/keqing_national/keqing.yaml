@@ -1,0 +1,10 @@
+position: 1
+name: Keqing
+star: 5
+constellation: 0
+weapon:
+  name: Summit Shaper
+  refinement: 5
+artifacts:
+  - Thundering Fury
+  - Gladiator's Finale

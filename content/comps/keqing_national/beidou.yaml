@@ -1,0 +1,9 @@
+position: 4
+name: Beidou
+star: 4
+constellation: 5
+weapon:
+  name: Serpent Spine
+  refinement: 5
+artifacts:
+  - Emblem of Severed Fate

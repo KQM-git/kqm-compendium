@@ -8,3 +8,11 @@ weapon:
 artifacts:
   - Thundering Fury
   - Gladiator's Finale
+hp: 13048
+atk: 2300
+def: 403
+em: 20
+cr: 100.2
+cd: 234.6
+er: 122.4
+dps: 7312

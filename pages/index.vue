@@ -1,10 +1,10 @@
 <template>
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 p-5">
     <composition-preview
-      v-for="comp of comps.filter(x => x.extension == '.md')"
-      :key="comp.slug"
-      :composition="comp"
-      :characters="comps.filter(x => x.dir.split('/').pop() == comp.slug && x.extension == '.yaml')"
+      v-for="composition of compositions.filter(x => x.extension == '.md')"
+      :key="composition.slug"
+      :composition="composition"
+      :characters="characters.filter(x => x.dir.split('/').pop() == composition.slug)"
     />
   </div>
 </template>
@@ -17,8 +17,9 @@ export default Vue.extend({
   name: 'IndexPage',
   components: { CompositionPreview },
   async asyncData ({ $content }) {
-    const comps = await $content('comps', { deep: true }).sortBy('position').fetch()
-    return { comps }
+    const compositions = await $content('comps', { deep: true }).where({ extension: '.md' }).fetch()
+    const characters = await $content('comps', { deep: true }).where({ extension: '.yaml' }).sortBy('position').fetch()
+    return { compositions, characters }
   }
 })
 </script>

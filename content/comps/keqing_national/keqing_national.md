@@ -2,9 +2,9 @@
 title: Keqing National
 authors:
     - Ayzel
-healing: 1
-shielding: 3
-difficulty: 1
+healing: 3
+shielding: 2
+difficulty: 3
 tags:
     - Keqing
     - Kazuha
@@ -19,12 +19,11 @@ pros:
     - Consistent damage
     - Works at low investment
     - Frontloaded
-    - Test123
 cons:
     - Lack of sustained amage,
     - Large reliance on Raiden's elemental burst,
     - Alot of buffs to manage
-    - AShgdkk12
+dps: 38485
 sheet_url: https://madaradex.org/
 gcim_url: https://madaradex.org/
 ---

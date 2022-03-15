@@ -23,9 +23,11 @@ cons:
     - Lack of sustained amage,
     - Large reliance on Raiden's elemental burst,
     - Alot of buffs to manage
-dps: 38485
-sheet_url: https://madaradex.org/
-gcim_url: https://madaradex.org/
+sheet_url: https://google.com/
+gcim_url: https://google.com/
+rotation:
+    duration: 20s
+    video_url: https://youtu.be/dQw4w9WgXcQ
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula elementum condimentum. Curabitur bibendum elit in augue faucibus laoreet. Nullam congue nunc laoreet, mattis neque eu, commodo magna. Quisque sollicitudin ac purus vitae hendrerit. Curabitur hendrerit scelerisque cursus. Cras sed placerat libero. Sed accumsan nunc vitae lorem posuere, nec porttitor diam tempor. Suspendisse id urna odio. Aliquam mollis, neque non placerat pharetra, magna ipsum aliquam est, sit amet aliquam orci mauris ac mi. Praesent eu tristique ipsum.

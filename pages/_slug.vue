@@ -136,7 +136,7 @@
     <div class="grid grid-cols-2 gap-5 p-3">
       <div class="w-full">
         <p class="text-3xl font-bold">
-          {{ composition.dps }} DPS
+          {{ characters.map(character => character.dps).reduce((a, b) => a + b, 0) }} DPS
         </p>
         <div class="flex flex-col my-3 gap-2">
           <div
@@ -150,19 +150,29 @@
                 {{ character.name }}
               </p>
               <p class="text-center text-xl font-bold text-gray-500">
-                {{ `${Math.round(character.dps/composition.dps * 100)}%` }}
+                {{ `${Math.round(character.dps/characters.map(character => character.dps).reduce((a, b) => a + b, 0) * 100)}%` }}
               </p>
             </div>
             <div class="w-[75%] flex items-center">
-              <!-- <div class="w-full h-8 bg-gray-400" /> -->
               <div class="w-full h-auto bg-gray-400">
                 <div
                   class="h-8 bg-purple-700"
-                  :style="{ width: `${character.dps/composition.dps * 100}%` }"
+                  :style="{ width: `${character.dps/characters.map(character => character.dps).reduce((a, b) => a + b, 0) * 100}%` }"
                 />
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-3xl font-bold pb-4">
+          Rotation {{ composition.rotation.duration }}
+        </p>
+        <div class="h-0 pb-[56.25%] relative">
+          <iframe
+            class="absolute inset-0 w-full h-full"
+            :src="composition.rotation.video_url.includes('watch?v=') ? `https://www.youtube.com/embed/${composition.rotation.video_url.split('watch?v=').pop()}` : `https://www.youtube.com/embed/${composition.rotation.video_url.split('/').pop()}`"
+          />
         </div>
       </div>
     </div>

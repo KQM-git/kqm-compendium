@@ -1,17 +1,17 @@
 position: 2
-name: Kaedehara Kazuha
+name: Xiangling
 star: 5
-constellation: 2
+constellation: 6
 weapon:
-  name: Freedom-Sworn
-  refinement: 5
+  name: Dragon's Bane
+  refinement: 1
 artifacts:
-  - Viridescent Venerer
-hp: 13048
-atk: 2300
-def: 403
-em: 20
-cr: 100.2
-cd: 234.6
-er: 122.4
-dps: 14624
+  - Crimson Witch of Flames
+hp: 14195
+atk: 2389
+def: 791
+em: 323
+cr: 55.96
+cd: 136.06
+er: 184.7
+dps: 23536

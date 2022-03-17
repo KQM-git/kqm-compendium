@@ -1,18 +1,17 @@
 position: 1
-name: Keqing
+name: Raiden Shogun
 star: 5
 constellation: 0
 weapon:
-  name: Summit Shaper
-  refinement: 5
+  name: Engulfing Lightning
+  refinement: 1
 artifacts:
-  - Thundering Fury
-  - Gladiator's Finale
-hp: 13048
-atk: 2300
-def: 403
-em: 20
-cr: 100.2
-cd: 234.6
-er: 122.4
-dps: 7312
+  - Emblem of Severed Fate
+hp: 18478
+atk: 1840
+def: 864
+em: 40
+cr: 65.89
+cd: 149.30
+er: 208.92
+dps: 12979

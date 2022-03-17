@@ -7,11 +7,11 @@ weapon:
   refinement: 1
 artifacts:
   - Emblem of Severed Fate
-hp: 13048
-atk: 2300
-def: 403
-em: 20
-cr: 100.2
-cd: 234.6
-er: 122.4
-dps: 15009
+hp: 15746
+atk: 1881
+def: 832
+em: 40
+cr: 62.58
+cd: 122.82
+er: 183
+dps: 7401

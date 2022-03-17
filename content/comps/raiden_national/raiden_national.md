@@ -3,7 +3,7 @@ title: Raiden National
 authors:
     - Ayzel
 healing: 2
-shielding: 0
+shielding: 1
 difficulty: 3
 tags:
     - Raiden
@@ -27,8 +27,8 @@ cons:
 sheet_url: https://google.com/
 gcim_url: https://google.com/
 rotation:
-    duration: 20s
-    video_url: https://youtu.be/dQw4w9WgXcQ
+    duration: 21.5s
+    video_url: https://youtu.be/Ca54Z4_K96E
 ---
 
-**Test** hello
+#**Test** hello

@@ -29,7 +29,7 @@ To build the project for deployment, run:
 # Generate static project
 $ npm run generate
 ```
-To lint the porject, run:
+To lint the project, run:
 ```bash
 # Lint the project
 $ npm run lint

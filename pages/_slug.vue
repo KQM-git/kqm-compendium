@@ -136,7 +136,7 @@
     <div class="grid grid-cols-2 gap-5 p-3">
       <div class="w-full">
         <p class="text-3xl font-bold">
-          {{ characters.map(character => character.dps).reduce((a, b) => a + b, 0) }} DPS
+          {{ totaldps }} DPS
         </p>
         <div class="flex flex-col my-3 gap-2">
           <div
@@ -150,14 +150,14 @@
                 {{ character.name }}
               </p>
               <p class="text-center text-xl font-bold text-gray-500">
-                {{ `${Math.round(character.dps/characters.map(character => character.dps).reduce((a, b) => a + b, 0) * 100)}%` }}
+                {{ `${Math.round(character.dps/totaldps * 100)}%` }}
               </p>
             </div>
             <div class="w-[75%] flex items-center">
               <div class="w-full h-auto bg-gray-400">
                 <div
                   class="h-8 bg-purple-700"
-                  :style="{ width: `${character.dps/characters.map(character => character.dps).reduce((a, b) => a + b, 0) * 100}%` }"
+                  :style="{ width: `${character.dps/totaldps * 100}%` }"
                 />
               </div>
             </div>
@@ -193,8 +193,9 @@ export default Vue.extend({
   async asyncData ({ $content, params }) {
     const composition = await $content('comps', params.slug, params.slug).where({ extension: '.md' }).fetch()
     const characters = await $content('comps', params.slug).where({ extension: '.yaml' }).sortBy('position').fetch()
+    const totaldps = characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 
-    return { composition, characters }
+    return { composition, characters, totaldps }
   }
 })
 </script>

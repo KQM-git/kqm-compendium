@@ -22,8 +22,8 @@
         >
           <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)">
           <div class="absolute bottom-1 w-full text-center flex flex-row justify-center">
-            <div class="w-7 h-7 flex justify-center items-center bg-purple-700 rotate-45 rounded-sm z-20">
-              <p class="font-bold -rotate-45 text-xl">
+            <div class="w-10 h-10 flex justify-center items-center bg-purple-700 rotate-45 rounded-sm z-20">
+              <p class="w-full h-full items-center justify-center flex font-bold -rotate-45 text-2xl">
                 {{ `C${character.constellation}` }}
               </p>
             </div>

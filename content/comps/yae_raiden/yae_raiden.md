@@ -25,7 +25,7 @@ cons:
     - Easily interruptible 
     - Swaps need to be done extremely quickly for buffs and energy
 sheet_url: https://google.com/
-gcim_url: https://gcsim.app/viewer/share/perm_u6eXJjZsU_bCYKpSDyKnF
+gcsim_url: https://gcsim.app/viewer/share/perm_u6eXJjZsU_bCYKpSDyKnF
 rotation:
     duration: 22s
     video_url: https://youtu.be/zkY1-gx-6H4

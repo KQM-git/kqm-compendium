@@ -25,7 +25,7 @@ cons:
     - Large reliance on Raiden's elemental burst,
     - Alot of buffs to manage
 sheet_url: https://google.com/
-gcim_url: https://google.com/
+gcsim_url: https://google.com/
 rotation:
     duration: 21.5s
     video_url: https://youtu.be/Ca54Z4_K96E

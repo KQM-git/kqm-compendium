@@ -1,0 +1,17 @@
+position: 4
+name: Bennett
+star: 4
+constellation: 5
+weapon:
+  name: Prototype Rancour
+  refinement: 1
+artifacts:
+  - Noblesse Oblige
+hp: 18915
+atk: 1550
+def: 906
+em: 40
+cr: 52.65
+cd: 109.58
+er: 189.5
+dps: 1089.6

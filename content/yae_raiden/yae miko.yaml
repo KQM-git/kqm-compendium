@@ -1,0 +1,18 @@
+position: 1
+name: Yae Miko
+star: 5
+constellation: 0
+weapon:
+  name: Blackcliff Agate
+  refinement: 1
+artifacts:
+  - Gladiator's Finale
+  - Thundering Fury
+hp: 16689
+atk: 1828
+def: 679
+em: 40
+cr: 78.47
+cd: 158.06
+er: 160.6
+dps: 14931

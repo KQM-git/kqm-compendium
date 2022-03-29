@@ -1,0 +1,17 @@
+position: 2
+name: Raiden Shogun
+star: 5
+constellation: 0
+weapon:
+  name: The Catch
+  refinement: 1
+artifacts:
+  - Emblem of Severed Fate
+hp: 19475
+atk: 1670
+def: 926
+em: 40
+cr: 65.89
+cd: 129.44
+er: 225.45
+dps: 19999.29

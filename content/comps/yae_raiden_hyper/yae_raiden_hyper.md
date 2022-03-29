@@ -37,7 +37,7 @@ This calc uses Free-To-Play gear on all units. Swaps need to be done fast, espec
 
 # **Rotation Notes**
 
-**First Rotation:**
+**First Rotation:**  
 Yae EEE  
 Raiden E (first rotation)  
 Kazuha hEp  
@@ -46,7 +46,7 @@ Yae Q EEE
 Kazuha Q  
 Raiden Q 3N3C E (can be any normal attack combo)  
 
-**Subsequent Rotations:**
+**Subsequent Rotations:**  
 Yae EEE  
 Kazuha hEp  
 Bennett EQ  

@@ -10,6 +10,22 @@
         </p>
       </div>
     </div>
+    <div class="w-full flex flex-row space-x-2 justify-center px-6">
+      <a
+        v-if="composition.sheet_url"
+        class="w-3/12 h-8 bg-green-500 flex justify-center items-center text-xl text-white font-bold rounded-md"
+        :href="composition.sheet_url"
+      >
+        Sheet
+      </a>
+      <a
+        v-if="composition.gcsim_url"
+        class="w-3/12 h-8 bg-blue-600 flex justify-center items-center text-xl text-white font-bold rounded-md"
+        :href="composition.gcsim_url"
+      >
+        gcsim
+      </a>
+    </div>
     <div class="w-full flex flex-row space-x-2 justify-center p-3">
       <div
         v-for="character of characters"

@@ -37,22 +37,22 @@ This calc uses Free-To-Play gear on all units. Swaps need to be done fast, espec
 
 # **Rotation Notes**
 
-  First Rotation:
-  Yae EEE
-  Raiden E (first rotation)
-  Kazuha hEp
-  Bennett EQ
-  Yae Q EEE
-  Kazuha Q
-  Raiden Q 3N3C E (can be any normal attack combo)
+**First Rotation:**
+Yae EEE  
+Raiden E (first rotation)  
+Kazuha hEp  
+Bennett EQ  
+Yae Q EEE  
+Kazuha Q  
+Raiden Q 3N3C E (can be any normal attack combo)  
 
-Subsequent Rotations:
-  Yae EEE
-  Kazuha hEp
-  Bennett EQ 
-  Yae Q EEE
-  Kazuha Q 
-  Raiden Q 3N3C (E) (can be any normal attack combo, only perform E again if you still need more rotations)
+**Subsequent Rotations:**
+Yae EEE  
+Kazuha hEp  
+Bennett EQ  
+Yae Q EEE  
+Kazuha Q   
+Raiden Q 3N3C (E) (can be any normal attack combo, only perform E again if you still need more rotations)
 
 **Disclaimer:** Dashing used to dodge in the video along with hitlag and relatively slow swaps all were factors into rotation time differences. Sim time should be as fast as you can go.
 

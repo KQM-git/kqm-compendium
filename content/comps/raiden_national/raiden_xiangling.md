@@ -1,5 +1,5 @@
 ---
-title: Raiden National
+title: Raiden Xiangling
 authors:
     - Ayzel
 healing: 2
@@ -16,16 +16,15 @@ tags:
     - Fields
     - Snapshot
 pros:
-    - strong in single target or small AoE
-    - extremely easy to play
-    - some room for rotation flexibility
-    - forgiving in energy requirements given Raiden's battery capabilities
+    - Strong in single target or small AoE
+    - Extremely easy to play
+    - Some room for rotation flexibility
+    - Forgiving in energy requirements given Raiden's battery capabilities
 cons:
-    - uses both Bennett and Xingqiu
-    - less effective in multi-target because XQ can't apply hydro in AOE
-    - lack of CC and overload can knock away enemies
-sheet_url: https://google.com/
-gcsim_url: https://google.com/
+    - Uses both Bennett and Xingqiu
+    - Less effective in multi-target because XQ can't apply hydro in AOE
+    - Lack of CC and overload can knock away enemies
+sheet_url: sheets/raiden_xiangling/raiden_xiangling.xlsx
 rotation:
     duration: 21.5s
     video_url: https://youtu.be/Ca54Z4_K96E

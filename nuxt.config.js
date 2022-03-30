@@ -15,10 +15,37 @@ export default {
       lang: 'en'
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'A collection of team calculations, rotations, and notes for Genshin Impact theorycrafting by KeqingMains.'
+      },
+      {
+        name: 'format-detection',
+        content: 'telephone=no'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'KQM'
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'KQM Calculation Compendium'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: 'A collection of team calculations, rotations, and notes for Genshin Impact theorycrafting by KeqingMains.'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

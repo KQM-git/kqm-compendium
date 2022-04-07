@@ -167,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 p-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 py-3">
             <div class="w-full">
                 <p class="text-3xl font-bold">
                     {{ totaldps }} DPS

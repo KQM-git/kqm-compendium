@@ -27,7 +27,7 @@
             </div>
         </div>
         <!-- Mobile -->
-        <div class="lg:hidden flex flex-row items-center pl-2 h-28 pb-12 w-full fixed top-0 z-20 bg-gradient-to-b from-[#19191d] via-[#19191d]">
+        <div class="lg:hidden flex flex-row items-center pl-2 h-28 pb-12 w-full fixed top-0 z-30 bg-gradient-to-b from-[#19191d] via-[#19191d]">
             <button @click="drawer">
                 <svg
                     class="h-8 w-8 fill-current text-white"
@@ -45,6 +45,30 @@
                 <img src="~/assets/logo.png" class="h-full">
             </NuxtLink>
         </div>
+
+        <!-- Dark Background Transition -->
+        <transition
+            enter-class="opacity-0"
+            enter-active-class="ease-out transition-medium"
+            enter-to-class="opacity-100"
+            leave-class="opacity-100"
+            leave-active-class="ease-out transition-medium"
+            leave-to-class="opacity-0"
+        >
+            <div
+                v-show="isOpen"
+                class="z-30 fixed inset-0 transition-opacity"
+                @keydown.esc="isOpen = false"
+            >
+                <div
+                    class="absolute inset-0 bg-black opacity-50"
+                    tabindex="0"
+                    @click="isOpen = false"
+                />
+            </div>
+        </transition>
+
+        <!-- Drawer Menu -->
         <aside
             class="p-5 transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
             :class="isOpen ? 'translate-x-0' : '-translate-x-full'"

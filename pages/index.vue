@@ -14,7 +14,7 @@ import Vue from 'vue'
 export default Vue.extend({
     name: 'IndexPage',
     async asyncData ({ $content }) {
-        const compositions = (await $content('comps', { deep: true }).where({ extension: '.md' }).sortBy('createdAt', 'desc').fetch()).filter((x: any) => x.slug === x.dir.replace('/comps/', ''))
+        const compositions = (await $content('comps', { deep: true }).where({ extension: '.md' }).sortBy('createdAt', 'asc').fetch()).filter((x: any) => x.slug === x.dir.replace('/comps/', ''))
 
         return { compositions }
     }

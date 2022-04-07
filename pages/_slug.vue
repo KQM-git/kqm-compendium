@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#28242c] p-5 m-3 rounded-xl text-white">
         <div class="w-full relative flex justify-between p-3">
-            <div class="text-2xl lg:text-4xl font-bold">
+            <div class="text-xl lg:text-4xl font-bold font-genshin">
                 {{ composition.title }}
             </div>
             <div class="flex justify-end items-end">
@@ -64,7 +64,7 @@
                         <div class="absolute -bottom-3 w-full h-4 bg-gray-700 rounded-[50%] z-0" />
                     </div>
                 </div>
-                <p class="text-xl font-bold text-center relative z-10">
+                <p class="text-xl font-bold font-genshin text-center relative z-10">
                     {{ character.name }}
                 </p>
                 <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
@@ -180,7 +180,7 @@
                     >
                         <div class="w-2/5 md:w-1/4">
                             <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)" class="w-1/2 mx-auto">
-                            <p class="text-center text-xl font-bold">
+                            <p class="text-center font-genshin relative">
                                 {{ character.name }}
                             </p>
                             <p class="text-center text-xl font-bold text-gray-500">

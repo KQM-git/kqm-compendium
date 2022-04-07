@@ -3,7 +3,7 @@
         <NuxtLink :to="`/${composition.slug}`">
             <div class="bg-[#28242c] h-full p-5 pb-8 rounded-xl text-white">
                 <div class="w-full relative flex justify-between pb-2">
-                    <div class="text-xl lg:text-4xl font-bold">
+                    <div class="text-xl lg:text-3xl font-bold font-genshin">
                         {{ composition.title }}
                     </div>
                     <div class="flex justify-end items-end">
@@ -53,9 +53,9 @@
                                     >
                                 </div>
                             </div>
-                            <p class="text-xl font-bold text-center">
+                            <div class="flex justify-center text-lg text-center font-genshin pt-1">
                                 {{ character.name }}
-                            </p>
+                            </div>
                         </div>
                     </div>
                     <div class="w-full flex flex-row justify-evenly p-3 pt-0 text-center">
@@ -139,9 +139,9 @@
                                         class="inline w-1/3"
                                     >
                                 </div>
-                                <p class="font-bold text-center">
+                                <div class="flex justify-center text-center text-sm font-genshin pt-1">
                                     {{ character.name }}
-                                </p>
+                                </div>
                             </div>
                         </div>
                         <div class="max-w-[25%] w-full flex flex-col justify-evenly text-center gap-3">

@@ -64,7 +64,7 @@
                         <div class="absolute -bottom-3 w-full h-4 bg-gray-700 rounded-[50%] z-0" />
                     </div>
                 </div>
-                <p class="text-xl font-bold font-genshin text-center relative z-10">
+                <p class="pt-1 text-xl font-bold font-genshin text-center tracking-tight relative z-10">
                     {{ character.name }}
                 </p>
                 <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
@@ -86,7 +86,7 @@
                         >
                     </div>
                 </div>
-                <div class="p-3">
+                <div class="p-2">
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/health.webp" class="h-5">

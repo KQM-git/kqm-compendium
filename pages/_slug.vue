@@ -1,13 +1,31 @@
 <template>
-    <div class="bg-[#28242c] p-5 rounded-xl text-white">
+    <div class="bg-[#28242c] p-5 m-3 rounded-xl text-white">
         <div class="w-full relative flex justify-between p-3">
-            <div class="text-4xl font-bold">
+            <div class="text-2xl lg:text-4xl font-bold">
                 {{ composition.title }}
             </div>
             <div class="flex justify-end items-end">
                 <p class="text-gray-500 text-xl">
                     {{ composition.authors.join(', ') }}
                 </p>
+            </div>
+        </div>
+        <div class="md:hidden w-full flex flex-col py-3 gap-5">
+            <div class="text-xl font-bold">
+                Pros
+                <ul class="pl-5 text-gray-500">
+                    <li v-for="pro of composition.pros" :key="pro" class="text-base font-normal list-disc">
+                        {{ pro }}
+                    </li>
+                </ul>
+            </div>
+            <div class="text-xl font-bold">
+                Cons
+                <ul class="pl-5 text-gray-500">
+                    <li v-for="con of composition.cons" :key="con" class="text-base font-normal list-disc">
+                        {{ con }}
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="w-full flex flex-row space-x-2 justify-center px-6">
@@ -26,17 +44,17 @@
                 gcsim
             </a>
         </div>
-        <div class="w-full flex flex-row space-x-2 justify-center p-3">
+        <div class="w-full flex flex-row grow basis-0 space-x-2 py-3 overflow-x-auto">
             <div
                 v-for="character of characters"
                 :key="character.slug"
-                class="w-3/12"
+                class="w-3/12 bg-gray-700 rounded-lg min-w-[220px]"
             >
                 <div
                     class="bg-cover rounded-t-lg relative"
                     :style="{ backgroundImage: `url(${require(`~/assets/icons/bg-tier${character.star}.png`)})` }"
                 >
-                    <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)">
+                    <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)" class="mx-auto">
                     <div class="absolute bottom-1 w-full text-center flex flex-row justify-center">
                         <div class="w-10 h-10 flex justify-center items-center bg-purple-700 rotate-45 rounded-sm z-20">
                             <p class="w-full h-full items-center justify-center flex font-bold -rotate-45 text-2xl">
@@ -46,10 +64,10 @@
                         <div class="absolute -bottom-3 w-full h-4 bg-gray-700 rounded-[50%] z-0" />
                     </div>
                 </div>
-                <p class="text-xl font-bold text-center relative z-10 bg-gray-700">
+                <p class="text-xl font-bold text-center relative z-10">
                     {{ character.name }}
                 </p>
-                <div class="w-full bg-gray-700 relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
+                <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
                     <div class="bg-gray-900 w-full h-full rounded-lg flex flex-row justify-center items-center">
                         <img
                             :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
@@ -68,7 +86,7 @@
                         >
                     </div>
                 </div>
-                <div class="bg-gray-700 p-3 rounded-b-lg">
+                <div class="p-3">
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/health.webp" class="h-5">
@@ -149,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-5 p-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 p-3">
             <div class="w-full">
                 <p class="text-3xl font-bold">
                     {{ totaldps }} DPS
@@ -160,7 +178,7 @@
                         :key="character.slug"
                         class="w-full flex flex-row"
                     >
-                        <div class="w-[25%]">
+                        <div class="w-2/5 md:w-1/4">
                             <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)" class="w-1/2 mx-auto">
                             <p class="text-center text-xl font-bold">
                                 {{ character.name }}
@@ -192,7 +210,7 @@
                 </div>
             </div>
         </div>
-        <nuxt-content :document="composition" class="p-5 text-white" />
+        <nuxt-content :document="composition" class="md:p-5 text-white" />
     </div>
 </template>
 

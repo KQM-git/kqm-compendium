@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-5 m-3">
         <CompositionPreview
             v-for="composition of compositions.filter(x => x.extension == '.md')"
             :key="composition.slug"

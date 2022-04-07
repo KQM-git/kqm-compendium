@@ -7,16 +7,6 @@
                     <img src="~/assets/logo.png">
                 </NuxtLink>
             </div>
-            <div class="flex items-end w-2/6">
-                <input
-                    type="text"
-                    placeholder="Search"
-                    class="rounded-md p-1 pl-7 m-3 w-full bg-gray-600 bg-no-repeat bg-left"
-                    :style="{
-                        'background-image': `url(${require('~/assets/icons/magnify.svg')})`
-                    }"
-                >
-            </div>
             <div class="flex flex-row items-end">
                 <NuxtLink to="/kqm-standards" class="text-white p-3">
                     KQM Standards

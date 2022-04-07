@@ -90,7 +90,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/health.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 HP
                             </p>
                         </div>
@@ -101,7 +101,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/attack.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 ATK
                             </p>
                         </div>
@@ -112,7 +112,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/defense.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 DEF
                             </p>
                         </div>
@@ -123,7 +123,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/elemental_mastery.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 Elemental Mastery
                             </p>
                         </div>
@@ -134,7 +134,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/critical_hit.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 CRIT Rate
                             </p>
                         </div>
@@ -145,7 +145,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/critical_hit.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 CRIT Damage
                             </p>
                         </div>
@@ -156,7 +156,7 @@
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-row items-center">
                             <img src="~/assets/icons/energy_recharge.webp" class="h-5">
-                            <p class="text-lg font-bold">
+                            <p class="leading-tight text-lg font-bold">
                                 Energy Recharge
                             </p>
                         </div>

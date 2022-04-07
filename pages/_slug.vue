@@ -46,7 +46,7 @@
         </div>
         <div class="w-full flex flex-row grow basis-0 space-x-2 py-3 overflow-x-auto">
             <div
-                v-for="character of characters"
+                v-for="character of composition.characters"
                 :key="character.slug"
                 class="w-3/12 bg-gray-700 rounded-lg min-w-[220px]"
             >
@@ -174,7 +174,7 @@
                 </p>
                 <div class="flex flex-col my-3 gap-2">
                     <div
-                        v-for="character of characters"
+                        v-for="character of composition.characters"
                         :key="character.slug"
                         class="w-full flex flex-row"
                     >
@@ -225,11 +225,10 @@ export default Vue.extend({
         })
     },
     async asyncData ({ $content, params }) {
-        const composition = await $content('comps', params.slug, params.slug).where({ extension: '.md' }).fetch()
-        const characters = await $content('comps', params.slug).where({ extension: '.yaml' }).sortBy('position').fetch()
-        const totaldps = characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
+        const composition: any = await $content('comps', params.slug, params.slug).where({ extension: '.md' }).fetch()
+        const totaldps = composition.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 
-        return { composition, characters, totaldps }
+        return { composition, totaldps }
     }
 })
 </script>

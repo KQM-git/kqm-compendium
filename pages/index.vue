@@ -1,10 +1,9 @@
 <template>
     <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-5 m-3">
         <CompositionPreview
-            v-for="composition of compositions.filter(x => x.extension == '.md')"
+            v-for="composition of compositions"
             :key="composition.slug"
             :composition="composition"
-            :characters="characters.filter(x => x.dir.split('/').pop() == composition.slug)"
         />
     </div>
 </template>
@@ -15,9 +14,9 @@ import Vue from 'vue'
 export default Vue.extend({
     name: 'IndexPage',
     async asyncData ({ $content }) {
-        const compositions = await $content('comps', { deep: true }).where({ extension: '.md' }).fetch()
-        const characters = await $content('comps', { deep: true }).where({ extension: '.yaml' }).sortBy('position').fetch()
-        return { compositions, characters }
+        const compositions = (await $content('comps', { deep: true }).where({ extension: '.md' }).sortBy('createdAt', 'desc').fetch()).filter((x: any) => x.slug === x.dir.replace('/comps/', ''))
+
+        return { compositions }
     }
 })
 </script>

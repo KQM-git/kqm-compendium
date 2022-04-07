@@ -17,7 +17,7 @@
                 <div class="hidden lg:block">
                     <div class="w-full grid grid-cols-4 gap-2 justify-center py-3">
                         <div
-                            v-for="character of characters"
+                            v-for="character of composition.characters"
                             :key="character.slug"
                         >
                             <div
@@ -109,7 +109,7 @@
                     <div class="flex flex-row justify-center items-center">
                         <div class="flex flex-row flex-wrap gap-2 justify-center">
                             <div
-                                v-for="character of characters"
+                                v-for="character of composition.characters"
                                 :key="character.slug"
                                 class="w-5/12"
                             >
@@ -205,10 +205,6 @@ export default Vue.extend({
     props: {
         composition: {
             type: Object,
-            required: true
-        },
-        characters: {
-            type: Array,
             required: true
         }
     }

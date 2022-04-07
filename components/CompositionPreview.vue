@@ -1,7 +1,7 @@
 <template>
     <div class="relative mb-3">
         <NuxtLink :to="`/${composition.slug}`">
-            <div class="bg-[#28242c] h-full p-5 rounded-xl text-white">
+            <div class="bg-[#28242c] h-full p-5 pb-8 rounded-xl text-white">
                 <div class="w-full relative flex justify-between pb-2">
                     <div class="text-xl lg:text-4xl font-bold">
                         {{ composition.title }}

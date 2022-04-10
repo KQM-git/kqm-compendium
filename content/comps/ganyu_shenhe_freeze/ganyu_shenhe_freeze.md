@@ -69,7 +69,7 @@ characters:
       name: Prototype Amber
       refinement: 5
     artifacts:
-      - Tenacity Of The Millelith 
+      - Tenacity of the Millelith 
     hp: 23110
     atk: 1631
     def: 773

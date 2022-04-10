@@ -51,7 +51,7 @@ characters:
     constellation: 0
     weapon:
       name: Prototype Crescent
-      refinement: 1
+      refinement: 5
     artifacts:
       - Blizzard Strayer
     hp: 16057

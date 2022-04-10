@@ -1,3 +1,10 @@
 module.exports = {
-  mode: 'jit'
+    mode: 'jit',
+    theme: {
+        extend: {
+            fontFamily: {
+                genshin: ['SDK SC']
+            }
+        }
+    }
 }

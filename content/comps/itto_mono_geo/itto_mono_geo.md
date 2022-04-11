@@ -23,7 +23,7 @@ pros:
   - Still quite good in AoE with Itto's charged attacks
 cons:
   - No supplemental damage from reactions
-  - Matchup dependent: struggles in content with spread out mobs, and Abyss elemental shield
+  - Matchup dependent, struggles in content with spread out mobs, and Abyss elemental shield
 sheet_url: https://docs.google.com/spreadsheets/d/1GPEzkjr3Xdt0pHVjBFyo_VV3uMkMZg6f042Quv26yAw/edit?usp=sharing
 rotation:
   duration: 22s

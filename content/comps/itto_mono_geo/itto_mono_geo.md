@@ -2,7 +2,7 @@
 title: Itto Mono-Geo
 authors:
   - Merp
-healing: 0
+healing: 1
 shielding: 3
 difficulty: 1
 tags:

@@ -183,6 +183,7 @@
                 v-if="composition.sheet_url"
                 class="w-3/12 h-8 bg-green-500 flex justify-center items-center text-xl text-white font-bold rounded-md"
                 :href="composition.sheet_url"
+                target="_blank"
             >
                 Sheet
             </a>
@@ -190,6 +191,7 @@
                 v-if="composition.gcsim_url"
                 class="w-3/12 h-8 bg-blue-600 flex justify-center items-center text-xl text-white font-bold rounded-md"
                 :href="composition.gcsim_url"
+                target="_blank"
             >
                 gcsim
             </a>

@@ -36,7 +36,12 @@ export default Vue.extend({
     async fetch () {
         this.compositions = (await this.$content('comps', { deep: true }).where({ extension: '.md' })
             .sortBy('createdAt', 'asc')
-            .search(this.search)
+            .where({
+                $or: [
+                    { title: { $regex: [this.search, 'i'] } },
+                    { tags: { $regex: [this.search, 'i'] } }
+                ]
+            })
             .fetch())
             .filter((x: any) => x.slug === x.dir.replace('/comps/', ''))
     }

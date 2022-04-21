@@ -103,12 +103,12 @@ It's the most recommended Mono Electro team that involves Raiden and Yae and doe
 
 # **Rotation**
 
-Sara E
-Yae EEE
-Raiden E
-Jean E
-Sara Q
-Yae Q EEE
-Jean Q
-Sara E
+Sara E  
+Yae EEE  
+Raiden E  
+Jean E  
+Sara Q  
+Yae Q EEE  
+Jean Q  
+Sara E  
 Raiden Q 3N3C N1C (or combo of your choice)

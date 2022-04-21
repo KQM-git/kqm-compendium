@@ -23,7 +23,7 @@ pros:
   - Viable in AoE with the range of Itto's Charged Attacks
 cons:
   - No supplemental damage from reactions
-  - Matchup dependent: struggles in content with spread out mobs, and Abyss elemental shield
+  - Matchup dependent, struggles in content with spread out mobs, and Abyss elemental shield
 sheet_url: https://docs.google.com/spreadsheets/d/1GPEzkjr3Xdt0pHVjBFyo_VV3uMkMZg6f042Quv26yAw/edit?usp=sharing
 rotation:
   duration: 22s
@@ -102,10 +102,10 @@ This calc uses Free-to-Play gear on all units, with the exception of Favonius La
 # **Rotation Notes**
 
 **Rotation:**  
-Zhongli hE >
-Gorou EQ >
-Albedo E >
-Itto N1 Q
+Zhongli hE >  
+Gorou EQ >  
+Albedo E >  
+Itto N1 Q  >
 Itto NA1 E NA2 NA3 C3F N4 C4F E CF
 
 **Note About Sim:** Itto does not seem to sim properly as of writing this (April 10th, 2022). If this is fixed, a sim will be added here.

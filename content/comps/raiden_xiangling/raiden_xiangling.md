@@ -104,13 +104,13 @@ For investment, players should focus on Raiden and Xiangling. In single-target, 
 # **Rotation Notes**
 
 **First Rotation:**  
-Raiden E
-Xingqiu EQ N1
-Bennett QE (feed into Xiangling)
-Xiangling QE N1
-Raiden Q 2N4C N2C
-Bennett N1 E
-Swap to Xiangling
+Raiden E  
+Xingqiu EQ N1  
+Bennett QE (feed into Xiangling)  
+Xiangling QE N1  
+Raiden Q 2N4C N2C  
+Bennett N1 E  
+Swap to Xiangling  
 Raiden E (repeats)
 
 **Disclaimer:** human error can create rotation length differences. Solver was used to optimize substats; your personal substats are different.

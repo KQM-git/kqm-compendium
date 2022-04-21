@@ -99,6 +99,8 @@ characters:
 
 # **Notes**
 
+This stat block is heavily influenced by Sara C6.  
+
 It's the most recommended Mono Electro team that involves Raiden and Yae and does a great job at splitting the buffs and damage relatively equally between the two of them. While comps with other Anemo units might have higher DPS ceilings, this team provides survivability without a major DPS loss compared to the other Anemo alternatives. On top of that, not only has good damage, but also great aesthetics, since this is basically a mommy team.
 
 # **Rotation**

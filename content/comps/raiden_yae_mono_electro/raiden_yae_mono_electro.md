@@ -39,11 +39,11 @@ characters:
     artifacts:
       - Gladiator's Finale
       - Thundering Fury
-    hp: 16180
-    atk: 2561
-    def: 639
+    hp: 16688
+    atk: 2173
+    def: 678
     em: 40
-    cr: 100
+    cr: 81.78
     cd: 116.08
     er: 144.08
     dps: 13047
@@ -55,11 +55,11 @@ characters:
       refinement: 5
     artifacts:
       - Emblem of Severed Fate
-    hp: 18967
-    atk: 2267
-    def: 886
+    hp: 19475
+    atk: 1753
+    def: 925
     em: 40
-    cr: 100
+    cr: 69.2
     cd: 129.44
     er: 292.52
     dps: 16092
@@ -71,13 +71,13 @@ characters:
       refinement: 3
     artifacts:
       - Noblesse Oblige
-    hp: 15299
-    atk: 1687
-    def: 705
+    hp: 15807
+    atk: 1513
+    def: 744
     em: 40
-    cr: 100
+    cr: 69.2
     cd: 129.44
-    er: 225.64
+    er: 204.44
     dps: 1829
   - name: Jean
     star: 5
@@ -87,19 +87,19 @@ characters:
       refinement: 3
     artifacts:
       - Viridescent Venerer
-    hp: 20932
-    atk: 2100
-    def: 864
+    hp: 21440
+    atk: 1810
+    def: 903
     em: 40
-    cr: 90.37
+    cr: 59.27
     cd: 109.58
-    er: 155.10
+    er: 155.1
     dps: 1624
 ---
 
 # **Notes**
 
-It's the most balanced Mono Electro team that involves Raiden and Yae that splits the buffs and damage relatively equally between the two of them. While comps with other Anemo units might have higher DPS ceilings, this team provides survivability without a major DPS loss compared to the other alternatives.
+It's the most recommended Mono Electro team that involves Raiden and Yae and does a great job at splitting the buffs and damage relatively equally between the two of them. While comps with other Anemo units might have higher DPS ceilings, this team provides survivability without a major DPS loss compared to the other Anemo alternatives. On top of that, not only has good damage, but also great aesthetics, since this is basically a mommy team.
 
 # **Rotation**
 

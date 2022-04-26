@@ -55,8 +55,8 @@ characters:
     em: 40
     cr: 62.5
     cd: 129.2
-    er: 236.7
-    dps: 8912
+    er: 212.7
+    dps: 8748
   - name: Lisa
     star: 4
     constellation: 0
@@ -102,6 +102,5 @@ Diona - 144%
 
 # **Rotation Notes**
 Raiden E > Diona Hold E Q > Lisa Q > Eula E Q N4 Hold E N4 > Raiden Q 2N4C N2C
-
 
 **Disclaimer:** human error can create rotation length differences. Solver was used to optimize substats; your personal substats are different.

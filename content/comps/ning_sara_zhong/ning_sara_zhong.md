@@ -36,7 +36,7 @@ characters:
     star: 4
     constellation: 6
     weapon:
-      name: Widsith
+      name: The Widsith
       refinement: 3
     artifacts:
       - Archaic Petra

@@ -53,7 +53,7 @@ characters:
     constellation: 0
     weapon:
       name: Favonius Lance
-      refinement: 4
+      refinement: 3
     artifacts:
       - Tenacity of the Millelith
     hp: 28288
@@ -101,7 +101,7 @@ characters:
 
 # **Notes**
 
-The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. Otherwise, the gear is generally flexible - Ningguang and Fischl can switch to Atk% sets and other competitive weapons while maintaining competitive team damage. The quick nature of rotations and swaps on this team means that any mistakes made are quickly recovered by simply following along with the next rotation, and the high amount of shielding from Zhongli casting his shield every 12 seconds makes this team extremely comfortable. It should be noted that C6 for both Ningguang and Fischl are quite significant for damage, but other than that unit constellations do not significantly improve the team. Both Ningguang and Fischl scale very well with better gear. 
+The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. Otherwise, the gear is generally flexible - Ningguang and Fischl can switch to Atk% sets and other competitive weapons while maintaining competitive team damage. The quick nature of rotations and swaps on this team means that any mistakes made are quickly recovered by simply following along with the next rotation, and the high amount of shielding from Zhongli casting his shield every 12 seconds makes this team extremely comfortable. It should be noted that C6 for both Ningguang and Fischl are quite significant for damage, but other than that unit constellations do not significantly improve the team. Both Ningguang and Fischl scale very well with better gear. Furthermore, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon - while refinements are helpful, they are not needed.
 
 # **Rotation Notes**
 
@@ -119,3 +119,5 @@ Ningguang EQE CA 2N1C
 **Disclaimer:** Ningguang's second E is optional, and she can perform her N2C combos instead of N1Cs instead. Make sure to trigger Favonius on Zhongli before switching.
 
 **Note About Sim:** Energy is set to higher than KQMC to allow for multiple rotations to be done for timing purposes. ER% requirements were calcuated through an Energy Recharge Calculator. Other stats were inputed through a substat solver. These stats were used on the characters in the sim.
+
+**Credits to naivety | pkach#6934 and Kurt#5846 for helping me with the stats and gcsim, respectively.**

@@ -15,6 +15,7 @@ tags:
   - Ranged
   - Turrets
   - Snapshot
+  - KQM illegal
   
 pros:
   - Extremely short rotations allow to cover for mistakes
@@ -54,7 +55,7 @@ characters:
     constellation: 0
     weapon:
       name: Favonius Lance
-      refinement: 4
+      refinement: 3
     artifacts:
       - Noblesse Oblige
     hp: 21440
@@ -101,7 +102,7 @@ characters:
 
 # **Notes**
 
-The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. The gearing for this team is quite strict in general, and it is generally only Ningguang's weapons and artifacts that can be changed without much loss, with Sara's weapon also being a possibility. Further, this team requires Sara's C2 to even function - without her C2, the team is better with Sara instead only buffing Ningguang and Zhongli not Bursting - at least, in single target situations, and without hyperinvestment into Zhongli. Nonetheless, the team performs competitively and is both extremely versatile and unorthodox.
+The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. The gearing for this team is quite strict in general, and it is generally only Ningguang's weapons and artifacts that can be changed without much loss, with Sara's weapon also being a possibility. Further, this team requires Sara's C2 to even function - without her C2, the team is better with Sara instead only buffing Ningguang and Zhongli not Bursting - at least, in single target situations, and without hyperinvestment into Zhongli. Nonetheless, the team performs competitively and is both extremely versatile and unorthodox. Furthermore, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon - while refinements are helpful, they are not needed.
 
 # **Rotation Notes**
 Sara E  
@@ -113,3 +114,5 @@ Ningguang N1C EQE CA
 **Disclaimer:** Ningguang's second E is optional, and she can perform her N2C combos instead of N1Cs instead. Make sure to trigger Favonius on Zhongli before switching. Albedo can skip his E every other rotation, reducing rotation time.
 
 **Note About Sim:** Energy is set to higher than KQMC to allow for multiple rotations to be done for timing purposes. ER% requirements were calcuated through an Energy Recharge Calculator. Other stats were inputed through a substat solver. These stats were used on the characters in the sim.
+
+**Credits to naivety | pkach#6934 and Kurt#5846 for helping me with the stats and gcsim, respectively.**

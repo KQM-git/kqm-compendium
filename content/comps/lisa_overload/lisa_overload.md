@@ -101,9 +101,9 @@ characters:
 
 # **Notes**
 
-"This calc uses Free-To-Play gear on all units. The main premise is to uphold Pyro application/uptime on opponents to ensure Lisa's Q will proc Overloaded consistently. Lisa may also weave in normal attacks and/or charges at times of downtime for further Overloaded procs. This composition heavily prefers AoE scenarios as it would both lead to more Overloaded reactions and ramp up the Pyro Swirl damage. Kazuha's source of grouping greatly ameliorates the knockback of Overloaded, allowing this team to function well against smaller enemies as well as the common large enemies. C6 Bennett is preferred but not necessary since it assists in confirming Pyro aura uptime. Connecting Lisa's Hold E is greatly beneficial for the composition to function more smoothly and it is more feasible to do so with the constant poise-breaking potential of Overloaded (as well as her C2, but again, not necessary).
+This calc uses Free-To-Play gear on all units. The main premise is to uphold Pyro application/uptime on opponents to ensure Lisa's Q will proc Overloaded consistently. Lisa may also weave in normal attacks and/or charges at times of downtime for further Overloaded procs. This composition heavily prefers AoE scenarios as it would both lead to more Overloaded reactions and ramp up the Pyro Swirl damage. Kazuha's source of grouping greatly ameliorates the knockback of Overloaded, allowing this team to function well against smaller enemies as well as the common large enemies. C6 Bennett is preferred but not necessary since it assists in confirming Pyro aura uptime. Connecting Lisa's Hold E is greatly beneficial for the composition to function more smoothly and it is more feasible to do so with the constant poise-breaking potential of Overloaded (as well as her C2, but again, not necessary).
 
-This rendition is with Lisa on Hakushin Ring, however, Favonius Codex and, sometimes, Sacrificial Fragments (with sufficient ER) are equal or better alterations."					
+This rendition is with Lisa on Hakushin Ring, however, Favonius Codex and, sometimes, Sacrificial Fragments (with sufficient ER) are equal or better alterations.	
 
 # **Rotation Notes**
 

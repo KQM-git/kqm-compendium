@@ -24,7 +24,7 @@ pros:
   - Streamline and sustainable damage
 cons:
   - Falls off more in AoE scenarios
-  - There is a multitude of conditionals to keep track of: Fischl's Nightrider, Xingqiu's Rainswords, and Jean's 4VV
+  - There is a multitude of conditionals to keep track of; Fischl's Nightrider, Xingqiu's Rainswords, and Jean's 4VV
   - Lots of swapping due to the above point as well, can be pressuring
 gcsim_url: https://gcsim.app/viewer/share/perm_tjGidCxr4ITNN8gpNoCZo
 sheet_url: sheets\lisa_jean_ec\lisa_jean_ec.xlsx

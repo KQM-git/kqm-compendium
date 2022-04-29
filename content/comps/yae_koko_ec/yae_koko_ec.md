@@ -47,9 +47,9 @@ characters:
     atk: 2100
     def: 679
     em: 40
-    cr: 88.40
-    cd: 129.44
-    er: 131.02
+    cr: 88.4
+    cd: 129.4
+    er: 131.0
     dps: 13319
   - name: Sangonomiya Kokomi
     star: 5
@@ -63,9 +63,9 @@ characters:
     atk: 1042
     def: 778
     em: 79
-    cr: -88.38
-    cd: 63.24
-    er: 166.12
+    cr: -88.4
+    cd: 63.2
+    er: 166.1
     dps: 11257
   - name: Fischl
     star: 4
@@ -80,9 +80,9 @@ characters:
     atk: 1916
     def: 707
     em: 205
-    cr: 69.20
-    cd: 129.44
-    er: 111.02
+    cr: 69.2
+    cd: 129.4
+    er: 111.0
     dps: 12023
   - name: Kaedehara Kazuha
     star: 5
@@ -96,33 +96,30 @@ characters:
     atk: 1471
     def: 946
     em: 960
-    cr: 11.62
-    cd: 63.24
-    er: 166.12
+    cr: 11.6
+    cd: 63.2
+    er: 166.1
     dps: 9076
 ---
 
 # **Notes**
-
 While the optimal rotation for this team is quite long, strictly following this rotation will not lose significant DPS for the team (due to its heavy reliance on turret damage), making it flexible and easy to play.
 
 However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
 
-The 3 most important takeaways are:
-- Buff Yae's burst with TTDS
-- Refresh turrets every 12 seconds
-- Refresh Kokomi's jellyfish before it expires
+The 3 most important takeaways are to:
+Buff Yae's burst with TTDS
+Refresh turrets every 12 seconds
+Refresh Kokomi's jellyfish before it expires
 
 # **Rotation Notes**
-
-**Rotation:**  
-Yae 3x E >  
-Kazuha tap E plunge >  
-Fischl E >  
-Kokomi E >
-Yae Q 3x E >
-Kazuha hold E Q >
-Fischl Q >
+Yae 3x E  
+Kazuha tap E plunge  
+Fischl E  
+Kokomi E  
+Yae Q 3x E  
+Kazuha hold E Q  
+Fischl Q  
 Kokomi Q 5x N2C
 
 **Credits to Charisma#5567 for helping me playtest rotations.**

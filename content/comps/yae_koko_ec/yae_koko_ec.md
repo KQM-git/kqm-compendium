@@ -55,7 +55,7 @@ characters:
     star: 5
     constellation: 0
     weapon:
-      name: Thrilling Tales of Dragonslayers
+      name: Thrilling Tales of Dragon Slayers
       refinement: 5
     artifacts:
       - Ocean-Hued Clam

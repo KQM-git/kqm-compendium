@@ -51,7 +51,7 @@ characters:
     cd: 129.44
     er: 131.02
     dps: 13319
-  - name: Kokomi
+  - name: Sangonomiya Kokomi
     star: 5
     constellation: 0
     weapon:
@@ -84,7 +84,7 @@ characters:
     cd: 129.44
     er: 111.02
     dps: 12023.1
-  - name: Kazuha
+  - name: Kaedehara Kazuha
     star: 5
     constellation: 0
     weapon:

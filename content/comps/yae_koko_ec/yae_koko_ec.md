@@ -103,7 +103,7 @@ characters:
 ---
 
 # **Notes**
-While the optimal rotation for this team is quite long, strictly following this rotation will not lose significant DPS for the team (due to its heavy reliance on turret damage), making it flexible and easy to play.
+While the optimal rotation for this team is quite long, deviating from this rotation will not lose significant DPS for the team (due to its heavy reliance on turret damage), making it flexible and easy to play.
 
 However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
 

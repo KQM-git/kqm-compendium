@@ -33,7 +33,7 @@ cons:
 sheet_url: https://docs.google.com/spreadsheets/d/1grKCOKfmMSQLK5MXrbZctcr055apJDpFmKhwmK-8lDA/edit?usp=sharing
 rotation:
   duration: 25s
-  video_url: https://www.youtube.com/watch?v=SWVsgoCWHUU&ab_channel=ASnowOwI
+  video_url: https://youtu.be/qNVxpfAthqQ
 characters:
   - name: Yae Miko
     star: 5
@@ -109,9 +109,9 @@ While the optimal rotation for this team is quite long, strictly following this 
 However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
 
 The 3 most important takeaways are:
-1. Buff Yae's burst with TTDS
-2. Refresh turrets every 12 seconds
-3. Refresh Kokomi's jellyfish before it expires
+- Buff Yae's burst with TTDS
+- Refresh turrets every 12 seconds
+- Refresh Kokomi's jellyfish before it expires
 
 # **Rotation Notes**
 

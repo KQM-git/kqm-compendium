@@ -112,6 +112,12 @@ Buff Yae's burst with TTDS
 Refresh turrets every 12 seconds
 Refresh Kokomi's jellyfish before it expires
 
+# **Energy Requirements**
+Yae - 150%
+Kokomi - 165%
+Fischl - 110%
+Kazuha - 150%
+
 # **Rotation Notes**
 Yae 3x E  
 Kazuha tap E plunge  

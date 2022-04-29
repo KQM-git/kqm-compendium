@@ -66,7 +66,7 @@ characters:
     cr: -88.38
     cd: 63.24
     er: 166.12
-    dps: 11257.2
+    dps: 11257
   - name: Fischl
     star: 4
     constellation: 6
@@ -83,7 +83,7 @@ characters:
     cr: 69.20
     cd: 129.44
     er: 111.02
-    dps: 12023.1
+    dps: 12023
   - name: Kaedehara Kazuha
     star: 5
     constellation: 0
@@ -99,7 +99,7 @@ characters:
     cr: 11.62
     cd: 63.24
     er: 166.12
-    dps: 9075.8
+    dps: 9076
 ---
 
 # **Notes**

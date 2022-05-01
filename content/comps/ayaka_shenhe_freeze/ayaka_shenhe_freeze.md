@@ -108,9 +108,9 @@ Perpetual Mechanical Array
 Coral Defenders
 
 Second, because of the extreme frontloading of the entire team's DPS into Ayaka's burst, this team struggles in clearing content that involves successively clearing waves of mobs, or against enemies with HP gates. Some examples of this are:  
-Perpetual Mechanical Array (killing its automatons and then the main body)
-Maguu Kenki (HP gate at 70%)
-Events such as Vibro-Crystal Research (waves of mobs in rapid succession)
+Perpetual Mechanical Array (killing its automatons and then the main body)  
+Maguu Kenki (HP gate at 70%)  
+Events such as Vibro-Crystal Research (waves of mobs in rapid succession)  
 
 **Rotation:**  
 Ayaka E N1C (for Amenoma, skip otherwise)  

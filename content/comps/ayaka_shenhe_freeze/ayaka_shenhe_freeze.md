@@ -23,7 +23,7 @@ pros:
   - Counters all elemental shields except Cryo
 cons:
   - Full limited 5 star team, one of the most expensive teams in the game
-  - Struggles vs mobile unfreezable enemies (Maguu Kenki, PMA, Thunder Manifestation)
+  - Struggles against mobile bosses (Maguu Kenki, PMA, Thunder Manifestation)
   - High frontloaded hypercarry damage struggles against multi-wave content or HP gates (Maguu Kenki)
 sheet_url: https://docs.google.com/spreadsheets/d/1dWxVJOnXXG7Dytx0pgvFprdfST-iSgM1VZjAf5zc4jI/edit?usp=sharing
 rotation:
@@ -97,20 +97,20 @@ characters:
 ---
 
 # **Notes**  
-The gold standard for Freeze teams. Performs well in single target and AoE, against light and heavy mobs, and in shield breaking (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team.
+The gold standard for Freeze teams. Performs well in single target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team.
 
 There are two important drawbacks to keep in mind:
 
-First, about 70% of Ayaka's DPS and 50% of the entire team's DPS is all loaded in Ayaka's burst. Against enemies that are very mobile and/or can't be frozen, your DPS can easily be halved or worse. Some examples of difficult matchups include:  
+First, about 70% of Ayaka's DPS and 50% of the entire team's DPS is all loaded in Ayaka's Burst. Against enemies that are very mobile and/or can't be Frozen, the team's DPS can easily be halved or worse. Some examples of difficult matchups include:  
 Maguu Kenki  
 Rifthounds  
 Perpetual Mechanical Array  
-Coral Defenders
+Thunder Manifestation
 
-Second, because of the extreme frontloading of the entire team's DPS into Ayaka's burst, this team struggles in clearing content that involves successively clearing waves of mobs, or against enemies with HP gates. Some examples of this are:  
+Second, because of how the majority of the team's DPS is frontloaded into Ayaka's Burst, this team struggles in content that requires clearing multiple successive waves of enemies, or against enemies with HP gates. Some examples include:  
 Perpetual Mechanical Array (killing its automatons and then the main body)  
 Maguu Kenki (HP gate at 70%)  
-Events such as Vibro-Crystal Research (waves of mobs in rapid succession)  
+Events such as Vibro-Crystal Research (multiple waves of mobs)
 
 **Rotation:**  
 Ayaka E N1C (for Amenoma, skip otherwise)  

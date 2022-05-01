@@ -96,17 +96,28 @@ characters:
     dps: 409
 ---
 
-# **Notes**
+# **Notes**  
+The gold standard for Freeze teams. Performs well in single target and AoE, against light and heavy mobs, and in shield breaking (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team.
 
+There are two important drawbacks to keep in mind:
 
-# **Rotation Notes**
+First, about 70% of Ayaka's DPS and 50% of the entire team's DPS is all loaded in Ayaka's burst. Against enemies that are very mobile and/or can't be frozen, your DPS can easily be halved or worse. Some examples of difficult matchups include:  
+Maguu Kenki  
+Rifthounds  
+Perpetual Mechanical Array  
+Coral Defenders
+
+Second, because of the extreme frontloading of the entire team's DPS into Ayaka's burst, this team struggles in clearing content that involves successively clearing waves of mobs, or against enemies with HP gates. Some examples of this are:  
+Perpetual Mechanical Array (killing its automatons and then the main body)
+Maguu Kenki (HP gate at 70%)
+Events such as Vibro-Crystal Research (waves of mobs in rapid succession)
 
 **Rotation:**  
-Ayaka E N1C (for Amenoma)  
+Ayaka E N1C (for Amenoma, skip otherwise)  
 Shenhe Q E  
 Kazuha E Q  
 Kokomi E  
-Ayaka E Q N2C  
+Ayaka dash (N1 if Mistsplitter) E Q N2C  
 Shenhe E  
 Ayaka N2C  
 Kazuha E

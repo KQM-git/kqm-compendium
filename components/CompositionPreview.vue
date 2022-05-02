@@ -75,10 +75,10 @@
                         </div>
                         <div
                             class="flex flex-col items-center font-bold"
-                            :class="{1: 'text-green-400', 2: 'text-yellow-400', 3: 'text-red-400'}[composition.difficulty]"
+                            :class="{1: 'text-green-400', 2: 'text-yellow-400', 3: 'text-red-400', 4: 'text-red-600'}[composition.difficulty]"
                         >
                             <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="h-10">
-                            {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult'}[composition.difficulty] }}
+                            {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult', 4: 'Very Difficult'}[composition.difficulty] }}
                         </div>
                     </div>
                     <div class="w-full py-3 text-gray-500">

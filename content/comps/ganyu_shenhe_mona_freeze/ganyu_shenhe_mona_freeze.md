@@ -81,7 +81,7 @@ characters:
     cd: 109.58%
     er: 204.32%
     dps: 7148
-  - name: Kokomi
+  - name: Sangonomiya Kokomi
     star: 5
     constellation: 0
     weapon:

@@ -27,7 +27,7 @@ cons:
   - There is a multitude of conditionals to keep track of; Fischl's Nightrider, Xingqiu's Rainswords, and Jean's 4VV
   - Lots of swapping due to the above point as well, can be pressuring
 gcsim_url: https://gcsim.app/viewer/share/perm_tjGidCxr4ITNN8gpNoCZo
-sheet_url: sheets\lisa_jean_ec\lisa_jean_ec.xlsx
+sheet_url: https://docs.google.com/spreadsheets/d/1xXwiKdKCMfgpVJnX6RXMYYrzVnPQIiLEBhSU_TPRvyA/edit?usp=sharing
 rotation:
   duration: 25s
   video_url: https://youtu.be/SjFDQlJAUyg

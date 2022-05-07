@@ -27,7 +27,7 @@ cons:
   - Comparatively, there is less room to scale with investment compared to other teams
   - Energy Management/Recharge becomes a priority, which may affect playstyle
 gcsim_url: https://gcsim.app/viewer/share/perm_XXDg1WNZKXqxL-W7QSMnb
-sheet_url: sheets\lisa_overload\lisa_overload.xlsx
+sheet_url: https://docs.google.com/spreadsheets/d/19AkuwZ2ANC7OuIANVm7PppNnW4iasCvBLyrFL0rh0d4/edit?usp=sharing
 rotation:
   duration: 21s
   video_url: https://youtu.be/JtvFKXRdWHY

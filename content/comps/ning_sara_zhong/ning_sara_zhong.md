@@ -15,7 +15,6 @@ tags:
   - Ranged
   - Turrets
   - Snapshot
-  - KQM illegal
   
 pros:
   - Extremely short rotations allow to cover for mistakes

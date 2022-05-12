@@ -16,14 +16,14 @@ tags:
   - Unverified
   - Snapshot
 pros:
-  - Strong in AOE scenarios
-  - Freeze gives comfort and ease of play
-  - Scales upwards with mob denisty
-  - Doesnt use high profile 4 stars (Bennett, XQ, etc.)
+  - Strong in AoE scenarios
+  - Freeze provides comfort and ease of play
+  - Scales upwards with mob density
+  - Does not use high profile 4 stars (Bennett, XQ, etc.)
 cons:
-  - Full 5 star team, 3 of which being limited
+  - Full 5 star team, 3 of which are limited
   - Matchup dependent (2 or more freezable mobs is optimal)
-  - If enemy cant be frozen, loses a lot of survivability and damage
+  - Loses a lot of survivability and damage when enemies can not be frozen
 sheet_url: sheets/ganyu_shenhe_freeze/ganyu_shenhe_freeze.xlsx
 gcsim_url: https://gcsim.app/viewer/share/perm_bA2PL2g5ojRVYSZ9aSjQa
 rotation:

@@ -227,7 +227,7 @@ export default Vue.extend({
         })
     },
     async asyncData ({ $content, params }) {
-        const composition: any = await $content('comps', params.slug, params.slug).where({ extension: '.md' }).fetch()
+        const composition: any = (await $content('comps', { deep: true }).where({ slug: params.slug, extension: '.md' }).fetch() as any[])[0]
         const totaldps = composition.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 
         return { composition, totaldps }

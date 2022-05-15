@@ -43,7 +43,7 @@ export default Vue.extend({
                 ]
             })
             .fetch())
-            .filter((x: any) => x.slug === x.dir.replace('/comps/', ''))
+            .filter((x: any) => x.slug === x.path.split('/').pop())
     }
 })
 </script>

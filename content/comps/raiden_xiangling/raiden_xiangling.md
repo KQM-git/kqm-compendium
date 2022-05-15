@@ -24,7 +24,7 @@ cons:
   - Uses both Bennett and Xingqiu
   - Less effective in multi-target because XQ can't apply hydro in AOE
   - Lack of CC and overload can knock away enemies
-sheet_url: sheets/raiden_xiangling/raiden_xiangling.xlsm
+sheet_url: sheets\raiden_xiangling\raiden_xiangling.xlsm
 rotation:
   duration: 21.5s
   video_url: https://youtu.be/Ca54Z4_K96E

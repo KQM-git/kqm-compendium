@@ -53,7 +53,7 @@
                                     >
                                 </div>
                             </div>
-                            <div class="flex justify-center text-lg text-center font-genshin pt-1">
+                            <div class="flex justify-center text-center font-genshin pt-1">
                                 {{ character.name }}
                             </div>
                         </div>

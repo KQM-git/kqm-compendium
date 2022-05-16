@@ -17,7 +17,7 @@
             </div>
         </div>
         <!-- Mobile -->
-        <div class="lg:hidden flex flex-row items-center pl-2 h-28 pb-12 w-full fixed top-0 z-30 bg-gradient-to-b from-[#19191d] via-[#19191d]">
+        <div class="lg:hidden flex flex-row items-center pl-2 h-24 pb-8 w-full fixed top-0 z-30 bg-gradient-to-b from-[#19191d] via-[#19191d]">
             <button @click="drawer">
                 <svg
                     class="h-8 w-8 fill-current text-white"
@@ -32,7 +32,7 @@
                 </svg>
             </button>
             <NuxtLink to="/" class="h-full">
-                <img src="~/assets/logo.png" class="h-full">
+                <img src="~/assets/logo.png" class="max-h-full">
             </NuxtLink>
         </div>
 

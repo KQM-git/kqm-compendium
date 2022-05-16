@@ -38,6 +38,7 @@
                                 <div class="bg-gray-900 w-full h-full rounded-lg flex flex-row justify-center items-center">
                                     <img
                                         :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
+                                        :title="character.weapon.name"
                                         class="inline w-1/2"
                                     >
                                     <p class="text-xs font-bold">
@@ -49,6 +50,7 @@
                                         v-for="artifact of character.artifacts"
                                         :key="artifact"
                                         :src="require(`~/assets/artifacts/${artifact}/flower.png`)"
+                                        :title="artifact"
                                         class="inline w-1/2"
                                     >
                                 </div>
@@ -130,12 +132,14 @@
                                 <div class="w-full bg-gray-700 relative z-10 rounded-b-lg flex justify-center items-center gap-0.5 p-1">
                                     <img
                                         :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
+                                        :title="character.weapon.name"
                                         class="inline w-1/3"
                                     >
                                     <img
                                         v-for="artifact of character.artifacts"
                                         :key="artifact"
                                         :src="require(`~/assets/artifacts/${artifact}/flower.png`)"
+                                        :title="artifact"
                                         class="inline w-1/3"
                                     >
                                 </div>

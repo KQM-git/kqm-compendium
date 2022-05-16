@@ -149,21 +149,21 @@
                                 class="flex flex-col items-center font-bold"
                                 :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.healing]"
                             >
-                                <img src="~/assets/icons/healing.png" class="h-10">
+                                <img src="~/assets/icons/healing.png" class="max-h-10">
                                 {{ {1: 'No Healing', 2: 'Some Healing', 3: 'Healing'}[composition.healing] }}
                             </div>
                             <div
                                 class="flex flex-col items-center font-bold"
                                 :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.shielding]"
                             >
-                                <img src="~/assets/icons/shield.png" class="h-10">
+                                <img src="~/assets/icons/shield.png" class="max-h-10">
                                 {{ {1: 'No Shielding', 2: 'Some Shielding', 3: 'Shielding'}[composition.shielding] }}
                             </div>
                             <div
                                 class="flex flex-col items-center font-bold"
                                 :class="{1: 'text-green-400', 2: 'text-yellow-400', 3: 'text-red-400'}[composition.difficulty]"
                             >
-                                <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="h-10">
+                                <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="max-h-10">
                                 {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult'}[composition.difficulty] }}
                             </div>
                         </div>

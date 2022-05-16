@@ -140,7 +140,7 @@
                                 CRIT Rate
                             </p>
                         </div>
-                        <p>
+                        <p class="whitespace-nowrap">
                             {{ character.cr }} %
                         </p>
                     </div>
@@ -151,8 +151,8 @@
                                 CRIT Damage
                             </p>
                         </div>
-                        <p>
-                            {{ character.cd }}
+                        <p class="whitespace-nowrap">
+                            {{ character.cd }} %
                         </p>
                     </div>
                     <div class="flex items-center justify-between w-full">
@@ -162,8 +162,8 @@
                                 Energy Recharge
                             </p>
                         </div>
-                        <p>
-                            {{ character.er }}
+                        <p class="whitespace-nowrap">
+                            {{ character.er }} %
                         </p>
                     </div>
                 </div>

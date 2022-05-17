@@ -59,7 +59,7 @@ export default Vue.extend({
     methods: {
         submit () {
             if (this.search !== '' && !this.searchTerms.includes(this.search)) {
-                this.searchTerms.push(this.search)
+                this.searchTerms.push(...this.search.split(',').map((x: string) => x.trim()))
                 this.search = ''
             }
             this.$fetch()

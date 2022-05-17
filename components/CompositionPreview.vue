@@ -1,8 +1,8 @@
 <template>
     <div class="relative mb-3">
         <NuxtLink :to="`/${composition.slug}`">
-            <div class="bg-[#28242c] h-full p-5 pb-8 rounded-xl text-white">
-                <div class="w-full relative flex justify-between pb-2">
+            <div :class="'bg-[#28242c] h-full p-5 pb-8 rounded-xl text-white ' + (!detailedView ? 'flex flex-row' : '')">
+                <div :class="'relative flex pb-2 ' + (detailedView ? 'w-full justify-between' : 'w-1/3 flex-col text-center justify-center items-center pr-3')">
                     <div class="text-xl lg:text-3xl font-bold font-genshin">
                         {{ composition.title }}
                     </div>
@@ -14,7 +14,7 @@
                 </div>
 
                 <!-- Desktop -->
-                <div class="hidden lg:block">
+                <div :class="'hidden ' + (detailedView ? 'lg:block' : 'lg:flex flex-row items-center')">
                     <div class="w-full grid grid-cols-4 gap-2 justify-center py-3">
                         <div
                             v-for="character of composition.characters"
@@ -83,10 +83,10 @@
                             {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult', 4: 'Very Difficult'}[composition.difficulty] }}
                         </div>
                     </div>
-                    <div class="w-full py-3 text-gray-500">
+                    <div v-if="detailedView" class="w-full py-3 text-gray-500">
                         {{ composition.tags.join(', ') }}
                     </div>
-                    <div class="grid grid-cols-2 gap-5">
+                    <div v-if="detailedView" class="grid grid-cols-2 gap-5">
                         <div class="text-xl font-bold">
                             Pros
                             <ul class="pl-5 text-gray-500">
@@ -211,6 +211,10 @@ export default Vue.extend({
     props: {
         composition: {
             type: Object,
+            required: true
+        },
+        detailedView: {
+            type: Boolean,
             required: true
         }
     }

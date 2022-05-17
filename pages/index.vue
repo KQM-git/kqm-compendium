@@ -28,11 +28,12 @@
                 </button>
             </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-5 m-3">
+        <div :class="'grid grid-cols-1 justify-center gap-5 m-3 ' + (searchTerms.length == 0 ? 'sm:grid-cols-2' : '')">
             <CompositionPreview
                 v-for="composition of compositions"
                 :key="composition.slug"
                 :composition="composition"
+                :detailed-view="searchTerms.length == 0"
             />
         </div>
     </div>

@@ -12,6 +12,7 @@
                         'background-position': '0.5em 50%'
                     }"
                     @keyup.enter="submit()"
+                    @keyup.delete="removeLastTerm()"
                 >
             </form>
         </div>
@@ -66,6 +67,10 @@ export default Vue.extend({
         },
         removeTerm (i: number) {
             this.searchTerms.splice(i, 1)
+            this.$fetch()
+        },
+        removeLastTerm () {
+            this.searchTerms.pop()
             this.$fetch()
         }
     }

@@ -25,7 +25,7 @@ cons:
   - Requires players to manage Tartaglia's stance duration
   - Needs proper energy management during downtime 
   - Requires popular supports 
-sheet_url: https://docs.google.com/spreadsheets/d/1dWxVJOnXXG7Dytx0pgvFprdfST-iSgM1VZjAf5zc4jI/edit?usp=sharing
+sheet_url: https://docs.google.com/spreadsheets/d/1HItNRixDHd-41Gc8k2WCNvfDtw-5fVz2/edit?usp=sharing&ouid=105974977777829459167&rtpof=true&sd=true
 rotation:
   duration: 29s
   video_url: https://youtu.be/jisWS4GE-jA"

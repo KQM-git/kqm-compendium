@@ -51,8 +51,8 @@ characters:
     star: 4
     constellation: 6
     weapon:
-      name: The Catch R5
-      refinement: 1
+      name: The Catch
+      refinement: 5
     artifacts:
       - Emblem of Severed Fate
     hp: 17002

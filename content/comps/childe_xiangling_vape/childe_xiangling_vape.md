@@ -28,7 +28,7 @@ cons:
 sheet_url: https://docs.google.com/spreadsheets/d/1HItNRixDHd-41Gc8k2WCNvfDtw-5fVz2/edit?usp=sharing&ouid=105974977777829459167&rtpof=true&sd=true
 rotation:
   duration: 29s
-  video_url: https://youtu.be/jisWS4GE-jA"
+  video_url: https://youtu.be/jisWS4GE-jA
 characters:
   - name: Tartaglia
     star: 5

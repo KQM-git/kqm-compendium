@@ -1,5 +1,6 @@
 ---
 title: Yae-Raiden Hyper
+tab_title: XF3 Yae-Raiden Hyper
 authors:
   - XF3
 healing: 2

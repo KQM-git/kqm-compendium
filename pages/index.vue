@@ -55,7 +55,7 @@ export default Vue.extend({
         this.compositions = (await this.$content('comps', { deep: true }).where({ extension: '.md' })
             .sortBy('createdAt', 'asc')
             .fetch())
-            .filter((x: any) => x.slug === x.path.split('/').pop())
+            .filter((x: any) => x.slug.includes('1_'))
             .filter((x: any) => this.searchTerms.every((term: string) => x.tags.join('').match(RegExp(term, 'i'))))
     },
     methods: {

@@ -1,6 +1,6 @@
 <template>
     <div class="relative mb-3">
-        <NuxtLink :to="`/${composition.slug}`">
+        <NuxtLink :to="`/${composition.dir.split('/').pop()}`">
             <div :class="'bg-[#28242c] h-full p-5 pb-8 rounded-xl text-white ' + (!detailedView ? 'flex flex-row' : '')">
                 <div :class="'relative flex pb-2 ' + (detailedView ? 'w-full justify-between' : 'w-1/3 flex-col text-center justify-center items-center pr-3')">
                     <div class="text-xl lg:text-3xl font-bold font-genshin">

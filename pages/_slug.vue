@@ -30,17 +30,17 @@
         </div>
         <div class="w-full flex flex-row space-x-2 justify-center px-6">
             <a
-                v-if="composition.sheet_url"
+                v-if="tab.sheet_url"
                 class="w-3/12 h-8 bg-green-500 flex justify-center items-center text-xl text-white font-bold rounded-md"
-                :href="composition.sheet_url"
+                :href="tab.sheet_url"
                 target="_blank"
             >
                 Sheet
             </a>
             <a
-                v-if="composition.gcsim_url"
+                v-if="tab.gcsim_url"
                 class="w-3/12 h-8 bg-blue-600 flex justify-center items-center text-xl text-white font-bold rounded-md"
-                :href="composition.gcsim_url"
+                :href="tab.gcsim_url"
                 target="_blank"
             >
                 gcsim
@@ -48,7 +48,7 @@
         </div>
         <div class="w-full flex flex-row grow basis-0 space-x-2 py-3 overflow-x-auto">
             <div
-                v-for="character of composition.characters"
+                v-for="character of tab.characters"
                 :key="character.slug"
                 class="w-3/12 bg-gray-700 rounded-lg min-w-[220px]"
             >
@@ -171,6 +171,19 @@
                 </div>
             </div>
         </div>
+        <div
+            v-if="tabs.length > 1"
+            class="w-full flex flex-row space-x-3 overflow-x-auto"
+        >
+            <button
+                v-for="(tab_title, i) in tabs.map(tab => tab.tab_title)"
+                :key="i"
+                :class="'rounded-lg text-lg font-bold p-2 ' + (tab_index === i ? 'bg-purple-700' : 'bg-gray-700')"
+                @click="setTab(i)"
+            >
+                {{ tab_title }}
+            </button>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 py-3">
             <div class="w-full">
                 <p class="text-3xl font-bold">
@@ -178,7 +191,7 @@
                 </p>
                 <div class="flex flex-col my-3 gap-2">
                     <div
-                        v-for="character of composition.characters"
+                        v-for="character of tab.characters"
                         :key="character.slug"
                         class="w-full flex flex-row"
                     >
@@ -204,17 +217,17 @@
             </div>
             <div>
                 <p class="text-3xl font-bold pb-4">
-                    Rotation {{ composition.rotation.duration }}
+                    Rotation {{ tab.rotation.duration }}
                 </p>
                 <div class="h-0 pb-[56.25%] relative">
                     <iframe
                         class="absolute inset-0 w-full h-full"
-                        :src="composition.rotation.video_url.includes('watch?v=') ? `https://www.youtube.com/embed/${composition.rotation.video_url.split('watch?v=').pop()}` : `https://www.youtube.com/embed/${composition.rotation.video_url.split('/').pop()}`"
+                        :src="tab.rotation.video_url.includes('watch?v=') ? `https://www.youtube.com/embed/${tab.rotation.video_url.split('watch?v=').pop()}` : `https://www.youtube.com/embed/${tab.rotation.video_url.split('/').pop()}`"
                     />
                 </div>
             </div>
         </div>
-        <nuxt-content :document="composition" class="md:p-5 text-white" />
+        <nuxt-content :document="tab" class="md:p-5 text-white" />
     </div>
 </template>
 
@@ -224,15 +237,33 @@ import Vue from 'vue'
 export default Vue.extend({
     name: 'CompositionFullPage',
     validate ({ $content, params }) {
-        return $content('comps', { deep: true }).where({ slug: params.slug }).fetch().then((results) => {
+        return $content('comps', params.slug, { deep: true }).fetch().then((results) => {
             return results.length > 0
         })
     },
     async asyncData ({ $content, params }) {
-        const composition: any = (await $content('comps', { deep: true }).where({ slug: params.slug, extension: '.md' }).fetch() as any[])[0]
-        const totaldps = composition.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
+        const tabs = await $content('comps', params.slug, { deep: true }).fetch() as any[]
+        const composition = tabs[0]
+        const tab = tabs[0]
+        const totaldps = tab.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 
-        return { composition, totaldps }
+        return { tabs, composition, tab, totaldps }
+    },
+    data () {
+        return {
+            tabs: [] as any[],
+            composition: {} as any,
+            tab: {} as any,
+            totaldps: 0,
+            tab_index: 0
+        }
+    },
+    methods: {
+        setTab (index: number) {
+            this.tab_index = index
+            this.tab = this.tabs[index]
+            this.totaldps = this.tab.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
+        }
     }
 })
 </script>

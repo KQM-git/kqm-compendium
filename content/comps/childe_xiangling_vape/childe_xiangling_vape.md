@@ -15,7 +15,7 @@ tags:
   - Dual Carry
   - Single Target
 pros:
-  -Flexible rotations
+  - Flexible rotations
   - Balanced between high burst damage and sustained damage
   - Scales well with gear and constellations
   - Not hard countered by any content in the game

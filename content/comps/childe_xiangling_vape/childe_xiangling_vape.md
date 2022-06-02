@@ -67,7 +67,7 @@ characters:
     star: 4
     constellation: 6
     weapon:
-      name: Trilling Tales of Dragon Slayers 
+      name: Thrilling Tales of Dragon Slayers
       refinement: 5
     artifacts:
       - Viridescent Venerer

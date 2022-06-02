@@ -2,7 +2,7 @@
 title: Childe Xiangling Vaporise (Sucrose) 
 authors:
   - Xreejan#1180
-healing: 3
+healing: 2
 shielding: 1
 difficulty: 3
 tags:

@@ -7,8 +7,8 @@ shielding: 1
 difficulty: 3
 tags:
   - Childe
-  -Tartaglia
-  -Ajax
+  - Tartaglia
+  - Ajax
   - Xiangling
   - Bennett
   - Sucrose

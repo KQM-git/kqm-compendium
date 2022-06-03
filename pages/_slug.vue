@@ -178,7 +178,7 @@
             <button
                 v-for="(tab_title, i) in tabs.map(tab => tab.tab_title)"
                 :key="i"
-                :class="'rounded-lg text-lg font-bold p-2 ' + (tab_index === i ? 'bg-purple-700' : 'bg-gray-700')"
+                :class="'rounded-lg text-lg font-bold p-2 ' + (tabIndex === i ? 'bg-purple-700' : 'bg-gray-700')"
                 @click="setTab(i)"
             >
                 {{ tab_title }}
@@ -241,28 +241,34 @@ export default Vue.extend({
             return results.length > 0
         })
     },
-    async asyncData ({ $content, params }) {
+    async asyncData ({ $content, params, query }) {
         const tabs = await $content('comps', params.slug, { deep: true }).fetch() as any[]
         const composition = tabs[0]
-        const tab = tabs[0]
+        const tabIndex = Number(query.tab) ?? 0
+        const tab = tabs[tabIndex]
         const totaldps = tab.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 
-        return { tabs, composition, tab, totaldps }
+        return { tabs, composition, tabIndex, tab, totaldps }
     },
     data () {
         return {
             tabs: [] as any[],
             composition: {} as any,
+            tabIndex: 0,
             tab: {} as any,
-            totaldps: 0,
-            tab_index: 0
+            totaldps: 0
         }
     },
     methods: {
         setTab (index: number) {
-            this.tab_index = index
+            this.tabIndex = index
             this.tab = this.tabs[index]
             this.totaldps = this.tab.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
+            if (index === 0) {
+                this.$router.push(this.$route.path)
+            } else {
+                this.$router.push({ query: { tab: index.toString() } })
+            }
         }
     }
 })

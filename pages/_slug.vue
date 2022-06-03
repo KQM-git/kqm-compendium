@@ -244,7 +244,7 @@ export default Vue.extend({
     async asyncData ({ $content, params, query }) {
         const tabs = await $content('comps', params.slug, { deep: true }).fetch() as any[]
         const composition = tabs[0]
-        const tabIndex = Number(query.tab) ?? 0
+        const tabIndex = Number(query.tab ?? 0)
         const tab = tabs[tabIndex]
         const totaldps = tab.characters.map((character: any) => character.dps).reduce((a: number, b: number) => a + b, 0)
 

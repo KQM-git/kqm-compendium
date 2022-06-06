@@ -1,6 +1,6 @@
 ---
 title: Ganyu Shenhe Mona Freeze
-tab_title: Ganyu Shenhe Mona ST
+tab_title: CrazyWeke123 - ST
 authors:
   - CrazyWeke123
   - CC

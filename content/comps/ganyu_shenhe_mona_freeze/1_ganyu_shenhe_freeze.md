@@ -1,7 +1,9 @@
 ---
-title: Ganyu Shenhe Freeze
+title: Ganyu Shenhe Mona Freeze
+tab_title: Ganyu Shenhe Mona ST
 authors:
   - CrazyWeke123
+  - CC
 healing: 2
 shielding: 1
 difficulty: 1

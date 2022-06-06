@@ -143,7 +143,7 @@
                             </p>
                         </div>
                         <p class="whitespace-nowrap">
-                            {{ character.cr }} %
+                            {{ character.cr }}%
                         </p>
                     </div>
                     <div class="flex items-center justify-between w-full">
@@ -154,7 +154,7 @@
                             </p>
                         </div>
                         <p class="whitespace-nowrap">
-                            {{ character.cd }} %
+                            {{ character.cd }}%
                         </p>
                     </div>
                     <div class="flex items-center justify-between w-full">
@@ -165,7 +165,7 @@
                             </p>
                         </div>
                         <p class="whitespace-nowrap">
-                            {{ character.er }} %
+                            {{ character.er }}%
                         </p>
                     </div>
                 </div>

@@ -64,22 +64,6 @@ characters:
     cd: 122.82
     er: 163.66
     dps: 3776
-  - name: Venti
-    star: 5
-    constellation: 0
-    weapon:
-      name: The Stringless
-      refinement: 3
-    artifacts:
-      - Viridescent Venerer
-    hp: 16899
-    atk: 1195
-    def: 793
-    em: 766
-    cr: 41.41
-    cd: 109.58
-    er: 165.06
-    dps: 8637
   - name: Mona
     star: 5
     constellation: 0
@@ -96,6 +80,22 @@ characters:
     cd: 129.00
     er: 194.82
     dps: 1783
+  - name: Venti
+    star: 5
+    constellation: 0
+    weapon:
+      name: The Stringless
+      refinement: 3
+    artifacts:
+      - Viridescent Venerer
+    hp: 16899
+    atk: 1195
+    def: 793
+    em: 766
+    cr: 41.41
+    cd: 109.58
+    er: 165.06
+    dps: 8637
 ---
  
 # **Notes**

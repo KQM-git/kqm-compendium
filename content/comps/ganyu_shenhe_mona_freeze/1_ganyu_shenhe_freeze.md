@@ -32,22 +32,6 @@ rotation:
   duration: 21s
   video_url: https://www.youtube.com/watch?v=MuiC4KZUac0
 characters:
-  - name: Shenhe
-    star: 5
-    constellation: 0
-    weapon:
-      name: Favonius Lance
-      refinement: 3
-    artifacts:
-      - Noblesse Oblige
-    hp: 19569
-    atk: 2764
-    def: 972
-    em: 40
-    cr: 41.41
-    cd: 109.58
-    er: 163.66
-    dps: 3157
   - name: Ganyu
     star: 5
     constellation: 0
@@ -64,6 +48,22 @@ characters:
     cd: 216.80
     er: 111.02
     dps: 21029
+  - name: Shenhe
+    star: 5
+    constellation: 0
+    weapon:
+      name: Favonius Lance
+      refinement: 3
+    artifacts:
+      - Noblesse Oblige
+    hp: 19569
+    atk: 2764
+    def: 972
+    em: 40
+    cr: 41.41
+    cd: 109.58
+    er: 163.66
+    dps: 3157
   - name: Mona
     star: 5
     constellation: 0

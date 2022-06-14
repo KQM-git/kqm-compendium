@@ -7,7 +7,7 @@
             {{ composition.authors.join(', ') }}
         </p>
 
-        <div class="lg:flex flex-row">
+        <div class="lg:flex flex-row space-x-1">
             <div class="w-full flex flex-row grow basis-0 space-x-2 py-3 overflow-x-auto">
                 <div
                     v-for="character of tab.characters"

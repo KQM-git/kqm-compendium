@@ -26,7 +26,7 @@ cons:
   - Full 5 star team, 3 of which are limited
   - Matchup dependent (2 or more freezable mobs is optimal)
   - Loses a lot of survivability and damage when enemies can not be frozen
-sheet_url: sheets/ganyu_shenhe_freeze/ganyu_shenhe_freeze.xlsx
+sheet_url: /sheets/ganyu_shenhe_freeze/ganyu_shenhe_freeze.xlsx
 gcsim_url: https://gcsim.app/viewer/share/perm_bA2PL2g5ojRVYSZ9aSjQa
 rotation:
   duration: 21s
@@ -100,11 +100,11 @@ characters:
 
 # **Notes**
 
-This calc is mostly F2P gear, C0 5 stars,and R5 event/craftable weapons, the only exception being Shenhe and Venti's r3 Favonius weapons. Lower refinements still work but will bring more variance. This team excels in mutli target scenarios, especially if the enemy can be picked up by venti's ultimate. While not being as accessible as other teams, as it contains four 5 stars, it also doesn't use up any premiere 4 star units, such as bennett or xingqiu, allowing you to run a very strong team with those units on the other side of the abyss.
+This calc is mostly F2P gear, C0 5 stars,and R5 event/craftable weapons, the only exception being Shenhe and Venti's r3 Favonius weapons. Lower refinements still work but will bring more variance. This team excels in multi target scenarios, especially if the enemy can be picked up by Venti's ultimate. While not being as accessible as other teams, as it contains four 5 stars, it also doesn't use up any premiere 4 star units, such as Bennett or Xingqiu, allowing you to run a very strong team with those units on the other side of the abyss.
 
-Do note that these numbers are from a 2 freezable target scenario. In single target, non freeezable content (bosses like the PMA), this teams dps and survivability scales down drastically, as you lose quadratic scaling on ganyu ultimate, 20% crit rate from blizzard strayer, and are left with only prototype amber as a source of healing/survivability.
+Do note that these numbers are from a 2 freezable target scenario. In single target, non freezable content (bosses like the PMA), this teams dps and survivability scales down drastically, as you lose quadratic scaling on Ganyu ultimate, 20% crit rate from blizzard strayer, and are left with only prototype amber as a source of healing/survivability.
 
-Damage will go up second rotation onwards due to prototype crescent being active for ganyu's burst, and left over icicles from the previous rotation.
+Damage will go up second rotation onwards due to prototype crescent being active for Ganyu's burst, and left over icicles from the previous rotation.
 
 # **Rotation Notes**
 

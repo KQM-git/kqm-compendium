@@ -20,7 +20,7 @@ cons:
   - One of the harder Eula teams to play
   - Requires weaving normal attacks in-between skill casts to effectively use Beidou's damage
   - Struggles vs one target
-sheet_url: sheets/eula/sitri_eula_olympics.xlsx
+sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
   duration: 22s

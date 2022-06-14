@@ -19,7 +19,7 @@ pros:
   - Doesn't use high profile 4 stars (Bennett, XQ, etc.)
 cons:
   - Using ttds on Lisa prevents funneling particles to Eula, thus raising Eula's energy requirements
-sheet_url: sheets/eula/sitri_eula_olympics.xlsx
+sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
   duration: 25.3s

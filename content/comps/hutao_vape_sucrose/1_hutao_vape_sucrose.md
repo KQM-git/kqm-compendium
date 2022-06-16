@@ -1,9 +1,9 @@
 ---
-title: Hu Tao
+title: Hu Tao Sucrose Vape
 authors:
   - Prévisible
 healing: 1
-shielding: 0
+shielding: 1
 difficulty: 4
 tags:
   - Hu Tao 
@@ -43,6 +43,22 @@ characters:
     cd: 167.84
     er: 111.02
     dps: 46442
+  - name: Xingqiu
+    star: 4
+    constellation: 6
+    weapon:
+      name: Favonius Sword
+      refinement: 3
+    artifacts:
+      - Emblem of Severed Fate
+    hp: 16523
+    atk: 1692
+    def: 891
+    em: 40
+    cr: 59.27
+    cd: 109.58
+    er: 236.4
+    dps: 8688
   - name: Amber
     star: 4
     constellation: 0
@@ -75,22 +91,6 @@ characters:
     cd: 63.24
     er: 166.12
     dps: 1275
-  - name: Xingqiu
-    star: 4
-    constellation: 6
-    weapon:
-      name: Favonius Sword
-      refinement: 3
-    artifacts:
-      - Emblem of Severed Fate
-    hp: 16523
-    atk: 1692
-    def: 891
-    em: 40
-    cr: 59.27
-    cd: 109.58
-    er: 236.4
-    dps: 8688
 ---
 
 # **Notes**

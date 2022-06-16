@@ -1,5 +1,5 @@
 ---
-title: Ganyu Shenhe Venti Mona Freeze
+title: Ganyu Rosari Mona Freeze
 authors:
   - CC
 healing: 2

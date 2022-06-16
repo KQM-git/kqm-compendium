@@ -73,7 +73,7 @@ characters:
     em: 0
     cr: Enough for Fav
     cd: 50
-    er: 203 
+    er: 203+ 
     dps: 0
   - name: Sucrose
     star: 4

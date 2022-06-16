@@ -66,22 +66,6 @@ characters:
     cd: 96.34
     er: 163.66
     dps: 3367
-  - name: Venti
-    star: 5
-    constellation: 0
-    weapon:
-      name: Favonius Warbow
-      refinement: 3
-    artifacts:
-      - Viridescent Venerer
-    hp: 16899
-    atk: 1133
-    def: 793
-    em: 845
-    cr: 38.10
-    cd: 102.96
-    er: 154.00
-    dps: 8655
   - name: Kokomi
     star: 5
     constellation: 0
@@ -98,6 +82,22 @@ characters:
     cd: 83.10
     er: 116.53
     dps: 987
+  - name: Venti
+    star: 5
+    constellation: 0
+    weapon:
+      name: Favonius Warbow
+      refinement: 3
+    artifacts:
+      - Viridescent Venerer
+    hp: 16899
+    atk: 1133
+    def: 793
+    em: 845
+    cr: 38.10
+    cd: 102.96
+    er: 154.00
+    dps: 8655
 ---
  
 # **Notes**  

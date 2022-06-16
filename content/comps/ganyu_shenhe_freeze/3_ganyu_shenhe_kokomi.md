@@ -1,5 +1,6 @@
 ---
 title: Ganyu Shenhe Venti Kokomi Freeze
+tab_title: CC - Kokomi - AoE
 authors:
   - CC
 healing: 3
@@ -65,22 +66,6 @@ characters:
     cd: 109.58
     er: 152.64
     dps: 4955
-  - name: Venti
-    star: 5
-    constellation: 0
-    weapon:
-      name: Favonius Warbow
-      refinement: 3
-    artifacts:
-      - Viridescent Venerer
-    hp: 16899
-    atk: 1133
-    def: 793
-    em: 680
-    cr: 41.41
-    cd: 109.58
-    er: 204.32
-    dps: 7733
   - name: Kokomi
     star: 5
     constellation: 0
@@ -97,6 +82,22 @@ characters:
     cd: 63.24
     er: 206.90
     dps: 2087
+  - name: Venti
+    star: 5
+    constellation: 0
+    weapon:
+      name: Favonius Warbow
+      refinement: 3
+    artifacts:
+      - Viridescent Venerer
+    hp: 16899
+    atk: 1133
+    def: 793
+    em: 680
+    cr: 41.41
+    cd: 109.58
+    er: 204.32
+    dps: 7733
 ---
  
 # **Notes**  

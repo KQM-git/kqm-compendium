@@ -1,5 +1,5 @@
 ---
-title: Ganyu Shenhe Venti Kokomi Freeze
+title: Ganyu Shenhe Kokomi Freeze
 tab_title: CC - Kokomi - AoE
 authors:
   - CC

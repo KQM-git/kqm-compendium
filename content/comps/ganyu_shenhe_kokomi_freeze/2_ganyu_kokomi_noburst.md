@@ -1,5 +1,5 @@
 ---
-title: Ganyu Shenhe Venti Kokomi Freeze (No Kokomi Burst)
+title: Ganyu Shenhe Kokomi Freeze (No Kokomi Burst)
 tab_title: CC - No Kokomi Burst - AoE
 authors:
   - CC

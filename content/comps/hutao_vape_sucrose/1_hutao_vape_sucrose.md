@@ -67,13 +67,13 @@ characters:
       refinement: 3
     artifacts:
       - Instructor
-    hp: -
-    atk: -
-    def: -
-    em: -
+    hp: 793
+    atk: 19
+    def: 50
+    em: 0
     cr: Enough for Fav
-    cd: -
-    er: 203+ 
+    cd: 50
+    er: 203 
     dps: 0
   - name: Sucrose
     star: 4

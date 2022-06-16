@@ -74,7 +74,7 @@ characters:
     cr: Enough for Fav
     cd: -
     er: 203+ 
-    dps: -
+    dps: 0
   - name: Sucrose
     star: 4
     constellation: 6

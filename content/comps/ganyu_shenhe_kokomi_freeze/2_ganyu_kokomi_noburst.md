@@ -129,4 +129,4 @@ Shenhe tE
 Venti E  
 Ganyu E 2CA  
    
-**Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice. 
+**Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice. z

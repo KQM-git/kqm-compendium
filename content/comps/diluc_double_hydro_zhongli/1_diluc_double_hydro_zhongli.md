@@ -79,7 +79,7 @@ characters:
       name: Black Tassel
       refinement: 5
     artifacts:
-      - Tenacity of Millelith
+      - Tenacity of the Millelith
     hp: 51815.189
     atk: 1130.096
     def: 868.872

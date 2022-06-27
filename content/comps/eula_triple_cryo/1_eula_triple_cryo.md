@@ -18,7 +18,7 @@ pros:
   - Resin efficient to farm for as Eula and Fischl use artifacts from the same domain
 cons:
   - Dependent on enemies standing within Rosaria and Diona's burst to gain 15% crit
-sheet_url: sheets/eula/sitri_eula_olympics.xlsx
+sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
   duration: 22s

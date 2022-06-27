@@ -23,7 +23,7 @@ cons:
   - Requires weaving normal attacks in-between skill casts to effectively use Beidou's damage
   - Has a longer rotation to memorize
   - Struggles when there is only one enemy
-sheet_url: sheets/eula/sitri_eula_olympics.xlsx
+sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
   duration: 27.9s

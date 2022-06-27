@@ -27,7 +27,7 @@ cons:
   - Healing may not be enough for some people
   - Performs worse in certain situations such as against non-freezable enemies, bosses, and pure single target scenarios
 sheet_url: https://docs.google.com/spreadsheets/d/1r8_w0ZKApBwc-VrNzdP1811syBvoNbgIPCNHMyzlwY4/edit#gid=1035782785
-gcsim_url: https://gcsim.app/viewer/share/perm_61RPWhfUVHs7BHLDn21MO
+gcsim_url: https://gcsim.app/viewer/share/perm_5XWJgqVCHlMxwkisDKOyU
 rotation:
   duration: 21s
   video_url: https://youtu.be/59U0leDEaWs
@@ -47,7 +47,7 @@ characters:
     cr: 44.72
     cd: 216.8
     er: 111.02
-    dps: 33926
+    dps: 35463
   - name: Shenhe
     star: 5
     constellation: 0
@@ -95,18 +95,18 @@ characters:
     cr: 41.41
     cd: 109.58
     er: 165.06
-    dps: 9246
+    dps: 8637
 ---
  
 # **Notes**
 
-This calc follows the current KQMC Standards, simulated with 2 targets but only accounting for the damage on the primary target, done over the course of 5 rotations, uses a mix of craftable and non-limited gacha weapons, 23 Ganyu Icicles, 15 Venti Burst Absorption Procs, and 18 Swirls. 23 Icicle assumption was derived by weighing the average icicles for split enemies and sucked by Venti's Burst/Frozen (14.74 Icicles = 2 Split Targets, 24.74 = 2 Venti'd Targets) and each multiplied by the duration of the mentioned conditions based on the Rotation Timeline ((3/15) * 14.74 + (12/15) * 24.74 = 22.74 ≈ 23 Icicles) which can be found in the sheets. Gcsim numbers don't penalize periods where there's no grouping nor freeze as it's not implemented at the time of writing whereas this sheet does, but allows for Favonius refinements and proc rate variance to affect the DPS, and are some of the factors that have to be kept in mind. ER requirements were determined through Gcsim, while the remaining fluid substats were optimized with the Solver.
+This calc follows the current KQMC Standards, simulated with 2 targets but only accounting for the damage on the primary target, done over the course of 5 rotations, uses a mix of craftable and non-limited gacha weapons, 25 Ganyu Icicles, and 15 Venti Burst Absorption Procs. 25 Icicle assumption was derived by weighing the average icicles for split enemies and sucked by Venti's Burst/Frozen (16.73 Icicles = 2 Split Targets, 26.73 = 2 Venti'd Targets) and each multiplied by the duration of the mentioned conditions based on the Rotation Timeline ((3/15) * 16.73 + (12/15) * 26.73 = 24.73 ≈ 25 Icicles) which can be found in the sheets. Gcsim numbers don't penalize periods where there's no grouping nor freeze as it's not implemented at the time of writing, but allows for Favonius refinements and proc rate variance to affect the DPS, and are some of the factors that have to be kept in mind. ER requirements were determined through Gcsim, while the remaining fluid substats were optimized with the Solver.
 
 This team has a very good primary target damage for situations where there are 2 or more enemies that are freezable, can be crowd controlled by Venti's Burst, and one of the enemies has a weak spot if using Prototype Crescent. But considering this isn't always the case, this comp ends up performing worse or even not worth considering in certain situations such as against non-freezable enemies, bosses, and pure single target scenarios. The majority of the time is spent in i-frames and with enemies frozen making it quite comfy to play but may not necessarily be the case for all people as this comp requires aiming, which may prove to be a challenge for some, especially mobile or controller users. It technically has some form of healing with the Prototype Amber, but its healing capability may not be enough for some. This comp is completely made up of limited and standard 5-star characters which means it has a high accessibility wall but is also being made up of units that are highly specialized for freeze and aren't highly contested for. While The Stringless on Venti is easily replaceable, the Favonius Lance on Shenhe plays a major role in this comp's rotation consistency and lowering everyone's ER requirements(which also results in easier artifact farming). And so, refinement 3 or higher is recommended for a chance of proc on both Shenhe Es (which has a 10s cooldown and an R3 Favonius Lance has 9s) and better consistency. Swaps need to be done as fast as possible and learning Ganyu M1-R Cancel for PC users is highly encouraged to keep the rotation times low.
  
-# **Rotation Notes**  
+# **Rotation Notes**
  
-**General Bow Rotation:**  
+**General Bows Rotation:**  
 Shenhe tEQ  
 Ganyu EQ  
 Venti EQ  

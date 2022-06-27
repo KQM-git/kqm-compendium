@@ -27,7 +27,7 @@ cons:
 sheet_url: https://docs.google.com/spreadsheets/d/1GPEzkjr3Xdt0pHVjBFyo_VV3uMkMZg6f042Quv26yAw/edit?usp=sharing
 rotation:
   duration: 22s
-  video_url: https://www.youtube.com/watch?v=SWVsgoCWHUU&ab_channel=ASnowOwI
+  video_url: https://www.youtube.com/watch?v=SWVsgoCWHUU
 characters:
   - name: Arataki Itto
     star: 5

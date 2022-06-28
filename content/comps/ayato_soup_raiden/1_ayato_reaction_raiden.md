@@ -37,7 +37,7 @@ characters:
     cd: 141.4
     er: 144.1
     dps: 13141
-  - name: Raiden
+  - name: Raiden Shogun
     star: 5
     constellation: 0
     weapon:

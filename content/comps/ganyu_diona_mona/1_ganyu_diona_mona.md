@@ -53,7 +53,7 @@ characters:
 	- er: 111.0
 	- cr: 44.7
 	- cd: 216.8
-	- dps: 25867
+	- dps: 30650
 	- name: Mona
 	  star: 5
 	  constellation: 0
@@ -79,13 +79,13 @@ characters:
 	  artifacts: 
 		- Viridescent Venerer
 	- hp: 16864
-	- atk: 1914
+	- atk: 1577
 	- def: 791
-	- em: 205
+	- em: 845
 	- er: 170.6
-	- cr: 59.27
-	- cd: 129.4
-	- dps: 13228
+	- cr: 14.9
+	- cd: 63.2
+	- dps: 9073
 	- name: Diona
 	  star: 4
 	  constellation: 6

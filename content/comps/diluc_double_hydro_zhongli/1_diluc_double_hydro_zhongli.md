@@ -32,14 +32,14 @@ characters:
       refinement: 1
     artifacts:
       - Crimson Witch of Flames
-    hp: 19556.5952
-    atk: 1666.674
-    def: 920.576
+    hp: 19556
+    atk: 1666
+    def: 920
     em: 39.64
     cr: 88.21
     cd: 171.78
     er: 133.06
-    dps: 12729.81212
+    dps: 12729
   - name: Yelan
     star: 5
     constellation: 0
@@ -48,14 +48,14 @@ characters:
       refinement: 1
     artifacts:
       - Emblem of Severed Fate
-    hp: 34089.62
-    atk: 1111.3216
-    def: 655.312
+    hp: 34089
+    atk: 1111
+    def: 655
     em: 39.64
     cr: 78.47
     cd: 129.44
     er: 192.32
-    dps: 11974.1312
+    dps: 11974
   - name: Xingqiu
     star: 4
     constellation: 6
@@ -64,14 +64,14 @@ characters:
       refinement: 4
     artifacts:
       - Emblem of Severed Fate
-    hp: 16523.9024
-    atk: 1560.8288
-    def: 891.352
+    hp: 16523
+    atk: 1560
+    def: 891
     em: 39.64
     cr: 65.89
     cd: 129.44
     er: 203.34
-    dps: 7495.060981
+    dps: 7495
   - name: Zhongli
     star: 5
     constellation: 0
@@ -80,14 +80,14 @@ characters:
       refinement: 5
     artifacts:
       - Tenacity of the Millelith
-    hp: 51815.189
-    atk: 1130.096
-    def: 868.872
+    hp: 51815
+    atk: 1130
+    def: 868
     em: 39.64
     cr: 44.72
     cd: 129.44
     er: 111.02
-    dps: 1169.632574
+    dps: 1169
 ---
 
 # **Notes**

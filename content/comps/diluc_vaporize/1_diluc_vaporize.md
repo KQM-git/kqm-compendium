@@ -31,14 +31,14 @@ characters:
       refinement: 1
     artifacts:
       - Crimson Witch of Flames
-    hp: 19556.5952
-    atk: 1272.904
-    def: 920.576
-    em: 226.64
+    hp: 19556
+    atk: 1272
+    def: 920
+    em: 226
     cr: 91.52
     cd: 178.4
     er: 122.04
-    dps: 20878.42939
+    dps: 20878
   - name: Xingqiu
     star: 4
     constellation: 6
@@ -47,14 +47,14 @@ characters:
       refinement: 3
     artifacts:
       - Emblem of Severed Fate
-    hp: 16523.9024
-    atk: 1560.8288
-    def: 891.352
+    hp: 16523
+    atk: 1560
+    def: 891
     em: 39.64
     cr: 62.58
     cd: 129.44
     er: 208.85
-    dps: 11134.17753
+    dps: 11134
   - name: Zhongli
     star: 5
     constellation: 0
@@ -63,14 +63,14 @@ characters:
       refinement: 5
     artifacts:
       - Tenacity of the Millelith
-    hp: 54460.289
-    atk: 1009.096
-    def: 868.872
+    hp: 54460
+    atk: 1009
+    def: 868
     em: 39.64
     cr: 44.72
     cd: 129.44
     er: 111.02
-    dps: 1049.415578
+    dps: 1049
   - name: Bennett
     star: 4
     constellation: 5
@@ -79,14 +79,14 @@ characters:
       refinement: 1
     artifacts:
       - Noblesse Oblige
-    hp: 18914.6624
-    atk: 1175.0752
-    def: 905.964
+    hp: 18914
+    atk: 1175
+    def: 905
     em: 39.64
     cr: 62.58
     cd: 116.20
     er: 222.58
-    dps: 1456.820801
+    dps: 1457
 ---
 
 # **Notes**

@@ -84,7 +84,6 @@ characters:
       refinement: 3
     artifacts:
       - Tenacity of the Millelith
-      - Thundersoother
     hp: 44967
     atk: 1069
     def: 869

@@ -84,7 +84,6 @@ characters:
       refinement: 5
     artifacts:
       - Instructor
-      - Thundersoother (5-Star Offpiece)
     hp: 44199
     atk: 930
     def: 869

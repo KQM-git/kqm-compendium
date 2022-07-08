@@ -7,7 +7,7 @@ shielding: 1
 difficulty: 2
 tags:
   - Ayato
-  - Fischl
+  - Raiden Shogun
   - Kazuha
   - Bennett
   - Soup

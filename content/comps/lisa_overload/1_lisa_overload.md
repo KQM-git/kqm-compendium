@@ -29,7 +29,7 @@ cons:
 gcsim_url: https://gcsim.app/viewer/share/perm_XXDg1WNZKXqxL-W7QSMnb
 sheet_url: https://docs.google.com/spreadsheets/d/19AkuwZ2ANC7OuIANVm7PppNnW4iasCvBLyrFL0rh0d4/edit?usp=sharing
 rotation:
-  duration: 21s
+  duration: 25s
   video_url: https://youtu.be/JtvFKXRdWHY
 characters:
   - name: Lisa

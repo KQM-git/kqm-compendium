@@ -58,9 +58,9 @@ characters:
     star: 5
     constellation: 0
     weapon:
-    name: Favonius Codex
+      name: Favonius Codex
       refinement: 3
-      artifacts: 
+    artifacts: 
     - Noblesse Oblige
     hp: 16729
     atk: 1378

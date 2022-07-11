@@ -20,7 +20,7 @@ pros:
 cons:
   - Longer rotation with Raiden reduces DPS
   - Difficulty swirling both Electro and Hydro
-  - No defensive abilities other than Bennett's healing, forcing you to dodge well
+  - Requires dodging or tanking due to lack of defensive abilities apart from Bennett's healing
 sheet_url: https://docs.google.com/spreadsheets/d/1HfRCkzlgXEYD-LIF4-IDMy4gslZh42LBESv7Bk-6Gag/edit#gid=54760154
 rotation:
   duration: 28s

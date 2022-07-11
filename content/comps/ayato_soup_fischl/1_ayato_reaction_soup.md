@@ -13,9 +13,12 @@ tags:
   - Soup
   - Multi-Target
 pros:
-  - placeholder
+  - Strong AoE with Ayato and Kazuha
+  - Reaction spam requires little thought
+  - Ayato's range allows him to strike targets from within Bennett's field comfortably
 cons:
-  - placeholder
+  - Bennett's field restricts movement
+  - No defensive abilities other than Bennett's healing, forcing you to dodge well
 sheet_url: https://docs.google.com/spreadsheets/d/1HfRCkzlgXEYD-LIF4-IDMy4gslZh42LBESv7Bk-6Gag/edit#gid=248325008
 rotation:
   duration: 25s

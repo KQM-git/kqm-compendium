@@ -13,9 +13,14 @@ tags:
   - Soup
   - Multi-Target
 pros:
-  - placeholder
+  - High AoE potential with Ayato, Kazuha and Raiden
+  - Reaction spam requires little thought
+  - Reduced energy costs with Raiden
+  - Ayato's range allows him to strike targets from within Bennett's field comfortably
 cons:
-  - placeholder
+  - Longer rotation with Raiden reduces DPS
+  - Difficulty swirling both Electro and Hydro
+  - No defensive abilities other than Bennett's healing, forcing you to dodge well
 sheet_url: https://docs.google.com/spreadsheets/d/1HfRCkzlgXEYD-LIF4-IDMy4gslZh42LBESv7Bk-6Gag/edit#gid=54760154
 rotation:
   duration: 28s

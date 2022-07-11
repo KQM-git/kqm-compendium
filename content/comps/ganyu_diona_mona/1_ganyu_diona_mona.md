@@ -31,7 +31,6 @@ cons:
   - Does not do well against unfreezable enemies or in single target
   - Many enemies cannot be grouped by Venti while unfrozen, though this can be offset by proper gameplay
   - 3 5-stars, with 2 being limited makes this team quite expensive
-
 sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsrWzWNB-dvt3DARRK?e=1dM6dG
 gcsim_url: https://gcsim.app/viewer/share/perm_hnHmvaxIRA6MUBkaY-Mo3
 rotation:

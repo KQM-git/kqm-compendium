@@ -14,7 +14,7 @@ tags:
   - Multi-Target
   - Sustained
   - Freeze
-  - F2P Gears
+  - F2P Gear
 pros:
   - Very good damage against 2 or more enemies that are freezable and can be crowd controlled by Venti's Burst
   - Majority of the time is spent in iframes and with enemies frozen making it very comfy

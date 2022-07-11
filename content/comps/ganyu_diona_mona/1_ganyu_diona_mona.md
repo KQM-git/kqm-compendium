@@ -50,9 +50,9 @@ characters:
     atk: 2099
     def: 747
     em: 40
-    er: 111.0
     cr: 44.7
     cd: 216.8
+    er: 111.0
     dps: 30650
   - name: Mona
     star: 5
@@ -66,9 +66,9 @@ characters:
     atk: 1378
     def: 773
     em: 40
-    er: 247.5
     cr: 62.58
     cd: 103.0
+		er: 247.5
     dps: 2176
   - name: Venti
     star: 5
@@ -82,9 +82,9 @@ characters:
     atk: 1577
     def: 791
     em: 845
-    er: 170.6
     cr: 14.9
     cd: 63.2
+    er: 170.6
     dps: 9073
   - name: Diona
     star: 4
@@ -97,10 +97,10 @@ characters:
     hp: 27148
     atk: 1076
     def: 715
-   em: 40
-    er: 172.2
+    em: 40
     cr: 69.2
     cd: 129.4
+    er: 172.2
     dps: 380
 ---
 

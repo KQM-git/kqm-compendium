@@ -35,8 +35,8 @@ cons:
 sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsrWzWNB-dvt3DARRK?e=1dM6dG
 gcsim_url: https://gcsim.app/viewer/share/perm_hnHmvaxIRA6MUBkaY-Mo3
 rotation:
-  - duration: 17.5s
-  - video_url: https://youtu.be/1ybZ2mSOYg8
+  duration: 17.5s
+  video_url: https://youtu.be/1ybZ2mSOYg8
 characters:
   - name: Ganyu
     star: 5

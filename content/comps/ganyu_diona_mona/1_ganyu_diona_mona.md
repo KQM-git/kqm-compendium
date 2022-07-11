@@ -46,14 +46,14 @@ characters:
       refinement: 5
     artifacts: 
     - Blizzard Strayer
-  hp: 16057
-  atk: 2099
-  def: 747
-  em: 40
-  er: 111.0
-  cr: 44.7
-  cd: 216.8
-  dps: 30650
+    hp: 16057
+    atk: 2099
+    def: 747
+    em: 40
+    er: 111.0
+    cr: 44.7
+    cd: 216.8
+    dps: 30650
   - name: Mona
     star: 5
     constellation: 0
@@ -62,14 +62,14 @@ characters:
       refinement: 3
       artifacts: 
     - Noblesse Oblige
-  hp: 16729
-  atk: 1378
-  def: 773
-  em: 40
-  er: 247.5
-  cr: 62.58
-  cd: 103.0
-  dps: 2176
+    hp: 16729
+    atk: 1378
+    def: 773
+    em: 40
+    er: 247.5
+    cr: 62.58
+    cd: 103.0
+    dps: 2176
   - name: Venti
     star: 5
     constellation: 0
@@ -78,14 +78,14 @@ characters:
       refinement: 3
     artifacts: 
     - Viridescent Venerer
-  hp: 16864
-  atk: 1577
-  def: 791
-  em: 845
-  er: 170.6
-  cr: 14.9
-  cd: 63.2
-  dps: 9073
+    hp: 16864
+    atk: 1577
+    def: 791
+    em: 845
+    er: 170.6
+    cr: 14.9
+    cd: 63.2
+    dps: 9073
   - name: Diona
     star: 4
     constellation: 6
@@ -94,14 +94,14 @@ characters:
       refinement: 3
     artifacts: 
     - Tenacity of The Millelith
-  hp: 27148
-  atk: 1076
-  def: 715
-  em: 40
-  er: 172.2
-  cr: 69.2
-  cd: 129.4
-  dps: 380
+    hp: 27148
+    atk: 1076
+    def: 715
+   em: 40
+    er: 172.2
+    cr: 69.2
+    cd: 129.4
+    dps: 380
 ---
 
 # **Notes:**  

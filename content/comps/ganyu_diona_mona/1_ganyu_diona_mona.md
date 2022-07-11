@@ -67,7 +67,7 @@ characters:
     em: 40
     cr: 62.58
     cd: 103.0
-		er: 247.5
+    er: 247.5
     dps: 2176
   - name: Venti
     star: 5
@@ -92,7 +92,7 @@ characters:
       name: Favonius Warbow
       refinement: 3
     artifacts: 
-      - Tenacity of The Millelith
+      - Tenacity of the Millelith
     hp: 27148
     atk: 1076
     def: 715

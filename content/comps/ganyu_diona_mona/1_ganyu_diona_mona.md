@@ -45,7 +45,7 @@ characters:
       name: Prototype Crescent
       refinement: 5
     artifacts: 
-    - Blizzard Strayer
+      - Blizzard Strayer
     hp: 16057
     atk: 2099
     def: 747
@@ -61,7 +61,7 @@ characters:
       name: Favonius Codex
       refinement: 3
     artifacts: 
-    - Noblesse Oblige
+      - Noblesse Oblige
     hp: 16729
     atk: 1378
     def: 773
@@ -77,7 +77,7 @@ characters:
       name: The Stringless
       refinement: 3
     artifacts: 
-    - Viridescent Venerer
+      - Viridescent Venerer
     hp: 16864
     atk: 1577
     def: 791
@@ -93,7 +93,7 @@ characters:
       name: Favonius Warbow
       refinement: 3
     artifacts: 
-    - Tenacity of The Millelith
+      - Tenacity of The Millelith
     hp: 27148
     atk: 1076
     def: 715

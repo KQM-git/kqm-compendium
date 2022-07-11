@@ -56,7 +56,7 @@ characters:
     em: -
     cr: Enough for Fav
     cd: -
-    er: 203 
+    er: 203+ 
     dps: -
   - name: Sucrose
     star: 4
@@ -66,8 +66,8 @@ characters:
       refinement: 5
     artifacts:
       - Viridescent Venerer
-    hp: 18702.7728
-    atk: 1256.0815
+    hp: 18703
+    atk: 1256
     def: 829.5
     em: 680
     cr: 14.93

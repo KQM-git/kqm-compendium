@@ -6,7 +6,7 @@ authors:
 healing: 3
 shielding: 1
 difficulty: 3
-target: 3
+target: 2
 tags:
   - Xiao
   - Barbara
@@ -36,69 +36,69 @@ rotation:
   video_url: https://youtu.be/zdAughJUWis
 characters:
     - name: Xiao
-    star: 5
-    constellation: 0
-    weapon:
-      name: Primordial Jade Winged-Spear
-      refinement: 1
-    artifacts:
-      - 4pc Shimenawa's Reminiscence 
-    hp: 18892
-    atk: 2230.9
-    def: 937.4
-    em: 40
-    cr: 86
-    cd: 178
-    er: 111
-    dps: 8749.088
+      star: 5
+      constellation: 0
+      weapon:
+        name: Primordial Jade Winged-Spear
+        refinement: 1
+      artifacts:
+        - Shimenawa's Reminiscence 
+      hp: 18892
+      atk: 2230.9
+      def: 937.4
+      em: 40
+      cr: 86
+      cd: 178
+      er: 111
+      dps: 8749.088
     - name: Kujou Sara
-    star: 4
-    constellation: 6
-    weapon:
-      name: Sacrificial Bow
-      refinement: 5
-    artifacts:
-      - Emblem of Severed Fate
-    hp: 15807
-    atk: 1830
-    def: 745
-    em: 40
-    cr: 69.2
-    cd: 143
-    er: 213
-    dps: 1558.927
+      star: 4
+      constellation: 6
+      weapon:
+        name: Sacrificial Bow
+        refinement: 5
+      artifacts:
+        - Emblem of Severed Fate
+      hp: 15807
+      atk: 1830
+      def: 745
+      em: 40
+      cr: 69.2
+      cd: 143
+      er: 213
+      dps: 1558.927
     - name: Barbara
-    star: 5
-    constellation: 6
-    weapon:
-      name: TTDS
-      refinement: 5
-    artifacts:
-      - Ocean-Hued Clam
-    hp: 38354
-    atk: 959.6
-    def: 791.3
-    em: 40
-    cr: 11.6
-    cd: 63
-    er: 111
-    dps: 6851.269
+      star: 5
+      constellation: 6
+      weapon:
+        name: Thrilling Tales of Dragon Slayers
+        refinement: 5
+      artifacts:
+        - Ocean-Hued Clam
+      hp: 38354
+      atk: 959.6
+      def: 791.3
+      em: 40
+      cr: 11.6
+      cd: 63
+      er: 111
+      dps: 6851.269
     - name: Rosaria
-    star: 4
-    constellation: 6
-    weapon:
-      name: The Catch
-      refinement: 1
-    artifacts:
-      - Noblesse Oblige
-    hp: 18796
-    atk: 1698
-    def: 837.4
-    em: 40
-    cr: 69.2
-    cd: 136
-    er: 162
-    dps: 5651.239
+      star: 4
+      constellation: 6
+      weapon:
+        name: The Catch
+        refinement: 1
+      artifacts:
+        - Noblesse Oblige
+      hp: 18796
+      atk: 1698
+      def: 837.4
+      em: 40
+      cr: 69.2
+      cd: 136
+      er: 162
+      dps: 5651.239
 
 ---
 

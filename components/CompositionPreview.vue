@@ -99,7 +99,7 @@
                             class="flex flex-col items-center font-bold"
                         >
                             <img :src="require(`~/assets/icons/target_${composition.target}.png`)" class="lg:h-10 max-h-10">
-                            {{ {1: 'Single-target', 2: 'Mostly ST', 3: 'Mostly AoE', 4: 'AoE'}[composition.target] }}
+                            {{ {1: 'Only ST', 2: 'Mostly ST', 3: 'AoE', 4: 'Only AoE'}[composition.target] }}
                         </div>
                     </div>
                     <p v-if="detailedView" class="hidden lg:block w-full py-3 text-gray-500">

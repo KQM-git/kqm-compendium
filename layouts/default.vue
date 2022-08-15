@@ -14,7 +14,7 @@ export default Vue.extend({
     head () {
         return {
             bodyAttrs: {
-                style: 'background-color: #19191d'
+                style: 'background-color: #232024'
             }
         }
     }

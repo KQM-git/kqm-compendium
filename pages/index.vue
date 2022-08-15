@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="pt-3 flex">
+        <div class="py-3 flex">
             <form action onsubmit="return false" class="w-full m-3 flex justify-center">
                 <input
                     v-model="search"
@@ -20,7 +20,7 @@
             <div
                 v-for="(searchTerm, i) in searchTerms"
                 :key="i"
-                class="flex flex-row justify-center items-center rounded-md p-1 m-1 bg-purple-700 text-white"
+                class="flex flex-row justify-center items-center rounded-md p-1 m-1 bg-kqm-purple text-white"
             >
                 {{ searchTerm }}
                 <button @click="removeTerm(i)">
@@ -28,7 +28,7 @@
                 </button>
             </div>
         </div>
-        <div :class="'grid grid-cols-1 justify-center gap-5 m-3 ' + (searchTerms.length == 0 ? 'sm:grid-cols-2' : '')">
+        <div :class="'grid justify-center gap-5 m-3 ' + (searchTerms.length == 0 ? 'sm:grid-cols-2' : 'lg:grid-cols-1 sm:grid-cols-2')">
             <CompositionPreview
                 v-for="composition of compositions"
                 :key="composition.slug"

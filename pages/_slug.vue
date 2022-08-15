@@ -13,22 +13,29 @@
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.healing]"
                 >
-                    <img src="~/assets/icons/healing.png" class="max-h-10">
+                    <img src="~/assets/icons/healing.png" class="lg:h-10 max-h-10">
                     {{ {1: 'No Healing', 2: 'Some Healing', 3: 'Healing'}[composition.healing] }}
                 </div>
                 <div
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.shielding]"
                 >
-                    <img src="~/assets/icons/shield.png" class="max-h-10">
+                    <img src="~/assets/icons/shield.png" class="lg:h-10 max-h-10">
                     {{ {1: 'No Shielding', 2: 'Some Shielding', 3: 'Shielding'}[composition.shielding] }}
                 </div>
                 <div
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-green-400', 2: 'text-yellow-400', 3: 'text-red-400', 4: 'text-red-600'}[composition.difficulty]"
                 >
-                    <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="max-h-10">
+                    <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="lg:h-10 max-h-10">
                     {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult', 4: 'Very Difficult'}[composition.difficulty] }}
+                </div>
+                <div
+                    v-if="composition.target"
+                    class="flex flex-col items-center font-bold"
+                >
+                    <img :src="require(`~/assets/icons/target_${composition.target}.png`)" class="lg:h-10 max-h-10">
+                    {{ {1: 'Single-target', 2: 'Mostly ST', 3: 'Mostly AoE', 4: 'AoE'}[composition.target] }}
                 </div>
             </div>
             <div class="flex flex-row justify-center lg:justify-start gap-3">
@@ -51,31 +58,31 @@
             </div>
         </div>
 
-        <div class="w-full flex flex-row grow basis-0 space-x-2 py-3 overflow-x-auto">
+        <div class="w-full flex flex-row grow space-x-2 py-3 overflow-x-auto">
             <div
                 v-for="character of tab.characters"
                 :key="character.slug"
-                class="w-3/12 bg-gray-700 rounded-lg min-w-[200px]"
+                class="w-3/12 rounded-lg min-w-[200px] bg-[#423745] border-2 border-[#584F65]"
             >
                 <div
                     class="bg-cover rounded-t-lg relative"
                     :style="{ backgroundImage: `url(${require(`~/assets/icons/bg-tier${character.star}.png`)})` }"
                 >
                     <img :src="require(`~/assets/character_thumbnails/${character.name}.png`)" class="mx-auto">
-                    <div class="absolute bottom-1 w-full text-center flex flex-row justify-center">
-                        <div class="w-10 h-10 flex justify-center items-center bg-purple-700 rotate-45 rounded-sm z-20">
+                    <div class="absolute -bottom-3 w-full text-center flex flex-row justify-center">
+                        <div class="w-10 h-10 flex justify-center items-center bg-kqm-purple rotate-45 rounded-sm z-20">
                             <p class="w-full h-full items-center justify-center flex font-bold -rotate-45 text-2xl">
                                 {{ `C${character.constellation}` }}
                             </p>
                         </div>
-                        <div class="absolute -bottom-3 w-full h-4 bg-gray-700 rounded-[50%] z-0" />
                     </div>
                 </div>
-                <p class="pt-1 text-xl font-bold font-genshin text-center tracking-tight relative z-10">
+
+                <p class="pt-5 text-xl font-bold font-genshin text-center tracking-tight relative z-10">
                     {{ character.name }}
                 </p>
                 <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
-                    <div class="bg-gray-900 w-full h-full rounded-lg flex flex-row justify-center items-center">
+                    <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
                         <img
                             :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
                             :title="character.weapon.name"
@@ -85,7 +92,7 @@
                             {{ `R${character.weapon.refinement}` }}
                         </p>
                     </div>
-                    <div class="bg-gray-900 w-full h-full rounded-lg flex flex-row justify-center items-center">
+                    <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
                         <img
                             v-for="artifact of character.artifacts"
                             :key="artifact"
@@ -203,7 +210,7 @@
             <button
                 v-for="(tab_title, i) in tabs.map(tab => tab.tab_title)"
                 :key="i"
-                :class="'rounded-lg text-lg font-bold p-2 ' + (tabIndex === i ? 'bg-purple-700' : 'bg-gray-700')"
+                :class="'rounded-lg text-lg font-bold p-2 ' + (tabIndex === i ? 'bg-kqm-purple' : 'bg-gray-700')"
                 @click="setTab(i)"
             >
                 {{ tab_title }}
@@ -233,7 +240,7 @@
                         <div class="w-[75%] flex items-center">
                             <div class="w-full h-auto bg-gray-400">
                                 <div
-                                    class="h-8 bg-purple-700"
+                                    class="h-8 bg-kqm-purple"
                                     :style="{ width: `${character.dps/totaldps * 100}%` }"
                                 />
                             </div>

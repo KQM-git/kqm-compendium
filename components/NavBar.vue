@@ -7,11 +7,17 @@
                     <img src="~/assets/logo.png">
                 </NuxtLink>
             </div>
-            <div class="flex flex-row items-end">
-                <NuxtLink to="/kqm-standards" class="text-white p-3">
+            <div class="top-bar flex flex-row items-end">
+                <NuxtLink to="/" class="text-white m-3 pb-1">
+                    Team Compendium
+                </NuxtLink>
+                <NuxtLink to="/rotation-bank" class="text-white m-3 pb-1">
+                    Rotation Bank
+                </NuxtLink>
+                <NuxtLink to="/kqm-standards" class="text-white m-3 pb-1">
                     KQM Standards
                 </NuxtLink>
-                <NuxtLink to="/about" class="text-white p-3">
+                <NuxtLink to="/about" class="text-white m-3 pb-1">
                     About
                 </NuxtLink>
             </div>
@@ -82,19 +88,23 @@
                 </button>
             </div>
 
-            <span
-                class="flex w-full items-center p-4 border-b"
-                @click="isOpen = false"
-            />
-
-            <ul class="divide-y font-quicksand">
+            <ul class="divide-y divide-kqm-purple">
                 <li>
                     <NuxtLink
                         to="/"
                         class="my-4 inline-block"
                         @click.native="isOpen = false"
                     >
-                        Home
+                        Team Compendium
+                    </NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink
+                        to="/rotation-bank"
+                        class="my-4 inline-block"
+                        @click.native="isOpen = false"
+                    >
+                        Rotation Bank
                     </NuxtLink>
                 </li>
                 <li>
@@ -158,7 +168,12 @@ export default Vue.extend({
 </script>
 
 <style lang="postcss" scoped>
+.top-bar a.nuxt-link-exact-active {
+    @apply text-white;
+    box-shadow: 0 3px 0 #D19FF8;
+}
+
 li .nuxt-link-exact-active {
-    @apply font-bold
+    @apply font-bold;
 }
 </style>

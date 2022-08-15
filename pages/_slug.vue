@@ -270,7 +270,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'CompositionFullPage',
+    name: 'CompositionDetailPage',
     validate ({ $content, params }) {
         return $content('comps', params.slug, { deep: true }).fetch().then((results) => {
             return results.length > 0
@@ -308,13 +308,3 @@ export default Vue.extend({
     }
 })
 </script>
-
-<style lang="postcss" scoped>
-::v-deep .nuxt-content p {
-  @apply pb-8
-}
-
-::v-deep .nuxt-content h1 {
-  @apply text-2xl
-}
-</style>

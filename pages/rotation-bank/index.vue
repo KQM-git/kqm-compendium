@@ -1,5 +1,5 @@
 <template>
-    <main-view :name="'comps'" />
+    <main-view :name="'rotations'" :path="'rotation-bank'" />
 </template>
 
 <script lang="ts">

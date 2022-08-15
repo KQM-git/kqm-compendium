@@ -14,7 +14,7 @@
                 Whale
             </div>
         </div>
-        <NuxtLink :to="`/${composition.dir.split('/').pop()}`">
+        <NuxtLink :to="`${path}/${composition.dir.split('/').pop()}`">
             <div :class="'bg-[#2D282F] border-2 border-[#584F65] h-full p-5 pb-8 rounded-xl text-white ' + (!detailedView ? 'lg:flex flex-row' : '')">
                 <div :class="'relative flex pb-2 ' + (detailedView ? 'w-full justify-between' : 'lg:w-1/3 lg:flex-col lg:text-center lg:justify-center lg:items-center lg:pr-3')">
                     <div class="text-xl lg:text-3xl font-bold font-genshin">
@@ -169,6 +169,10 @@ export default Vue.extend({
         detailedView: {
             type: Boolean,
             required: true
+        },
+        path: {
+            type: String,
+            default: ''
         }
     }
 })

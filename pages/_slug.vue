@@ -62,7 +62,7 @@
             <div
                 v-for="character of tab.characters"
                 :key="character.slug"
-                class="w-3/12 rounded-lg min-w-[200px] bg-[#423745] border-2 border-[#584F65]"
+                class="w-3/12 min-w-[200px]"
             >
                 <div
                     class="bg-cover rounded-t-lg relative"
@@ -77,114 +77,115 @@
                         </div>
                     </div>
                 </div>
-
-                <p class="pt-5 text-xl font-bold font-genshin text-center tracking-tight relative z-10">
-                    {{ character.name }}
-                </p>
-                <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
-                    <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
-                        <img
-                            :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
-                            :title="character.weapon.name"
-                            class="inline w-1/2"
-                        >
-                        <p class="text-xl font-bold">
-                            {{ `R${character.weapon.refinement}` }}
-                        </p>
-                    </div>
-                    <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
-                        <img
-                            v-for="artifact of character.artifacts"
-                            :key="artifact"
-                            :src="require(`~/assets/artifacts/${artifact}/flower.png`)"
-                            :title="artifact"
-                            class="inline w-1/2"
-                        >
-                    </div>
-                </div>
-                <div class="p-2">
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/health.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                HP
+                <div class="rounded-b-lg bg-[#423745] border-2 border-[#584F65]">
+                    <p class="pt-5 text-xl font-bold font-genshin text-center tracking-tight relative z-10">
+                        {{ character.name }}
+                    </p>
+                    <div class="w-full relative z-10 grid grid-cols-2 justify-center items-center gap-3 p-3">
+                        <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
+                            <img
+                                :src="require(`~/assets/weapons/${character.weapon.name}.png`)"
+                                :title="character.weapon.name"
+                                class="inline w-1/2"
+                            >
+                            <p class="text-xl font-bold">
+                                {{ `R${character.weapon.refinement}` }}
                             </p>
                         </div>
-                        <p>
-                            {{ character.hp }}
-                        </p>
+                        <div class="bg-[#2D282F] border-2 border-[#584F65] w-full h-full rounded-lg flex flex-row justify-center items-center">
+                            <img
+                                v-for="artifact of character.artifacts"
+                                :key="artifact"
+                                :src="require(`~/assets/artifacts/${artifact}/flower.png`)"
+                                :title="artifact"
+                                class="inline w-1/2"
+                            >
+                        </div>
                     </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/attack.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                ATK
+                    <div class="p-2">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/health.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    HP
+                                </p>
+                            </div>
+                            <p>
+                                {{ character.hp }}
                             </p>
                         </div>
-                        <p>
-                            {{ character.atk }}
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/defense.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                DEF
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/attack.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    ATK
+                                </p>
+                            </div>
+                            <p>
+                                {{ character.atk }}
                             </p>
                         </div>
-                        <p>
-                            {{ character.def }}
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/elemental_mastery.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                Elemental Mastery
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/defense.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    DEF
+                                </p>
+                            </div>
+                            <p>
+                                {{ character.def }}
                             </p>
                         </div>
-                        <p>
-                            {{ character.em }}
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/critical_hit.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                CRIT Rate
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/elemental_mastery.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    Elemental Mastery
+                                </p>
+                            </div>
+                            <p>
+                                {{ character.em }}
                             </p>
                         </div>
-                        <p class="whitespace-nowrap">
-                            {{ character.cr }}%
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/critical_hit.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                CRIT Damage
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/critical_hit.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    CRIT Rate
+                                </p>
+                            </div>
+                            <p class="whitespace-nowrap">
+                                {{ character.cr }}%
                             </p>
                         </div>
-                        <p class="whitespace-nowrap">
-                            {{ character.cd }}%
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between w-full">
-                        <div class="flex flex-row items-center">
-                            <img src="~/assets/icons/energy_recharge.webp" class="h-5">
-                            <p class="leading-tight text-lg font-bold">
-                                Energy Recharge
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/critical_hit.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    CRIT Damage
+                                </p>
+                            </div>
+                            <p class="whitespace-nowrap">
+                                {{ character.cd }}%
                             </p>
                         </div>
-                        <p class="whitespace-nowrap">
-                            {{ character.er }}%
-                        </p>
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex flex-row items-center">
+                                <img src="~/assets/icons/energy_recharge.webp" class="h-5">
+                                <p class="leading-tight text-lg font-bold">
+                                    Energy Recharge
+                                </p>
+                            </div>
+                            <p class="whitespace-nowrap">
+                                {{ character.er }}%
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="bg-[#28242c] rounded-xl w-full grid lg:grid-cols-2 p-3 gap-5 mb-3">
+        <div class="bg-[#2D282F] border-2 border-[#584F65] rounded-xl w-full grid lg:grid-cols-2 p-3 gap-5 mb-3">
             <div class="text-xl font-bold">
                 Pros
                 <ul class="pl-5 text-gray-500">
@@ -210,7 +211,7 @@
             <button
                 v-for="(tab_title, i) in tabs.map(tab => tab.tab_title)"
                 :key="i"
-                :class="'rounded-lg text-lg font-bold p-2 ' + (tabIndex === i ? 'bg-kqm-purple' : 'bg-gray-700')"
+                :class="'border-2 border-[#584F65] rounded-lg text-lg font-bold p-2 ' + (tabIndex === i ? 'bg-kqm-purple' : 'bg-[#2D282F]')"
                 @click="setTab(i)"
             >
                 {{ tab_title }}
@@ -218,7 +219,7 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 py-3">
-            <div class="w-full p-3 bg-[#28242c] rounded-xl">
+            <div class="w-full p-3 bg-[#2D282F] border-2 border-[#584F65] rounded-xl">
                 <p class="text-3xl font-bold">
                     {{ totaldps }} DPS
                 </p>
@@ -248,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p-3 bg-[#28242c] rounded-xl">
+            <div class="p-3 bg-[#2D282F] border-2 border-[#584F65] rounded-xl">
                 <p class="text-3xl font-bold pb-4">
                     Rotation {{ tab.rotation.duration }}
                 </p>
@@ -261,7 +262,7 @@
             </div>
         </div>
 
-        <nuxt-content :document="tab" class="p-3 lg:p-5 text-white bg-[#28242c] rounded-xl" />
+        <nuxt-content :document="tab" class="p-3 lg:p-5 text-white bg-[#2D282F] border-2 border-[#584F65] rounded-xl" />
     </div>
 </template>
 
@@ -311,5 +312,9 @@ export default Vue.extend({
 <style lang="postcss" scoped>
 ::v-deep .nuxt-content p {
   @apply pb-8
+}
+
+::v-deep .nuxt-content h1 {
+  @apply text-2xl
 }
 </style>

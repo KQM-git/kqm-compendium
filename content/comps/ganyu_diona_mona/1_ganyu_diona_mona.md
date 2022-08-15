@@ -1,107 +1,106 @@
 ---
 title: Ganyu Venti Mona Diona Freeze
 authors:
-	- Rare Possum
+  - Rare Possum
 healing: 2
 shielding: 2
 difficulty: 2
 tags:
-	- Ganyu
-	- Venti
-	- Diona
-	- Mona
-	- Single Carry
-	- Ranged
-	- Energy Hungry
-	- Tight Rotation
-	- Freeze
-	- F2P Gear
-	- AoE
+  - Ganyu
+  - Venti
+  - Diona
+  - Mona
+  - Single Carry
+  - Ranged
+  - Energy Hungry
+  - Tight Rotation
+  - Freeze
+  - F2P Gear
+  - AoE
 pros:
-	- Very strong in AoE
-	- Allows for hyper-investing into a single domain
-	- High Freeze uptime
-	- Great grouping
-	- Not only retains its DPS in AoE, but increases as more enemies arrive
-	- Ganyu snapshots herself if performed fast enough
-	- Units are not highly contested outside of freeze teams
-	- Ganyu needs close pretty much no Energy Recharge
+  - Very strong in AoE
+  - Allows for hyper-investing into a single domain
+  - High Freeze uptime
+  - Great grouping
+  - Not only retains its DPS in AoE, but increases as more enemies arrive
+  - Ganyu snapshots herself if performed fast enough
+  - Units are not highly contested outside of freeze teams
+  - Ganyu needs close pretty much no Energy Recharge
 cons:
-	- Mona is extremely energy hungry (cannot use TTDS and must use an Energy weapon)
-	- Does not do well against unfreezable enemies or in single target
-	- Many enemies cannot be grouped by Venti while unfrozen, though this can be offset by proper gameplay
-	- 3 5-stars, with 2 being limited makes this team quite expensive
-
+  - Mona is extremely energy hungry (cannot use TTDS and must use an Energy weapon)
+  - Does not do well against unfreezable enemies or in single target
+  - Many enemies cannot be grouped by Venti while unfrozen, though this can be offset by proper gameplay
+  - 3 5-stars, with 2 being limited makes this team quite expensive
 sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsrWzWNB-dvt3DARRK?e=1dM6dG
 gcsim_url: https://gcsim.app/viewer/share/perm_hnHmvaxIRA6MUBkaY-Mo3
 rotation:
-	- duration: 17.5s
-	- video_url: https://youtu.be/1ybZ2mSOYg8
+  duration: 17.5s
+  video_url: https://youtu.be/1ybZ2mSOYg8
 characters:
-	- name: Ganyu
-	  star: 5
-	  constellation: 0
-	  weapon:
-		name: Prototype Crescent
-		refinement: 5
-	  artifacts: 
-		- Blizzard Strayer
-	- hp: 16057
-	- atk: 2099
-	- def: 747
-	- em: 40
-	- er: 111.0
-	- cr: 44.7
-	- cd: 216.8
-	- dps: 30650
-	- name: Mona
-	  star: 5
-	  constellation: 0
-	  weapon:
-		name: Favonius Codex
-		refinement: 3
-	  artifacts: 
-		- Noblesse Oblige
-	- hp: 16729
-	- atk: 1378
-	- def: 773
-	- em: 40
-	- er: 247.5
-	- cr: 62.58
-	- cd: 103.0
-	- dps: 2176
-	- name: Venti
-	  star: 5
-	  constellation: 0
-	  weapon:
-		name: The Stringless
-		refinement: 3
-	  artifacts: 
-		- Viridescent Venerer
-	- hp: 16864
-	- atk: 1577
-	- def: 791
-	- em: 845
-	- er: 170.6
-	- cr: 14.9
-	- cd: 63.2
-	- dps: 9073
-	- name: Diona
-	  star: 4
-	  constellation: 6
-	  weapon:
-		name: Favonius Warbow
-		refinement: 3
-	  artifacts: 
-		- Tenacity of The Millelith
-	- hp: 27148
-	- atk: 1076
-	- def: 715
-	- em: 40
-	- er: 172.2
-	- cr: 69.2
-	- cd: 129.4
-	- dps: 380
+  - name: Ganyu
+    star: 5
+    constellation: 0
+    weapon:
+      name: Prototype Crescent
+      refinement: 5
+    artifacts: 
+      - Blizzard Strayer
+    hp: 16057
+    atk: 2099
+    def: 747
+    em: 40
+    cr: 44.7
+    cd: 216.8
+    er: 111.0
+    dps: 30650
+  - name: Mona
+    star: 5
+    constellation: 0
+    weapon:
+      name: Favonius Codex
+      refinement: 3
+    artifacts: 
+      - Noblesse Oblige
+    hp: 16729
+    atk: 1378
+    def: 773
+    em: 40
+    cr: 62.58
+    cd: 103.0
+    er: 247.5
+    dps: 2176
+  - name: Venti
+    star: 5
+    constellation: 0
+    weapon:
+      name: The Stringless
+      refinement: 3
+    artifacts: 
+      - Viridescent Venerer
+    hp: 16864
+    atk: 1577
+    def: 791
+    em: 845
+    cr: 14.9
+    cd: 63.2
+    er: 170.6
+    dps: 9073
+  - name: Diona
+    star: 4
+    constellation: 6
+    weapon:
+      name: Favonius Warbow
+      refinement: 3
+    artifacts: 
+      - Tenacity of the Millelith
+    hp: 27148
+    atk: 1076
+    def: 715
+    em: 40
+    cr: 69.2
+    cd: 129.4
+    er: 172.2
+    dps: 380
 ---
 
 # **Notes:**  

@@ -109,7 +109,7 @@
 
         <div
             v-if="tabs.length > 1"
-            class="w-full flex flex-row space-x-3 overflow-x-auto"
+            class="w-full flex flex-row space-x-3 overflow-x-auto pb-3"
         >
             <button
                 v-for="(tab_title, i) in tabs.map(tab => tab.tab_title)"
@@ -143,12 +143,20 @@ import Vue from 'vue'
 export default Vue.extend({
     name: 'RotationDetailPage',
     validate ({ $content, params }) {
-        return $content('rotations', params.slug, { deep: true }).fetch().then((results) => {
-            return results.length > 0
+        return $content({ deep: true }).fetch().then((results) => {
+            return results.filter((obj: any) => obj.slug.includes(params.slug)).length > 0
         })
     },
     async asyncData ({ $content, params, query }) {
-        const tabs = await $content('rotations', params.slug, { deep: true }).fetch() as any[]
+        let tabs: any[]
+        try {
+            const comps = await $content('comps', params.slug, { deep: true }).fetch() as any[]
+            tabs = comps
+        } catch (err) {
+            const rotations = await $content('rotations', params.slug, { deep: true }).fetch() as any[]
+            tabs = rotations
+        }
+
         const composition = tabs[0]
         const tabIndex = Number(query.tab ?? 0)
         const tab = tabs[tabIndex]

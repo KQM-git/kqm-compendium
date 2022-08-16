@@ -1,5 +1,5 @@
 <template>
-    <main-view :name="'comps'" />
+    <main-view :name="['comps']" />
 </template>
 
 <script lang="ts">

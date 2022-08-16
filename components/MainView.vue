@@ -47,12 +47,12 @@ export default Vue.extend({
     name: 'MainView',
     props: {
         name: {
-            type: String,
+            type: Array,
             required: true
         },
         path: {
             type: String,
-            required: true
+            default: ''
         }
 
     },
@@ -60,15 +60,17 @@ export default Vue.extend({
         return {
             search: '',
             searchTerms: [] as string[],
-            compositions: []
+            compositions: [] as any[]
         }
     },
     async fetch () {
-        this.compositions = (await this.$content(this.name, { deep: true }).where({ extension: '.md' })
-            .sortBy('createdAt', 'asc')
-            .fetch())
-            .filter((x: any) => x.slug.includes('1_'))
-            .filter((x: any) => this.searchTerms.every((term: string) => x.tags.join('').match(RegExp(term, 'i'))))
+        this.compositions = [].concat(...(await Promise.all((this.name).map(async (name) => {
+            return await (await this.$content(name as string, { deep: true }).where({ extension: '.md' })
+                .sortBy('createdAt', 'asc')
+                .fetch())
+                .filter((x: any) => x.slug.includes('1_'))
+                .filter((x: any) => this.searchTerms.every((term: string) => x.tags.join('').match(RegExp(term, 'i'))))
+        }))))
     },
     methods: {
         submit () {

@@ -172,7 +172,7 @@ export default Vue.extend({
         },
         path: {
             type: String,
-            default: ''
+            required: true
         }
     }
 })

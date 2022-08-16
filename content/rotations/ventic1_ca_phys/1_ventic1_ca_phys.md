@@ -25,8 +25,8 @@ cons:
   - requires cancels for higher damage
   - destroys your hands
 rotation:
-  duration: 21s
-  video_url: https://youtu.be/AuV4dYZJh9A
+  duration: 20 seconds
+  video_url: https://youtu.be/ye72-zY8yBk
 characters:
   - name: Venti
     star: 5

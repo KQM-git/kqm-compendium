@@ -13,28 +13,28 @@
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.healing]"
                 >
-                    <img src="~/assets/icons/healing.png" class="lg:h-10 max-h-10">
+                    <img src="~/assets/icons/healing.png" class="max-h-[33px]">
                     {{ {1: 'No Healing', 2: 'Some Healing', 3: 'Healing'}[composition.healing] }}
                 </div>
                 <div
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-red-400', 2: 'text-yellow-400', 3: 'text-green-400'}[composition.shielding]"
                 >
-                    <img src="~/assets/icons/shield.png" class="lg:h-10 max-h-10">
+                    <img src="~/assets/icons/shield.png" class="max-h-[33px]">
                     {{ {1: 'No Shielding', 2: 'Some Shielding', 3: 'Shielding'}[composition.shielding] }}
                 </div>
                 <div
                     class="flex flex-col items-center font-bold"
                     :class="{1: 'text-green-400', 2: 'text-yellow-400', 3: 'text-red-400', 4: 'text-red-600'}[composition.difficulty]"
                 >
-                    <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="lg:h-10 max-h-10">
+                    <img :src="require(`~/assets/icons/star_${composition.difficulty}.png`)" class="max-h-[33px]">
                     {{ {1: 'Easy', 2: 'Medium', 3: 'Difficult', 4: 'Very Difficult'}[composition.difficulty] }}
                 </div>
                 <div
                     v-if="composition.target"
                     class="flex flex-col items-center font-bold"
                 >
-                    <img :src="require(`~/assets/icons/target_${composition.target}.png`)" class="lg:h-10 max-h-10">
+                    <img :src="require(`~/assets/icons/target_${composition.target}.png`)" class="max-h-[33px]">
                     {{ {1: 'Only ST', 2: 'Mostly ST', 3: 'AoE', 4: 'Only AoE'}[composition.target] }}
                 </div>
             </div>

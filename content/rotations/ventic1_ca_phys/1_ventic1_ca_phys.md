@@ -28,7 +28,7 @@ rotation:
   duration: 21s
   video_url: https://youtu.be/AuV4dYZJh9A
 characters:
-- name: Venti
+  - name: Venti
     star: 5
     constellation: 1
     weapon:
@@ -37,7 +37,7 @@ characters:
     artifacts:
       - Pale Flame
       - Bloodstained Chivalry
-- name: Bennett
+  - name: Bennett
     star: 4
     constellation: 1
     weapon:
@@ -45,15 +45,15 @@ characters:
       refinement: 1
     artifacts:
       - Noblesse Oblige
-- name: Rosaria
+  - name: Rosaria
     star: 4
     constellation: 0
     weapon:
       name: Favonius Lance
       refinement: 3
     artifacts:
-      - Emblem of the Severed Fate
-- name: Fischl
+      - Emblem of Severed Fate
+  - name: Fischl
     star: 4
     constellation: 0
     weapon:

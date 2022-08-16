@@ -81,7 +81,7 @@ This composition functions best in AoE, allowing both Chongyun's burst and Amber
   
 Approximate Energy Requirements:
 Amber: 100-110%  
-Chongyun: 100%, 120-130% if no funneling  
+Chongyun: 120%, 150% if no funneling  
 Sucrose: N/A  
 Diona: 200%, 250% if feeding particles to Chongyun  
 

@@ -11,8 +11,8 @@
                         'background-image': `url(${require('~/assets/icons/magnify.svg')})`,
                         'background-position': '0.5em 50%'
                     }"
-                    @keyup.enter="submit()"
-                    @keyup.delete="removeLastTerm()"
+                    @keydown.enter="submit()"
+                    @keydown.delete="removeLastTerm()"
                 >
             </form>
         </div>
@@ -85,8 +85,10 @@ export default Vue.extend({
             this.$fetch()
         },
         removeLastTerm () {
-            this.searchTerms.pop()
-            this.$fetch()
+            if (this.search === '') {
+                this.searchTerms.pop()
+                this.$fetch()
+            }
         }
     }
 })

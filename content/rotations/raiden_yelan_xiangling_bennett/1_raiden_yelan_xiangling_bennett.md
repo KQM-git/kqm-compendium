@@ -71,11 +71,11 @@ This team replaces Xingqiu with Yelan in the famous Raiden Xiangling Overvape co
 This team excels in single target content, as overloads can launch mob enemies out of range of attacks, and Xiangling's burst will not vape on enemies that aren't targetted by Yelan's burst.
 <br></br>
 
-Energy Requirements:
-Raiden: 180%
-Yelan: 150%
-Bennett: 110%
-Xiangling: 160%
+Energy Requirements:  
+Raiden: 180%  
+Yelan: 150%  
+Bennett: 110%  
+Xiangling: 160%  
 <br></br>
 
 # **Rotation Notes**  

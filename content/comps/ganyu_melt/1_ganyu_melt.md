@@ -6,6 +6,7 @@ authors:
 healing: 2
 shielding: 3
 difficulty: 2
+target: 2
 tags:
   - Ganyu
   - Xiangling
@@ -96,7 +97,7 @@ characters:
  
 # **Notes**  
 This calc follows the KQMC Standards and takes single-target damage over the course of 5 rotations. Video submitted does not have C4+ Xiangling which caused her burst to not last long enough and for Cryo Aura to takeover, but this comp and rotation has also been tested with it and has been confirmed to work fine. This configuration makes use of Favonius of different weapon types, which is the more accessible version and serves as the baseline of the comp but has a heavily capped ceiling with Bennett unable to use swords with higher base attack. While both Ganyu's Charge Attacks and Xiangling's Burst both have decent AoE, the lack of grouping render these potentials ineffective in many real-world scenarios. Despite having 2 Favonius weapons in the team, Xiangling and Bennett still require an absurdly high amount of ER on top of needing a similarly high amount of Crit Rate (for Fav proc reliability) in order for the team to function, making the team expensive to build. This version however run Zhongli on gears that are extremely cheap and easy to obtain, which sort of roughly tips the scale. With a thick shield and good source of healing present, this comp puts one's worries about dying or being interrupted while charging away and is very comfortable to play. Overall fast execution and learning M1-R Dash Cancels for PC players are highly recommended for optimal buff uptime, but one may have to be cautious to not use Ganyu Skill too soon before the Pyronado reapplies Pyro Aura as it can result in a few unmelted Ganyu attacks.
- 
+ <br></br>
  
 # **Rotation Notes**  
 Bennett E  
@@ -105,6 +106,6 @@ Zhongli hE Dash
 Bennett Q E  
 Xiangling Q  
 Ganyu 5CA E CA  
-
+<br></br>
 
 **Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice.

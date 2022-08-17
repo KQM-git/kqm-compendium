@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 2
 difficulty: 1
+target: 2
 tags:
   - Eula
   - Fischl
@@ -91,15 +92,17 @@ characters:
 ---
 
 # **Notes**
-This team has consistent energy generation thanks to having two cryo batteries and Fischl. Although damage is not the highest out of Eula teams it is simple to execute and build for. Fishcl makes use of ToM which shares an artifact domain with Eula's ideal set. Rosaria is encouraged to stack crit rate to share to her allies, and Diona only needs ER% and a splash of crit rate to proc Favonius Warbow. Favonius Lance is also a good option for Rosaria as it reduces the team's energy requirements even further.
-
+This team has consistent energy generation thanks to having two cryo batteries and Fischl. Although damage is not the highest out of Eula teams it is simple to execute and build for. Fishcl makes use of ToM which shares an artifact domain with Eula's ideal set. 
+<br></br>
+Rosaria is encouraged to stack crit rate to share to her allies, and Diona only needs ER% and a splash of crit rate to proc Favonius Warbow. Favonius Lance is also a good option for Rosaria as it reduces the team's energy requirements even further.
+<br></br>
 # **Energy Requirements**
 Eula - 141%  
 Fischl - 132%  
 Rosaria - 154%  
 Diona - 182%
-
+<br></br>
 # **Rotation Notes**
 Fischl E > Rosaria Q E > Eula E > Diona Hold E Q > Eula E Q N4 Hold E N4 (Repeat (with Fischl Q))
-
+<br></br>
 **Disclaimer:** human error can create rotation length differences. Solver was used to optimize substats; your personal substats are different.

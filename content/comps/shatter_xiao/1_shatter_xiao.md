@@ -105,18 +105,20 @@ characters:
 # **Notes**
 
 Full Guide for Physical Xiao can be found at: https://docs.google.com/document/d/1OH_BpReDwCK98dZeeRy5_2hD7IJRX9goqHAeoqoHqpA/edit?usp=sharing.
-
+<br></br>
 Physical Shatter-Freeze-Superconduct Xiao is a highly-technical but fun team for Xiao, with its rotations designed for a quickswap playstyle. It utilises two characters with short CDs to synergise with Xiao's short fieldtime, providing utility and damage as well as ensuring that gaps are filled in which makes the rotation repeatable.
-
+<br></br>
 The whole rotation time revolves around Barbara's E uptime, since essentially one chunk of your damage comes from cycling Barbara's CAs for heals and Clam bubbles; freezing enemies through swapping into Rosaria mid-rotation also is recommended. 
-
+<br></br>
 Sara buffs can be utilised through using Charged Attacks, Bursting or her Elemental Skill, in order of recommendations. This fully utilises her C2 and quickswap rotating playstyle, as well as giving players more breathing room to choose her buffs from. Just E into Xiao, although more friendly to play, is not recommended for more optimal gameplay as it leaves no room for additional swapping as well as being a step-down when compared against the other two options.
-
+<br></br>
 Rosaria is invaluable both as a Cryo applicator and as a buffer, yielding as much as 60% Physical Shred from her C6 as well as Superconduct. She also offers much personal damage.
+<br></br>
 
 **Credits:**
 Risuke#6743 (rotation crafter and example video)
 Felician#5771 (sheet/guide writer)
+<br></br>
 
 # **Rotation Notes**  
 Barbara E D N2C  

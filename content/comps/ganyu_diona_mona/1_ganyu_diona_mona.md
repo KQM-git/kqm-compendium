@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 2
 difficulty: 2
+target: 4
 tags:
   - Ganyu
   - Venti
@@ -105,13 +106,13 @@ characters:
 
 # **Notes:**  
 The rotation has Venti use his Elemental Skill twice. However, this is hard to pull off while keeping the rotation fast enough to snapshot Ganyu's A4. If the player is unable to do this, it should not be done. The DPS loss is quite small, however the primary concern is the increase in Energy Recharge on both Mona and Venti (Up to 265 on Mona and 210 on Venti with Diona and Mona on Favonius Weapons. This can be lowered by using Favonius Warbow on Venti as well, however that is a lot of Favonius Weapons). It is difficult for Venti to take advantage of Diona's C6 EM, hence it is not used in this sheet.  
-
+<br></br>
 The rotation must complete within about 18s in order to snapshot Ganyu's A4 onto her Burst. Without that there is a significant decrease in DPS. Rotation is tight and it is not always possible to use Venti's second E, which drastically raises energy costs, requiring him to use either Energy Recharge sands or a second Favonius Warbow (Mona increases to 265 ER while Venti increases to 210, unless he also uses Favonius Warbow) 
-
+<br></br>
 This team excels in AoE scenarios, especially where Venti can and group the enemies together. This is one of the few teams that not only maintains most of its damage in AoE, but increases as the number of enemies increase.  
-
+<br></br>
 Venti is actually using ATK/ATK/CR here becomes for some reason that performed the best. This makes it easier to farm compared to typical triple EM sets. Favonius Warbow is given for free at the start of the game, Prototype Crescent is craftable, and Diona use +0 artifacts if need be.
-
+<br></br>
 # **Rotation Notes**  
 Ganyu CA at the start if using Prototype Crescent, otherwise ignore at this step  
 
@@ -122,6 +123,6 @@ Mona QN1E
 Ganyu 2CA  
 Venti EN1 (should skip if not enough time)  
 Ganyu CA  
-
+<br></br>
 # **Note About Sim**  
 Sim has slightly higher DPS due to its speed, compeleting the rotation a whole two seconds faster, even with waits. In addition, sim generally demands higher Energy Requirements, so the sim was done with infinite ER but with the stats used in the sheet. 

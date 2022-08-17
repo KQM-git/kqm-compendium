@@ -6,6 +6,7 @@ authors:
 healing: 2
 shielding: 3
 difficulty: 2
+target: 2
 tags:
   - Ganyu
   - Xiangling
@@ -96,7 +97,7 @@ characters:
  
 # **Notes**
 This calc follows the KQMC Standards and takes single-target damage over the course of 5 rotations. Video submitted does not have C4+ Xiangling which caused her burst to not last long enough and for Cryo Aura to takeover, but this comp and rotation has also been tested with it and has been confirmed to work fine. This configuration makes use of two R3 Favonius Lances which means it's locked to mostly either whale or long-time players, but this allows Bennett to use swords that provide a higher base attack for higher atk buffing, opening up the potential ceiling. Prototype Rancour was used for this specific calc but slapping an Aquila Favonia provides around 5% increase in team DPS. While both Ganyu's Charge Attacks and Xiangling's Burst both have decent AoE, the lack of grouping render these potentials ineffective in many real-world scenarios. Despite having 2 Favonius weapons in the team, Xiangling and Bennett still require an absurdly high amount of ER while Xiangling also requires a high amount of Crit Rate on top of it. With Zhongli having very few onfield damage instances to proc Fav, he too demands to be built with a high Crit Rate. Assuming you follow the rotation by doing Zhongli hE Dash N1, one would have to give him 69.1% Crit Rate for R3, 61.4% for R4, and 55.3% Crit Rate when using an R5 Favonius Lance in order to reach 80% Fav Proc consistency. All these factors make building and getting the team to work extremely hard to achieve. However, with a thick shield and good source of healing present, this comp puts one's worries about dying or being interrupted while charging away and is very comfortable to play. Overall fast execution and learning M1-R Dash Cancels for PC players are highly recommended for optimal buff uptime, but one may have to be cautious to not use Ganyu Skill too soon before the Pyronado reapplies Pyro Aura as it can result in a few unmelted Ganyu attacks.
- 
+<br></br>
  
 # **Rotation Notes**
 Bennett E
@@ -105,6 +106,6 @@ Zhongli hE Dash N1
 Bennett Q E
 Xiangling Q
 Ganyu 4CA E 2CA
-
+<br></br>
 
 **Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice.

@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 2
 difficulty: 1
+target: 3
 tags:
   - Eula
   - Raiden

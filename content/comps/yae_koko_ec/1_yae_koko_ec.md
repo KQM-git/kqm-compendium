@@ -5,6 +5,7 @@ authors:
 healing: 3
 shielding: 1
 difficulty: 2
+target: 2
 tags:
   - Yae
   - Kokomi
@@ -104,19 +105,21 @@ characters:
 
 # **Notes**
 While the optimal rotation for this team is quite long, deviating from this rotation will not lose significant DPS for the team (due to its heavy reliance on turret damage), making it flexible and easy to play.
-
+<br></br>
 However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
-
+<br></br>
 The 3 most important takeaways are to:  
 Buff Yae's burst with TTDS  
 Refresh turrets every 12 seconds  
 Refresh Kokomi's jellyfish before it expires
+<br></br>
 
 # **Energy Requirements**
 Yae - 150%  
 Kokomi - 165%  
 Fischl - 110%  
 Kazuha - 150%
+<br></br>
 
 # **Rotation Notes**
 Yae 3x E  
@@ -127,5 +130,6 @@ Yae Q 3x E
 Kazuha hold E Q  
 Fischl Q  
 Kokomi Q 5x N2C
+<br></br>
 
 **Credits to Charisma#5567 for helping me playtest rotations.**

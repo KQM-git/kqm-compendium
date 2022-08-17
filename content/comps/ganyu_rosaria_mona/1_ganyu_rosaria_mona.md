@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 1
 difficulty: 2
+target: 4
 tags:
   - Ganyu
   - Rosaria
@@ -100,9 +101,9 @@ characters:
 # **Notes**
 
 This calc follows the current KQMC Standards, simulated with 2 targets but only accounting for the damage on the primary target, done over the course of 5 rotations, uses a mix of craftable and non-limited gacha weapons, 20*4/15 Ganyu Icicles, 15 Venti Burst Absorption Procs, and 18 Swirls. 20 Icicle assumption was derived by weighing the average icicles for split enemies and sucked by Venti's Burst/Frozen (14.74 Icicles = 2 Split Targets, 24.74 = 2 Venti'd Targets) and each multiplied by the duration of the mentioned conditions based on the Rotation Timeline ((7/15) * 14.74 + (8/15) * 24.74 = 20.07 ≈ 20 Icicles.) Icicle count became 15 Icicles for the 5th rotation as the omitted 5 Icicles overlap with the 6th rotation. Gcsim numbers don't penalize periods where there's no grouping nor freeze as it's not implemented at the time of writing whereas this sheet does, but allows for Favonius refinements and proc rate variance to affect the DPS, and are some of the factors that have to be kept in mind. ER requirements were determined through Gcsim, while the remaining fluid substats were optimized with the Solver.
-
+<br></br>
 This team has a very good primary target damage for situations where there are 2 or more enemies that are freezable, can be crowd controlled by Venti's Burst, and one of the enemies has a weak spot if using Prototype Crescent. But considering this isn't always the case, this comp ends up performing worse or even not worth considering in certain situations such as against non-freezable enemies, bosses, and pure single target scenarios. The majority of the time is spent in i-frames and with enemies frozen making it quite comfy to play. It technically has some form of healing with the Prototype Amber, but its healing capability may not be enough for some. This variation of Ganyu Freeze has extremely low rotation length which causes ER requirements to shoot high up, making 2 Favonius weapons somewhat mandatory. Refinement 5 for the Favonius weapons is the most ideal for a guaranteed proc chance on both Rosaria and Venti Es and better rotation consistency. Swaps need to be done as fast as possible to keep the rotation times low.
- 
+<br></br>
 # **Rotation Notes**
  
 (Ganyu CA - Only for the first Rotation if you're using Prototype Crescent)
@@ -114,5 +115,6 @@ Mona Q
 Rosaria E
 Ganyu CA
 Venti E
- 
+<br></br>
+
 **Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice. 

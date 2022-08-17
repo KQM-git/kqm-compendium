@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 1
 difficulty: 2
+target: 3
 tags:
   - Ayato
   - Raiden Shogun
@@ -95,7 +96,7 @@ characters:
 # **Notes**  
 
 This team is more of a Raiden team than an Ayato one, with the majority of buffs being active during Raiden's Burst. While it has similar DPR to the Fischl variant, both Raiden and Ayato desiring field time means that the rotation is extended, leading to overall less DPS. Furthermore, this team may struggle to Swirl both Hydro and Electro, oftentimes only Swirling Electro, especially with Kazuha's second Skill cast. 
- 
+<br></br>
 # **Rotation Notes:**  
 Raiden E  
 Bennett EQ  
@@ -104,6 +105,6 @@ Kazuha hEP Q
 Raiden Q 3N3C N1C  
 Kazuha hEP  
 Ayato E (N15)  
- 
+<br></br>
 **Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice. 
  

@@ -5,6 +5,7 @@ authors:
 healing: 1
 shielding: 1
 difficulty: 4
+target: 1
 tags:
   - Hu Tao 
   - Amber
@@ -95,18 +96,21 @@ characters:
 # **Notes**
 
 Deals high damage in single-target while having semi-accessible gearings for F2P players. Hu Tao stacks several buffs via 4pc Instructor, Sucrose's EM share, and TTDS to deal tremendous amounts of damage during her Paramita Papilio infusion window. This team also scales well through high investment, better weapons, and character constellations.
+<br></br>
 
 On the flip side, the team presents a few downsides. Most notably, the lack of shielding and healing which may lead to survivability issues. The rotation itself can also be on the more difficult side to execute as it is necessary to VV both Hydro and Pyro while maximizing buff uptime on Hu Tao to maximize DPS.
+<br></br>
 
 When reading the attached sheet, the following should be considered:  
+<br></br>
 
 Amber's damage can be taken to be negligible (4pc Instructor is assumed as a buff, but 5* artifact placeholders are used to due to a lack of 4* artifacts implementation).  
+<br></br>
 
 Sucrose's Burst is assumed to never be used but can be used in actual gameplay for better uptime on her EM share.  
 
-Hu Tao's Burst damage is averaged out for 2 rotations.  
-
-Hu Tao's A1 passive is not accounted for.  
+Hu Tao's Burst damage is averaged out for 2 rotations.  Hu Tao's A1 passive is not accounted for.  
+<br></br>
 
 # **Rotation Notes**
 
@@ -115,12 +119,14 @@ Xingqiu EQ N1
 Amber Q N1  
 Sucrose N3 E N1  
 Hu Tao Tao E 8N1CJ Q  
+<br></br>
 
 **Second rotation**:  
 Xingqiu EQ N1  
 Amber Q N1  
 Sucrose N3 E N1  
 Hu Tao E 8N1CJ
+<br></br>
 
 **Disclaimer:** May require an extra attack on Sucrose in order to VV Hydro. 
 

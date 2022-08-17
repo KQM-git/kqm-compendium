@@ -5,6 +5,7 @@ authors:
 healing: 1
 shielding: 3
 difficulty: 1
+target: 3
 tags:
   - Itto
   - Gorou
@@ -98,6 +99,7 @@ characters:
 # **Notes**
 
 This calc uses Free-to-Play gear on all units, with the exception of Favonius Lance on Zhongli, which can be replaced with Black Tassel. Itto's ER requirements can be higher depending on particle RNG. Higher DMG combos on Itto can be used, but the one covered here is relatively hard. Visit https://keqingmains.com/itto/ to learn more about his combos. 4ToM on Zhongli can be dropped for a <5% dps decrease.
+<br></br>
 
 # **Rotation Notes**
 
@@ -107,5 +109,6 @@ Gorou EQ >
 Albedo E >  
 Itto N1 Q  >
 Itto NA1 E NA2 NA3 C3F N4 C4F E CF
+<br></br>
 
 **Note About Sim:** Itto does not seem to sim properly as of writing this (April 10th, 2022). If this is fixed, a sim will be added here.

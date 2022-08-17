@@ -5,6 +5,7 @@ authors:
 healing: 3
 shielding: 1
 difficulty: 2
+target: 2
 tags:
   - Ayaka
   - Shenhe
@@ -98,20 +99,20 @@ characters:
 
 # **Notes**  
 The gold standard for Freeze teams. Performs well in single target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team. 
-
+<br></br>
 There are two important drawbacks to keep in mind:
-
+<br></br>
 First, about 70% of Ayaka's DPS and 50% of the entire team's DPS is all loaded in Ayaka's Burst. Against enemies that are very mobile and/or can't be Frozen, the team's DPS can easily be halved or worse. Some examples of difficult matchups include:  
-Maguu Kenki  
-Rifthounds  
-Perpetual Mechanical Array  
-Thunder Manifestation
-
-Second, because of how the majority of the team's DPS is frontloaded into Ayaka's Burst, this team struggles in content that requires clearing multiple successive waves of enemies, or against enemies with HP gates. Some examples include:  
-Perpetual Mechanical Array (killing its automatons and then the main body)  
-Maguu Kenki (invulnerable phase at 70% HP)  
-Events such as Vibro-Crystal Research (multiple waves of mobs)
-
+- Maguu Kenki  
+- Rifthounds  
+- Perpetual Mechanical Array  
+- Thunder Manifestation
+<br></br>
+Second, because of how the majority of the team's DPS is frontloaded into Ayaka's Burst, this team struggles in content that requires clearing multiple successive waves of enemies, or against enemies with HP gates. Some examples include:   
+- Perpetual Mechanical Array (killing its automatons and then the main body)  
+- Maguu Kenki (invulnerable phase at 70% HP)  
+- Events such as Vibro-Crystal Research (multiple waves of mobs)
+<br></br>
 **Rotation:**  
 Ayaka E N1C (for Amenoma, skip otherwise)  
 Shenhe Q E  

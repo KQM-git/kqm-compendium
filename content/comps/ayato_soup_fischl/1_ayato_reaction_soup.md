@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 1
 difficulty: 2
+target: 3
 tags:
   - Ayato
   - Fischl
@@ -94,7 +95,7 @@ characters:
 # **Notes**  
 
 A strong team made up of strong and synergistic units, especially in AoE where Kazuha's contribution through Swirls is greatly increased. Bennett provides a massive ATK buff and healing to the team as well as the Pyro application for Kazuha's Burst to absorb off of. Kazuha, in turn, provides a DMG% buff, 4 VV, CC, and high-damage Swirls and Overloads. These Overloads are enabled by Fischl's Electro application, with Ayato as a Hydro applicator to more easily maintain the Electro aura.  
- 
+<br></br>
 # **Rotation Notes:**  
 Ayato Q  
 Fischl E  
@@ -104,6 +105,6 @@ Bennett EQ
 Fischl Q  
 Kazuha tEP Q  
 Ayato E (N15)   
- 
+<br></br>
 **Disclaimer:** Real-world rotation times and execution will vary from player to player and from situation to situation, which will affect the damage per second in practice. 
  

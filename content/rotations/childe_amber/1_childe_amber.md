@@ -33,7 +33,7 @@ characters:
     star: 5
     constellation: 0
     weapon:
-      name: Viridescent Hunt
+      name: The Viridescent Hunt
       refinement: 1
     artifacts:
       - Heart of Depth

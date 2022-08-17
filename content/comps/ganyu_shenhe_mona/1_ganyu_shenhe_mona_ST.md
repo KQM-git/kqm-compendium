@@ -7,6 +7,7 @@ authors:
 healing: 2
 shielding: 1
 difficulty: 1
+target: 4
 tags:
   - Ganyu
   - Shenhe
@@ -101,11 +102,12 @@ characters:
 # **Notes**
 
 This calc is mostly F2P gear, C0 5 stars,and R5 event/craftable weapons, the only exception being Shenhe and Venti's r3 Favonius weapons. Lower refinements still work but will bring more variance. This team excels in multi target scenarios, especially if the enemy can be picked up by Venti's ultimate. While not being as accessible as other teams, as it contains four 5 stars, it also doesn't use up any premiere 4 star units, such as Bennett or Xingqiu, allowing you to run a very strong team with those units on the other side of the abyss.
+<br></br>
 
 Do note that these numbers are from a 2 freezable target scenario. In single target, non freezable content (bosses like the PMA), this teams dps and survivability scales down drastically, as you lose quadratic scaling on Ganyu ultimate, 20% crit rate from blizzard strayer, and are left with only prototype amber as a source of healing/survivability.
-
+<br></br>
 Damage will go up second rotation onwards due to prototype crescent being active for Ganyu's burst, and left over icicles from the previous rotation.
-
+<br></br>
 # **Rotation Notes**
 
 **Rotation:**  
@@ -119,5 +121,6 @@ Venti E
 Shenhe tE  
 Ganyu 2CA  
 (repeat)
+<br></br>
 
 **Disclaimer:** human error can create rotation length differences. Solver was used to optimize substats; your personal substats are different.

@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 3
 difficulty: 3
+target: 2
 tags:
   - Eula
   - Fischl
@@ -94,14 +95,18 @@ characters:
 
 # **Notes**
 This team excels in 2-3 target situations such as two ruin guards. There is also a strong emphasis on effectively weaving in auto attacks while executing the rotation to maximize Beidou's procs. This in turn makes the team pretty hard to pilot as it is punishing to miss auto attacks for building stacks and Beidou procs. Please note that Beidou's damage contribution shoots up from 18% to 37% when going from one target to two targets.
-
+<br></br>
 # **Energy Requirements**
 Eula - 144%  
 Fischl - 100%    
 Beidou - 155%  
 Diona - 178%  
-
+<br></br>
 # **Rotation Notes**
-Fischl E > Diona Hold E Q > Eula E N2 > Beidou E Q > Eula N1 E N1 Q N1 E N4D N2 Hold E N4  (Repeat)
-
+Fischl E  
+Diona Hold E Q  
+Eula E N2  
+Beidou E Q  
+Eula N1 E N1 Q N1 E N4D N2 Hold E N4  (Repeat)  
+<br></br>
 **Disclaimer:** human error can create rotation length differences. Solver was used to optimize substats; your personal substats are different.

@@ -5,6 +5,7 @@ authors:
 healing: 1
 shielding: 3
 difficulty: 2
+target: 1
 tags:
   - Ningguang
   - Zhongli
@@ -15,7 +16,6 @@ tags:
   - Ranged
   - Turrets
   - Snapshot
-  
 pros:
   - Extremely short rotations allow to cover for mistakes
   - Has two instances of high burst damage
@@ -109,9 +109,12 @@ Zhongli hE Q
 Albedo E  
 Sara CA  
 Ningguang N1C EQE CA
+<br></br>
 
 **Disclaimer:** Ningguang's second E is optional, and she can perform her N2C combos instead of N1Cs instead. Make sure to trigger Favonius on Zhongli before switching. Albedo can skip his E every other rotation, reducing rotation time.
+<br></br>
 
 **Note About Sim:** Energy is set to higher than KQMC to allow for multiple rotations to be done for timing purposes. ER% requirements were calcuated through an Energy Recharge Calculator. Other stats were inputed through a substat solver. These stats were used on the characters in the sim.
+<br></br>
 
 **Credits to naivety | pkach#6934 and Kurt#5846 for helping me with the stats and gcsim, respectively.**

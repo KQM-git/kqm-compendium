@@ -5,6 +5,7 @@ authors:
 healing: 2
 shielding: 1
 difficulty: 3
+target: 3
 tags:
   - Childe
   - Tartaglia
@@ -99,6 +100,7 @@ characters:
 
 # **Notes**  
 This a vaporise team that Vaporises most Xiangling and Childe's burst while Bennett and Sucrose are there to buff both Childe and Xiangling. This calc assumes a looped rotation in order to activate 4 Instructor on Bennett every rotation. Proper rotations are required to play this team to make use of all the buffs. While this teams performs well in both AoE and ST situations it can suffer against certain enemies that don't drop a lot of particles like the PMA but the team is still useable. Sucrose's grouping is not very strong compared to Kazuha or Venti but she is still serviceable as a grouper. Sucrose's burst is not recommended using since it can steal vapes from Xiangling or knock up enemies making Childe and Xiangling miss their hits. Players can choose to modify their rotations to fit multi waved content or enemies with specific attack patterns. 
+<br></br>
 
 **Rotation:**  
 Childe EN2  
@@ -117,9 +119,9 @@ Childe CS
 Bennett E  
 Xiangling funnel  
 Repeat  
-
+<br></br>
 Make sure that you can apply 2U hydro with Childe E to proc Instructors on Bennett and double swirl.  
-
+<br></br>
 The rotation can be slightly modified for AoE scenarios:  
 Childe E (Apply hydro to Enemy A)  
 Bennett Q (Apply pyro to other remaining enemies)  

@@ -5,6 +5,7 @@ authors:
 healing: 1
 shielding: 3
 difficulty: 2
+target: 2
 tags:
   - Diluc
   - Xingqiu
@@ -93,20 +94,19 @@ characters:
 # **Notes**
 
 This is a variant of the Diluc Vaporize team, replacing Bennett with Yelan which sacrifices Diluc's personal damage for an increased share of damage by Yelan and Xingqiu. Zhongli can provide comfortable rotations through Shielding, and damage buffs through Resistance Shred and the 4-set Tenacity of Millelith ATK% buff.
-
+<br></br>
 # **ER Requirements**
 Diluc - 130%  
 Yelan - 180%  
 Xingqiu - 200%  
 Zhongli - 100%  
-
+<br></br>
 # **Rotation Notes**
-
 Zhongli hE D  
 Xingqiu EQ N1  
 Yelan Q N1 E N1  
 Diluc N1 Q N1 E N2 E N2 E N3D N2  
-
+<br></br>
  **Disclaimer**
 The rotation length relies on dash cancels and may be extended due to any variance in execution.
 

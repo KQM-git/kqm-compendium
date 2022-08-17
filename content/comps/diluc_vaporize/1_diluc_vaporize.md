@@ -96,11 +96,11 @@ This is a standard Diluc Vaporize team with Xingqiu, Bennett, and Zhongli. Damag
 <br></br>
 # **Rotation Notes**
 
-Zhongli hE
-Xingqiu EQ N1
-Diluc N1 Q N1 E N2 E N2 E N4
-Bennett N1 E
-Diluc N2
+Zhongli hE  
+Xingqiu EQ N1  
+Diluc N1 Q N1 E N2 E N2 E N4  
+Bennett N1 E  
+Diluc N2  
 <br></br>
 **Video + Extra Notes**
 Video shows examples of some dash cancels that can be performed. Generally dash canceling Zhongli Hold E, Xingqiu E/Q, and Diluc N4 is best. Diluc N1's at the beginning of his field time to potentially trigger a rainsword. Whether he does or not depends on your swap speed, which is affected by ping.

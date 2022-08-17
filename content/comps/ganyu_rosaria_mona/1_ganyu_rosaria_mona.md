@@ -1,5 +1,5 @@
 ---
-title: Ganyu Rosari Mona Freeze
+title: Ganyu Rosaria Mona Freeze
 authors:
   - CC
 healing: 2

@@ -1,7 +1,7 @@
 ---
 title: Sunfire Melt Ganyu
 authors:
-  - XF3
+  - Rare Possum
 healing: 3
 shielding: 3
 difficulty: 4

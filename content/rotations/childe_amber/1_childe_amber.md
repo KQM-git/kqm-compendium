@@ -33,7 +33,7 @@ characters:
     star: 5
     constellation: 0
     weapon:
-      name: Viridescent Hunt
+      name: The Viridescent Hunt
       refinement: 1
     artifacts:
       - Heart of Depth
@@ -69,11 +69,11 @@ characters:
 This team trades a lot of comfort and some damage from the normal Childe Xiangling team for the sake of freeing Bennett without raising Xiangling's ER requirements or rotation time. On paper, C4 Amber can generate 8 particles at once for Xiangling. In practice, players will need to have great awareness of enemy behavior and some luck in order for those bunnies to actually hit. There is also zero healing outside of Prototype Amber Sucrose, a unit with a high cost Burst, further increasing the difficulty of this team. Nonetheless, this is still a Childe Xiangling VV vape team with similar rotation times as the standard. Elegy of the End and C6 Amber can make up some of the damage lost from not having Bennett buff.
 <br></br>
 
-Energy Requirements:
-Tartaglia: 110-120%
-Xiangling: 130-150%
-Amber: 100%
-Sucrose: 200%
+Energy Requirements:  
+Tartaglia: 110-120%  
+Xiangling: 130-150%  
+Amber: 100%  
+Sucrose: 200%  
 <br></br>
 
 # **Rotation Notes**  
@@ -89,7 +89,7 @@ Xiangling E
 Amber EE, CA (shoot both bunnies)  
 Xiangling N3  
 Tartaglia CS  
-Repeat 
+Repeat  
 <br></br>
 Alternative opener:  
 Tartaglia E  

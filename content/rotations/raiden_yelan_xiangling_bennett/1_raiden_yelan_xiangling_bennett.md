@@ -79,18 +79,18 @@ Xiangling: 160%
 <br></br>
 
 # **Rotation Notes**  
-Raiden E (1st rotation only)  
+Raiden E (1st rotation only)    
 Yelan Q  
 Bennett N0 Q, N0 E  
 Xiangling N0 Q, N0 E  
 Yelan N0 E  
-Raiden N0 Q, 3N3C N1C E
+Raiden N0 Q, 3N3C N1C E  
 Yelan E  
 Bennett E  
 Xiangling N3  
 Repeat 
 
-Alternate rotation with 1 Yelan E only:
+Alternate rotation with 1 Yelan E only:  
 Raiden E (1st rotation only)  
 Yelan E Q  
 Bennett N0 Q, N0 E  

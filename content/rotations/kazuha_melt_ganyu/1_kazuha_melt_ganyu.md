@@ -1,0 +1,126 @@
+---
+title: Kazuha Melt Ganyu
+tab_title: Rare Possum - 5 CA
+authors:
+  - Rare Possum
+healing: 2
+shielding: 3
+difficulty: 4
+target: 2
+tags:
+  - Ganyu
+  - Zhongli
+  - Kaedehara Kazuha
+  - Bennett
+  - Single Carry
+  - Single Target
+  - But only really works in AoE
+  - Reverse Melt
+  - Fields
+  - This team Sucks
+  - F2P Gear
+  - Join the Church of Favonius Today!
+pros:
+  - Big Damage Charged Attack Numbers
+cons:
+  - Insanely High Energy Costs 
+  - Timing is extremely tight to do 5 Charged Attacks and 4 is around 15% DPS decrease
+  - Kazuha's Pyro Application in Single Target is incredibly unreliable. Zhonglis E and Ganyu's E will gurantee that you loss control.
+  - The setup is quite senstive and easy to mess up. 
+  - If the enemy is outside of Kauzha's Burst, no Pyro app. 
+  - Using 2 of the most highly demanded supports in the game, and Zhongli on top. All for this. 
+sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsriKBu-LuUmnB2BCX?e=eTjA8A
+rotation:
+  duration: 22.5s
+  video_url: https://www.youtube.com/watch?v=UZPAENnzpwY
+characters:
+  - name: Ganyu
+    star: 5
+    constellation: 0
+    weapon:
+      name: Hamayumi
+      refinement: 5
+    artifacts:
+      - Wanderer's Troupe
+    hp: 16058
+    atk: 1646
+    def: 747
+    em: 346
+    cr: 69.2
+    cd: 167.8
+    er: 111
+    dps: 31539
+  - name: Zhongli
+    star: 5
+    constellation: 0
+    weapon:
+      name: Black Tassel
+      refinement: 5
+    artifacts:
+      - Tenacity of the Millelith
+    hp: 57666
+    atk: 1009
+    def: 869
+    em: 39.64
+    cr: 31.5
+    cd: 63.2
+    er: 111
+    dps: 86.7
+  - name: Kaedehara Kazuha
+    star: 5
+    constellation: 0
+    weapon:
+      name: Favonius Sword
+      refinement: 3
+    artifacts:
+      - Viridescent Venerer
+    hp: 19960
+    atk: 1244
+    def: 946
+    em: 647.76
+    cr: 44.7
+    cd: 63.2
+    er: 235
+    dps: 2766.7
+  - name: Bennett
+    star: 4
+    constellation: 5
+    weapon:
+      name: Favonius Sword
+      refinement: 3
+    artifacts:
+      - Noblesse Oblige
+    hp: 18914.66
+    atk: 1053.64
+    def: 906
+    em: 138.74
+    cr: 39.3
+    cd: 129.4
+    er: 251
+    dps: 2041.2
+---
+
+# **Notes**
+This team sucks. 
+<br></br>
+Please refer to the cons. This rotation assumes 5 CAs. You will not be able to do 5 CAs. 
+<br></br>
+You need more Energy. I don't care how much you have. You still need more. 
+<br></br>
+Sheet assumes first rotation, successive rotations will have Ganyu Melt her E and inital Charged Attack.
+<br></br>
+Many of the problems do get fixed in AoE, but Melt Ganyu is typically a single target orientated team, and the Enemies aren't held in place
+<br></br>
+
+# **Rotation Notes**
+
+Zhongli hE (Break Pillar) (dash)
+Ganyu E CA
+Kazuha tEP
+Bennett Q (clear Cryo)
+(Ganyu E explodes reapplying Cryo)
+Kazuha Q (Swirl Cryo)
+Ganyu 5CA
+Kazuha tEP
+Bennett N1 E
+

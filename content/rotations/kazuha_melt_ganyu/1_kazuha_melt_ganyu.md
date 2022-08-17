@@ -101,16 +101,16 @@ characters:
 ---
 
 # **Notes**
-This team sucks. 
+Though each individial Charged Attack deals a lot of damage, Melt Ganyu with Kazuha suffers from several major issues. The setup is difficult, though this can be overcome with practice.
 <br></br>
-Please refer to the cons. This rotation assumes 5 CAs. You will not be able to do 5 CAs. 
+
+It has extremely high energy requirements, requiring an Energy Recharge Sands along with Energy weapons on both Kazuha and Bennett.
 <br></br>
-You need more Energy. I don't care how much you have. You still need more. 
+
+While it is possible to do 5 Charged Attacks, most people will only be able to do 4. In the event you can only do 4, you should attempt to do a second Benentt E in order to recuperate damage with energy. This requires him to catch the last ticks of his Burst to reduce his skill cooldown. This isn't too hard to do with a bit of practice though. 
 <br></br>
-Sheet assumes first rotation, successive rotations will have Ganyu Melt her E and inital Charged Attack.
-<br></br>
-Many of the problems do get fixed in AoE, but Melt Ganyu is typically a single target orientated team, and the Enemies aren't held in place
-<br></br>
+
+The final, and possibly biggest problem, is in Single Target, Kazuha's Pyro application is unreliable. He applies just enough Pyro to Melt all of Ganyus Charged Attacks, but the addition of Zhongli's Pillar or Ganyu's E can nullify this. However, in AoE, this does get better with additional Pyro Swirls, but Melt Ganyu is generally a single target orientated team.
 
 # **Rotation Notes**
 

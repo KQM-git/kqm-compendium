@@ -2,7 +2,7 @@
     <div>
         <page-banner name="KQM Standards" image-name="kqms.png" />
 
-        <div class="m-3 py-3 px-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white ">
+        <div class="m-3 p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white">
             <p class="text-2xl font-bold">
                 Current Revision: {{ changelog.current_revision }}
             </p>
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="toc m-3 py-3 px-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white ">
+        <div class="toc m-3 p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white">
             <p class="text-2xl font-bold">
                 KQMS
             </p>
@@ -40,9 +40,47 @@
         <div
             v-for="(section, index) in mainSection"
             :key="index"
-            class="main m-3 py-3 px-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white"
+            class="main m-3 p-5 border-2 border-[#584F65] rounded-xl text-white"
+            :class="section[0].tag === 'h2' ? 'bg-[#2D282F]' : 'bg-[#423745] -mt-6 rounded-t-none'"
         >
             <nuxt-content :document="{ body: { children : section } }" />
+        </div>
+
+        <div class="m-3 p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white text-4xl font-bold text-center">
+            Any deviations from these assumptions must be clearly stated and explained.
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div
+                v-for="proposal of proposals"
+                :key="proposal.slug"
+                class="relative m-3 mb-5 p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white"
+            >
+                <p class="font-bold text-2xl">
+                    {{ proposal.title }}
+                </p>
+
+                <p
+                    class="font-bold text-lg"
+                    :class="{
+                        'text-[#FF6060]': proposal.status === 'Denied',
+                        'text-[#FFDB7D]': proposal.status === 'Proposed',
+                        'text-[#64E271]': proposal.status === 'Accepted',
+                    }"
+                >
+                    Status: {{ proposal.status }}
+                </p>
+
+                {{ proposal.description }}
+
+                <p class="text-right text-[#979797]">
+                    {{ proposal.date }}
+                </p>
+                <div class="absolute flex justify-center items-center left-0 -bottom-5 w-full">
+                    <a class="bg-[#423745] border-2 border-[#584F65] rounded-xl text-lg font-bold py-1 px-3 ">
+                        Proposal
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -61,7 +99,7 @@ export default Vue.extend({
         let currentSection = []
         for (let i = 0; i < kqms.body.children.length; i++) {
             const children = kqms.body.children[i]
-            if (children.tag === 'h2' && i !== 0) {
+            if (['h2', 'h3'].includes(children.tag) && i !== 0) {
                 mainSection.push(currentSection)
                 currentSection = []
                 currentSection.push(children)
@@ -72,8 +110,9 @@ export default Vue.extend({
                 currentSection.push(children)
             }
         }
+        const proposals = (await $content('kqms', 'proposals').fetch() as any[]).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
-        return { changelog, kqms, mainSection }
+        return { changelog, kqms, mainSection, proposals }
     }
 })
 </script>
@@ -104,5 +143,25 @@ export default Vue.extend({
 
 ::v-deep .main .nuxt-content h2 {
     @apply font-bold text-2xl
+}
+
+::v-deep .main .nuxt-content h3 {
+    @apply font-bold text-xl
+}
+
+::v-deep .nuxt-content table {
+    @apply mb-3 font-bold
+}
+
+::v-deep .nuxt-content td, ::v-deep .nuxt-content th {
+    @apply pl-5
+}
+
+::v-deep .nuxt-content th .s5 {
+    @apply text-[#DCB131]
+}
+
+::v-deep .nuxt-content th .s4 {
+    @apply text-[#9070A8]
 }
 </style>

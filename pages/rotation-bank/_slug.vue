@@ -184,3 +184,25 @@ export default Vue.extend({
     }
 })
 </script>
+
+<style lang="postcss" scoped>
+::v-deep .nuxt-content > p {
+    @apply mb-5
+}
+
+::v-deep .nuxt-content > ul, ol {
+    @apply pb-5
+}
+
+::v-deep .nuxt-content ul, ol {
+    @apply pl-5
+}
+
+::v-deep .nuxt-content ul p, ol p {
+    @apply mb-1
+}
+
+::v-deep .nuxt-content ul > li {
+    @apply list-disc
+}
+</style>

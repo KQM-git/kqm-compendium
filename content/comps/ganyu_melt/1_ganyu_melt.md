@@ -18,10 +18,10 @@ tags:
   - Aimed Shots
 pros:
   - Tucked in a thick shield and healing making it very comfortable to play
-  - Half of the units (Ganyu and Zhongli) don't have ER Requirements that lets them focus solely on building offensive and defensive stats respectively
+  - Half of the units (Ganyu and Zhongli) don't have ER requirements that lets them focus solely on building offensive and defensive stats respectively
 cons:
   - Locked into using two Favonius weapons as a minimum
-  - Half of the units (Xiangling and Bennett) have extremely high ER Requirements which makes building harder
+  - Half of the units (Xiangling and Bennett) have extremely high ER requirements which makes building harder
   - Has no grouping
 sheet_url: https://1drv.ms/x/s!AhAOxJqIrnClgyxY4NvGHTKl7OCz?e=tXnbtB
 gcsim_url: https://gcsim.app/viewer/share/perm_JRKx2VeIypNQmKZoF7n_n

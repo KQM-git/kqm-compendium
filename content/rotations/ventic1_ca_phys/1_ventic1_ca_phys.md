@@ -74,7 +74,7 @@ Venti can be replaced with another bow character if desired, such as Amber, Dion
   
 Energy Requirements:  
 Venti: 140%  
-Bennett: 190% (Pyro absOrb)  
+Bennett: 190% (Pyro absorb)  
 Rosaria: 180%  
 Fischl: 140%  
 

@@ -98,7 +98,7 @@ characters:
 ---
 
 # **Notes**  
-The gold standard for Freeze teams. Performs well in Single-Target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team. 
+The gold standard for Freeze teams. Performs well in single-target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team. 
 <br></br>
 There are two important drawbacks to keep in mind:
 <br></br>

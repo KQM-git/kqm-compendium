@@ -88,7 +88,7 @@ characters:
     hp: 18915
     atk: 1236
     def: 906
-    em: 40
+    em: 233
     cr: 31.5
     cd: 63.2
     er: 229.2

@@ -27,6 +27,7 @@ cons:
 rotation:
   duration: 24s
   video_url: https://www.youtube.com/watch?v=Ano7SGg3Is4
+sheet_url: https://docs.google.com/spreadsheets/d/1crjcGZb6zJN1aM25iy9xyD_Vo5PVtmw128hpn2oD1Qk/edit#gid=1396622579
 characters:
   - name: Beidou
     star: 4

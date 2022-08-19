@@ -144,7 +144,7 @@ export default Vue.extend({
     name: 'RotationDetailPage',
     validate ({ $content, params }) {
         return $content({ deep: true }).fetch().then((results) => {
-            return results.filter((obj: any) => obj.slug.includes(params.slug)).length > 0
+            return results.filter((obj: any) => obj.path.includes(params.slug)).length > 0
         })
     },
     async asyncData ({ $content, params, query }) {

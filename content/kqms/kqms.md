@@ -22,14 +22,14 @@
 | DEF               |                        19.68 |                        15.74 |
 | Elemental Mastery |                        19.82 |                        15.86 |
 | CRIT Rate         |                        6.62% |                        5.30% |
-| CRIT Damage       |                        5.51% |                        4.41% |
+| CRIT DMG       |                        5.51% |                        4.41% |
 | Energy Recharge   |                        3.31% |                        2.65% |
 
 The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-star stats.
 
 ### Example Distribution
-<!--<br></br>
- **Base Subs**         | **<div class="s5">5-star Subs</div>** | **Fixed Subs** | **Distributed Subs** | **Stats** 
+<br></br>
+ **Stat Type**         | **<div class="s5">5-star Sub Value</div>** | **Fixed Subs** | **Distributed Subs** | **Stats from Subs** 
 |:---------------------|:-------------------------------------:|:--------------:|:--------------------:|:---------:
  HP%               | 4.96%                                 | 2              |                      | 9.92%     
  HP                | 253.94                                | 2              |                      | 507.88    
@@ -39,10 +39,10 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
  DEF               | 19.68                                 | 2              |                      | 39.36     
  Elemental Mastery | 19.82                                 | 2              |                      | 39.64     
  CRIT Rate         | 6.62%                                 | 2              | 8                    | 66.20%    
- CRIT Damage       | 5.51%                                 | 2              | 10                   | 66.12%    
- Energy Recharge   | 3.31%                                 | 2              |                      | 6.62%     -->
+ CRIT DMG          | 5.51%                                 | 2              | 10                   | 66.12%    
+ Energy Recharge   | 3.31%                                 | 2              |                      | 6.62%     
 
- ![](/kqms/example_distribution.png) 
+ <!--![](/kqms/example_distribution.png) -->
 
 ## Weapons
 - All weapons must be at LVL90.
@@ -50,10 +50,10 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
 - Passive uptime assumptions must be specified (ie Lion’s Roar Xingqiu 50% uptime).
 
 ## Constellations
-- All constellations must be specified.
+- All Constellations must be specified.
 
 ## Character and Talent Levels
-- All characters must be LVL90/90 T9(+1)/9(+3)/9(+3).
+- All characters must be LVL 90/90 T9(+1) / 9(+3) / 9(+3).
 
 ## Rotation and Enemy Assumptions
 - Damage must be calculated against LVL100 enemies with 10% universal resistance unless otherwise specified. 

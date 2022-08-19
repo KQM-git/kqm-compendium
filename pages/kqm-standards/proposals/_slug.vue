@@ -44,13 +44,13 @@ import Vue from 'vue'
 
 export default Vue.extend({
     name: 'ProposalDetailPage',
-    validate ({ $content, params }) {
-        return $content('kqms', 'proposals').where(
-            { slug: params.slug }
-        ).fetch().then((results) => {
-            return results.length > 0
-        })
-    },
+    // validate ({ $content, params }) {
+    //     return $content('kqms', 'proposals').where(
+    //         { slug: params.slug }
+    //     ).fetch().then((results) => {
+    //         return results.length > 0
+    //     })
+    // },
     async asyncData ({ $content, params }) {
         const proposal = await $content('kqms', 'proposals', params.slug).fetch() as any
         const mainSection = []

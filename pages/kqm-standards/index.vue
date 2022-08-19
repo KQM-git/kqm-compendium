@@ -157,6 +157,10 @@ export default Vue.extend({
     @apply pl-5
 }
 
+::v-deep .nuxt-content tr:nth-child(2n) {
+    @apply bg-[#6459685E]
+}
+
 ::v-deep .nuxt-content th .s5 {
     @apply text-[#DCB131]
 }

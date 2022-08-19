@@ -76,12 +76,12 @@
                     {{ proposal.date }}
                 </p>
                 <div class="absolute flex justify-center items-center left-0 -bottom-5 w-full">
-                    <a
+                    <NuxtLink
                         class="bg-[#423745] border-2 border-[#584F65] rounded-xl text-lg font-bold py-1 px-3"
-                        :href="`kqm-standards/proposals/${proposal.slug}`"
+                        :to="`kqm-standards/proposals/${proposal.slug}`"
                     >
                         Proposal
-                    </a>
+                    </NuxtLink>
                 </div>
             </div>
         </div>

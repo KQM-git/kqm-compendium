@@ -5,7 +5,7 @@ authors:
 healing: 1
 shielding: 1
 difficulty: 4
-target: 1
+target: 2
 tags:
   - Hu Tao 
   - Amber

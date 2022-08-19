@@ -1,5 +1,6 @@
 ---
 title: Raiden Yelan Xiangling Bennett
+tab_title: BowTae - 2 Yelan E
 authors:
   - BowTae#0141
 healing: 2

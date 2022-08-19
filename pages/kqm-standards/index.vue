@@ -76,9 +76,12 @@
                     {{ proposal.date }}
                 </p>
                 <div class="absolute flex justify-center items-center left-0 -bottom-5 w-full">
-                    <a class="bg-[#423745] border-2 border-[#584F65] rounded-xl text-lg font-bold py-1 px-3 ">
+                    <NuxtLink
+                        class="bg-[#423745] border-2 border-[#584F65] rounded-xl text-lg font-bold py-1 px-3"
+                        :to="`kqm-standards/proposals/${proposal.slug}`"
+                    >
                         Proposal
-                    </a>
+                    </NuxtLink>
                 </div>
             </div>
         </div>
@@ -155,6 +158,10 @@ export default Vue.extend({
 
 ::v-deep .nuxt-content td, ::v-deep .nuxt-content th {
     @apply pl-5
+}
+
+::v-deep .nuxt-content tr:nth-child(2n) {
+    @apply bg-[#6459685E]
 }
 
 ::v-deep .nuxt-content th .s5 {

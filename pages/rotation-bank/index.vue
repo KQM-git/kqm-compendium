@@ -12,6 +12,6 @@ import MainView from '~/components/MainView.vue'
 
 export default Vue.extend({
     name: 'IndexPage',
-    components: { MainView, PageBanner }
+    components: { PageBanner, MainView }
 })
 </script>

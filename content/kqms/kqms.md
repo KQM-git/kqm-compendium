@@ -14,21 +14,35 @@
 ## Stat Scalars Per Roll
 |                   | <div class="s5">5-star</div> | <div class="s4">4-star</div> |
 |:------------------|:----------------------------:|:----------------------------:|
-| HP%               |                        4.96% |                        4.96% |
-| HP                |                       253.94 |                       253.94 |
-| ATK%              |                        4.96% |                        4.96% |
-| ATK               |                        16.54 |                        16.54 |
-| DEF%              |                        6.20% |                        6.20% |
-| DEF               |                        19.68 |                        19.68 |
-| Elemental Mastery |                        19.82 |                        19.82 |
-| CRIT Rate         |                        6.62% |                        6.62% |
-| CRIT Damage       |                        5.51% |                        5.51% |
-| Energy Recharge   |                        3.31% |                        3.31% |
+| HP%               |                        4.96% |                        3.97% |
+| HP                |                       253.94 |                       203.15 |
+| ATK%              |                        4.96% |                        3.97% |
+| ATK               |                        16.54 |                        13.23 |
+| DEF%              |                        6.20% |                        4.96% |
+| DEF               |                        19.68 |                        15.74 |
+| Elemental Mastery |                        19.82 |                        15.86 |
+| CRIT Rate         |                        6.62% |                        5.30% |
+| CRIT Damage       |                        5.51% |                        4.41% |
+| Energy Recharge   |                        3.31% |                        2.65% |
 
 The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-star stats.
 
 ### Example Distribution
-![](/kqms/example_distribution.png)
+<!--<br></br>
+ **Base Subs**         | **<div class="s5">5-star Subs</div>** | **Fixed Subs** | **Distributed Subs** | **Stats** 
+|:---------------------|:-------------------------------------:|:--------------:|:--------------------:|:---------:
+ HP%               | 4.96%                                 | 2              |                      | 9.92%     
+ HP                | 253.94                                | 2              |                      | 507.88    
+ ATK%              | 4.96%                                 | 2              | 2                    | 19.84%    
+ ATK               | 16.54                                 | 2              |                      | 33.08     
+ DEF%              | 6.20%                                 | 2              |                      | 12.40%    
+ DEF               | 19.68                                 | 2              |                      | 39.36     
+ Elemental Mastery | 19.82                                 | 2              |                      | 39.64     
+ CRIT Rate         | 6.62%                                 | 2              | 8                    | 66.20%    
+ CRIT Damage       | 5.51%                                 | 2              | 10                   | 66.12%    
+ Energy Recharge   | 3.31%                                 | 2              |                      | 6.62%     -->
+
+ ![](/kqms/example_distribution.png) 
 
 ## Weapons
 - All weapons must be at LVL90.

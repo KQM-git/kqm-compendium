@@ -12,7 +12,7 @@ tags:
   - Xiangling
   - Bennett
   - Zhongli
-  - Single Target
+  - Single-Target
   - Reverse Melt
   - F2P Gears
   - Aimed Shots
@@ -21,7 +21,7 @@ pros:
   - Ganyu doesn't have ER requirements that lets her focus solely on building offensive stats
 cons:
   - Locked into using two Favonius Lances as a minimum
-  - Xiangling, Bennett, and Zhongli have high ER and Crit Rate requirements which makes building harder
+  - Xiangling, Bennett, and Zhongli have high ER and CRIT Rate requirements which makes building harder
   - Has no grouping
 sheet_url: https://1drv.ms/x/s!AhAOxJqIrnClgyuxwZOABI4mKHnq?e=0iCKKt
 gcsim_url: https://gcsim.app/viewer/share/perm_suZgc1G2dZyPskW58xbJ7
@@ -96,7 +96,7 @@ characters:
 ---
  
 # **Notes**
-This calc follows the KQMC Standards and takes single-target damage over the course of 5 rotations. Video submitted does not have C4+ Xiangling which caused her burst to not last long enough and for Cryo Aura to takeover, but this comp and rotation has also been tested with it and has been confirmed to work fine. This configuration makes use of two R3 Favonius Lances which means it's locked to mostly either whale or long-time players, but this allows Bennett to use swords that provide a higher base attack for higher atk buffing, opening up the potential ceiling. Prototype Rancour was used for this specific calc but slapping an Aquila Favonia provides around 5% increase in team DPS. While both Ganyu's Charge Attacks and Xiangling's Burst both have decent AoE, the lack of grouping render these potentials ineffective in many real-world scenarios. Despite having 2 Favonius weapons in the team, Xiangling and Bennett still require an absurdly high amount of ER while Xiangling also requires a high amount of Crit Rate on top of it. With Zhongli having very few onfield damage instances to proc Fav, he too demands to be built with a high Crit Rate. Assuming you follow the rotation by doing Zhongli hE Dash N1, one would have to give him 69.1% Crit Rate for R3, 61.4% for R4, and 55.3% Crit Rate when using an R5 Favonius Lance in order to reach 80% Fav Proc consistency. All these factors make building and getting the team to work extremely hard to achieve. However, with a thick shield and good source of healing present, this comp puts one's worries about dying or being interrupted while charging away and is very comfortable to play. Overall fast execution and learning M1-R Dash Cancels for PC players are highly recommended for optimal buff uptime, but one may have to be cautious to not use Ganyu Skill too soon before the Pyronado reapplies Pyro Aura as it can result in a few unmelted Ganyu attacks.
+This calc follows the KQMC Standards and takes single-target damage over the course of 5 rotations. Video submitted does not have C4+ Xiangling which caused her Burst to not last long enough and for Cryo aura to takeover, but this comp and rotation has also been tested with it and has been confirmed to work fine. This configuration makes use of two R3 Favonius Lances which means it's locked to mostly either whale or long-time players, but this allows Bennett to use swords that provide a higher Base ATK for higher atk buffing, opening up the potential ceiling. Prototype Rancour was used for this specific calc but slapping an Aquila Favonia provides around 5% increase in team DPS. While both Ganyu's Charged Attacks and Xiangling's Burst both have decent AoE, the lack of grouping render these potentials ineffective in many real-world scenarios. Despite having 2 Favonius weapons in the team, Xiangling and Bennett still require an absurdly high amount of ER while Xiangling also requires a high amount of CRIT Rate on top of it. With Zhongli having very few onfield damage instances to proc Fav, he too demands to be built with a high CRIT Rate. Assuming you follow the rotation by doing Zhongli hE Dash N1, one would have to give him 69.1% CRIT Rate for R3, 61.4% for R4, and 55.3% CRIT Rate when using an R5 Favonius Lance in order to reach 80% Fav Proc consistency. All these factors make building and getting the team to work extremely hard to achieve. However, with a thick shield and good source of healing present, this comp puts one's worries about dying or being interrupted while charging away and is very comfortable to play. Overall fast execution and learning M1-R Dash Cancels for PC players are highly recommended for optimal buff uptime, but one may have to be cautious to not use Ganyu Skill too soon before the Pyronado reapplies Pyro aura as it can result in a few unmelted Ganyu attacks.
 <br></br>
  
 # **Rotation Notes**

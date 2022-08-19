@@ -11,16 +11,16 @@ tags:
   - Bennett
   - Fischl
   - Rosaria
-  - Single Target
+  - Single-Target
   - Superconduct
   - Physical
 pros:
-  - High single target damage
+  - High single-target damage
   - damage scales with player ability
   - makes Venti C1 useful
   - can replace Venti with your favorite bow character
 cons:
-  - mostly single target damage only
+  - mostly single-target damage only
   - needs Venti C1 for max potential, a constellation with otherwise nonexistent value
   - requires cancels for higher damage
   - destroys your hands
@@ -66,15 +66,15 @@ characters:
 
 # **Notes**
 
-This team is one of the fastest at speedrunning Carpal Tunnel syndrome in the game. Joking aside, this is a team that uses CA aim cancels to deal high amounts of single target physical damage. The amount of damage you deal scales directly with how many CAs you are able to shoot per second. While the team can be played without cancels, damage will suffer greatly. ARCC spam is optimal but extremely difficult and painful, so hold M1 spam (holding and releasing left click) is the recommended alternative.
+This team is one of the fastest at speedrunning Carpal Tunnel syndrome in the game. Joking aside, this is a team that uses CA aim cancels to deal high amounts of single-target Physical damage. The amount of damage you deal scales directly with how many CAs you are able to shoot per second. While the team can be played without cancels, damage will suffer greatly. ARCC spam is optimal but extremely difficult and painful, so hold M1 spam (holding and releasing left click) is the recommended alternative.
 
-Venti Burst is optional as this team is mostly single target damage, but it can be used to help with Energy and crowd control, as well as a little AoE damage and grouping for Rosaria Burst.
+Venti Burst is optional as this team is mostly single-target damage, but it can be used to help with Energy and crowd control, as well as a little AoE damage and grouping for Rosaria Burst.
 Venti can be replaced with another bow character if desired, such as Amber, Diona, Sara, etc.  
 
   
 Energy Requirements:  
 Venti: 140%  
-Bennett: 190% (pyro absorb)  
+Bennett: 190% (Pyro absOrb)  
 Rosaria: 180%  
 Fischl: 140%  
 

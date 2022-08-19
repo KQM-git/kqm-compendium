@@ -20,16 +20,16 @@ tags:
   - Sustain Damage
   - Long Rotation
 pros:
-  - Repairs Xiao's three biggest weaknesses; energy, burst duration and lack of shred
+  - Repairs Xiao's three biggest weaknesses; Energy, Burst duration and lack of shred
   - Rotation is quickswap, repeatable and does not desync easily, which makes it easier for short-duration phased bosses like Azhdaha or Childe
   - Cuts down on Xiao talent spending
   - Counter against Anemo-immune mobs like Eye of the Storm 
   - More competitive F2P/Craftable Weapon Choices (Pike, Dragonspine, etc)
-  - Team flexibility (Barbara for AoE, Xiao for Single-Target; Access to 3 elements for shieldbreaking, easier gameplay through Freeze crowd controlling)
+  - Team flexibility (Barbara for AoE, Xiao for single-target; access to 3 Elements for shieldbreaking, easier gameplay through Freeze crowd controlling)
 cons:
   - Easily interruptible 
   - Requires high technical skill to utilise to the fullest
-  - Swaps need to be done extremely quickly for most optimal buffs and energy
+  - Swaps need to be done extremely quickly for most optimal buffs and Energy
 sheet_url: https://docs.google.com/spreadsheets/d/17vxZSHPjLMM-6lqqICQb0DJOC76Sv0yaqgWd8HDBq6w/edit?usp=sharing
 rotation:
   duration: 28s

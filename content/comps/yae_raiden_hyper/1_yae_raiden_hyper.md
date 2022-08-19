@@ -13,19 +13,19 @@ tags:
   - Kaedehara Kazuha
   - Bennett
   - Dual Carry
-  - Single Target
+  - Single-Target
   - Overloaded
   - Fields
   - Dynamic
   - F2P Gear
 pros:
-  - Two high damaging elemental bursts to clear multi-wave content
-  - Balanced between high burst damage and sustained damage
+  - Two high damaging Elemental Bursts to clear multi-wave content
+  - Balanced between high Burst damage and sustained damage
   - Scales well with gear and consellations
   - Still serviceable in AoE with Raiden and Kazuha
 cons:
   - Easily interruptible 
-  - Swaps need to be done extremely quickly for buffs and energy
+  - Swaps need to be done extremely quickly for buffs and Energy
 gcsim_url: https://gcsim.app/viewer/share/perm_u6eXJjZsU_bCYKpSDyKnF
 rotation:
   duration: 22s
@@ -100,7 +100,7 @@ characters:
 
 # **Notes**
 
-This calc uses Free-To-Play gear on all units. Swaps need to be done fast, especially once Bennett puts down his field. Make sure Bennett gets some energy when he performs EQ. Getting interrupted is detrimental to DPS. Similar to other Raiden teams, scales well with better Gear and Constellations. The comp also performs well in AoE scenarios. Unlike Raiden Sara Bennett Kazuha, damage is less front-loaded, making moments where Raiden kills things without restoring energy less common. In addition, Yae can burst down easier waves in multi-wave content and have Raiden burst down the tankier waves. 
+This calc uses Free-To-Play gear on all units. Swaps need to be done fast, especially once Bennett puts down his field. Make sure Bennett gets some Energy when he performs EQ. Getting interrupted is detrimental to DPS. Similar to other Raiden teams, scales well with better Gear and Constellations. The comp also performs well in AoE scenarios. Unlike Raiden Sara Bennett Kazuha, damage is less front-loaded, making moments where Raiden kills things without restoring Energy less common. In addition, Yae can Burst down easier waves in multi-wave content and have Raiden Burst down the tankier waves. 
 <br></br>
 # **Rotation Notes**
 

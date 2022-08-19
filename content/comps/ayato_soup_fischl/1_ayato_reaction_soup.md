@@ -94,7 +94,7 @@ characters:
  
 # **Notes**  
 
-A strong team made up of strong and synergistic units, especially in AoE where Kazuha's contribution through Swirls is greatly increased. Bennett provides a massive ATK buff and healing to the team as well as the Pyro application for Kazuha's Burst to absorb off of. Kazuha, in turn, provides a DMG% buff, 4 VV, CC, and high-damage Swirls and Overloads. These Overloads are enabled by Fischl's Electro application, with Ayato as a Hydro applicator to more easily maintain the Electro aura.  
+A strong team made up of strong and synergistic units, especially in AoE where Kazuha's contribution through Swirls is greatly increased. Bennett provides a massive ATK buff and healing to the team as well as the Pyro application for Kazuha's Burst to absOrb off of. Kazuha, in turn, provides a DMG% buff, 4 VV, CC, and high-damage Swirls and Overloads. These Overloads are enabled by Fischl's Electro application, with Ayato as a Hydro applicator to more easily maintain the Electro aura.  
 <br></br>
 # **Rotation Notes:**  
 Ayato Q  

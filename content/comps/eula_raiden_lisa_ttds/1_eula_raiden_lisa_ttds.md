@@ -17,9 +17,9 @@ tags:
   - Backloaded Damage
 pros:
   - Easy to execute
-  - Doesn't use high profile 4 stars (Bennett, XQ, etc.)
+  - Doesn't use high profile 4-Stars (Bennett, XQ, etc.)
 cons:
-  - Using ttds on Lisa prevents funneling particles to Eula, thus raising Eula's energy requirements
+  - Using ttds on Lisa prevents funneling Particles to Eula, thus raising Eula's Energy requirements
 sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
@@ -93,7 +93,7 @@ characters:
 ---
 
 # **Notes**
-A dual carry team that employs's Lisa's ability to pass the Thrilling Tales of Dragon Slayer buff to Eula while also providing DEF shred on enemies with her elemental burst. A significant portion of damage is done near the end of the rotation when Eula's Lightfall Sword pops and Raiden activates her Burst. This can be used on enemies that have a limited window of vulnerability to output a concentrated amount of burst damage.
+A dual carry team that employs Lisa's ability to pass the Thrilling Tales of Dragon Slayer buff to Eula while also providing DEF Shred on enemies with her Elemental Burst. A significant portion of damage is done near the end of the rotation when Eula's Lightfall Sword pops and Raiden activates her Burst. This can be used on enemies that have a limited window of vulnerability to output a concentrated amount of Burst damage.
 
 # **Energy Requirements**
 Eula - 154%  

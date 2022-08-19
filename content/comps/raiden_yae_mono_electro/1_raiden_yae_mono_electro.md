@@ -12,20 +12,20 @@ tags:
   - Kujou Sara
   - Jean
   - Dual Carry
-  - Single Target
+  - Single-Target
   - Mono Electro
   - Fields
   - Dynamic
   - F2P Gear
 pros:
-  - Two high damaging elemental bursts to clear multi-wave content
-  - Balanced between high burst damage and sustained damage
+  - Two high damaging Elemental Bursts to clear multi-wave content
+  - Balanced between high Burst damage and sustained damage
   - Scales well with gear and consellations
   - Comfortable gameplay
   - Visually pleasing
 cons:
   - Easily interruptible 
-  - Swaps need to be done extremely quickly for buffs and energy
+  - Swaps need to be done extremely quickly for buffs and Energy
 gcsim_url: https://gcsim.app/viewer/share/perm_ZF63ng53v8GeOFGYS1XN9
 rotation:
   duration: 24s

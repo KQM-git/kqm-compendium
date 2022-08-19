@@ -12,19 +12,19 @@ tags:
   - Albedo
   - Zhongli
   - Hypercarry
-  - Single Target
+  - Single-Target
   - Reactionless
   - Fields
   - Snapshot
   - F2P Gear
 pros:
   - Relatively easy to play and rotate
-  - Good sustained damage over a long period of time (the 15s of Itto's burst)
+  - Good sustained damage over a long period of time (the 15s of Itto's Burst)
   - Scales well with gear (Redhorn, Serpent Spine) and constellations (Gorou C6, Itto C2/4/6)
   - Viable in AoE with the range of Itto's Charged Attacks
 cons:
   - No supplemental damage from reactions
-  - Matchup dependent, struggles in content with spread out mobs, and Abyss elemental shield
+  - Matchup dependent, struggles in content with spread out mobs, and Abyss Elemental shield
 sheet_url: https://docs.google.com/spreadsheets/d/1GPEzkjr3Xdt0pHVjBFyo_VV3uMkMZg6f042Quv26yAw/edit?usp=sharing
 rotation:
   duration: 22s
@@ -98,7 +98,7 @@ characters:
 
 # **Notes**
 
-This calc uses Free-to-Play gear on all units, with the exception of Favonius Lance on Zhongli, which can be replaced with Black Tassel. Itto's ER requirements can be higher depending on particle RNG. Higher DMG combos on Itto can be used, but the one covered here is relatively hard. Visit https://keqingmains.com/itto/ to learn more about his combos. 4ToM on Zhongli can be dropped for a <5% dps decrease.
+This calc uses Free-to-Play gear on all units, with the exception of Favonius Lance on Zhongli, which can be replaced with Black Tassel. Itto's ER requirements can be higher depending on Particle RNG. Higher DMG combos on Itto can be used, but the one covered here is relatively hard. Visit https://keqingmains.com/itto/ to learn more about his combos. 4TotM on Zhongli can be dropped for a <5% DPS decrease.
 <br></br>
 
 # **Rotation Notes**

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <page-banner name="Rotation Bank" image-name="main.jpg" />
+        <page-banner name="Calculation Compendium" image-name="main.jpg" />
         <main-view :name="['comps']" />
     </div>
 </template>

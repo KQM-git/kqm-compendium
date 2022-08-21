@@ -17,13 +17,13 @@ tags:
   - Snapshot
   - Hypercarry
 pros:
-  - Very high single target and AoE DPS
+  - Very high single-target and AoE DPS
   - Heavily frontloaded damage
   - Strong grouping through Freeze and Kazuha
-  - Does not use high profile 4 stars (Bennett, Xingqiu, etc.)
-  - Counters all elemental shields except Cryo
+  - Does not use high profile 4-Stars (Bennett, Xingqiu, etc.)
+  - Counters all Elemental shields except Cryo
 cons:
-  - Full limited 5 star team, one of the most expensive teams in the game
+  - Full limited 5-Star team, one of the most expensive teams in the game
   - Struggles against mobile bosses (Maguu Kenki, PMA, Thunder Manifestation)
   - High frontloaded hypercarry damage struggles against multi-wave content or HP gates (Maguu Kenki)
 sheet_url: https://docs.google.com/spreadsheets/d/1dWxVJOnXXG7Dytx0pgvFprdfST-iSgM1VZjAf5zc4jI/edit?usp=sharing
@@ -98,7 +98,7 @@ characters:
 ---
 
 # **Notes**  
-The gold standard for Freeze teams. Performs well in single target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team. 
+The gold standard for Freeze teams. Performs well in single-target and AoE, against light and heavy mobs, and in shield breaking content (except for Cryo shields). Scales especially well with resin and primo investment into Ayaka due to the hypercarry nature of the team. 
 <br></br>
 There are two important drawbacks to keep in mind:
 <br></br>

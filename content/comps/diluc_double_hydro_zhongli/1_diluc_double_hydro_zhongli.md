@@ -12,13 +12,13 @@ tags:
   - Yelan
   - Zhongli
   - Vaporize
-  - Single Target
+  - Single-Target
 pros:
   - Does not rely on Bennett, freeing him up for other teams
   - Consistent DPS during Diluc's field time
   - DPS is spread between 3 members, making artifact investment more resin efficient
 cons:
-  - Damage is primarily single target due to reliance on Yelan and Xingqiu's Elemental Bursts
+  - Damage is primarily single-target due to reliance on Yelan and Xingqiu's Elemental Bursts
   - Diluc Burst can knock away enemies
 sheet_url: /sheets/diluc/Diluc-Xingqiu-Yelan-Zhongli-2.5.5.xlsm
 rotation:
@@ -93,7 +93,7 @@ characters:
 
 # **Notes**
 
-This is a variant of the Diluc Vaporize team, replacing Bennett with Yelan which sacrifices Diluc's personal damage for an increased share of damage by Yelan and Xingqiu. Zhongli can provide comfortable rotations through Shielding, and damage buffs through Resistance Shred and the 4-set Tenacity of Millelith ATK% buff.
+This is a variant of the Diluc Vaporize team, replacing Bennett with Yelan which sacrifices Diluc's personal damage for an increased share of damage by Yelan and Xingqiu. Zhongli can provide comfortable rotations through shielding, and damage buffs through Resistance Shred and the 4-Piece Tenacity of the Millelith ATK% buff.
 <br></br>
 # **ER Requirements**
 Diluc - 130%  

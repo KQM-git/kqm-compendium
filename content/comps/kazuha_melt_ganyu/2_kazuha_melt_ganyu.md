@@ -13,7 +13,7 @@ tags:
   - Kaedehara Kazuha
   - Bennett
   - Single Carry
-  - Single Target
+  - Single-Target
   - But only really works in AoE
   - Reverse Melt
   - Fields
@@ -25,7 +25,7 @@ pros:
 cons:
   - Insanely High Energy Costs 
   - Timing is extremely tight to do 5 Charged Attacks and 4 is around 15% DPS decrease
-  - Kazuha's Pyro Application in Single Target is incredibly unreliable. Zhonglis E and Ganyu's E will gurantee that you loss control.
+  - Kazuha's Pyro Application in single-target is incredibly unreliable. Zhonglis E and Ganyu's E will gurantee that you loss control.
   - The setup is quite senstive and easy to mess up. 
   - If the enemy is outside of Kauzha's Burst, no Pyro app. 
   - Using 2 of the most highly demanded supports in the game, and Zhongli on top. All for this. 
@@ -104,13 +104,13 @@ characters:
 Though each individial Charged Attack deals a lot of damage, Melt Ganyu with Kazuha suffers from several major issues. The setup is difficult, though this can be overcome with practice.
 <br></br>
 
-It has extremely high energy requirements, requiring an Energy Recharge Sands along with Energy weapons on both Kazuha and Bennett.
+It has extremely high Energy requirements, requiring an Energy Recharge Sands along with Energy weapons on both Kazuha and Bennett.
 <br></br>
 
-While it is possible to do 5 Charged Attacks, most people will only be able to do 4. In the event you can only do 4, you should attempt to do a second Benentt E in order to recuperate damage with energy. This requires him to catch the last ticks of his Burst to reduce his skill cooldown. This isn't too hard to do with a bit of practice though. 
+While it is possible to do 5 Charged Attacks, most people will only be able to do 4. In the event you can only do 4, you should attempt to do a second Benentt E in order to recuperate damage with Energy. This requires him to catch the last ticks of his Burst to reduce his Skill cooldown. This isn't too hard to do with a bit of practice though. 
 <br></br>
 
-The final, and possibly biggest problem, is in Single Target, Kazuha's Pyro application is unreliable. He applies just enough Pyro to Melt all of Ganyus Charged Attacks, but the addition of Zhongli's Pillar or Ganyu's E can nullify this. However, in AoE, this does get better with additional Pyro Swirls, but Melt Ganyu is generally a single target orientated team.
+The final, and possibly biggest problem, is in single-target, Kazuha's Pyro application is unreliable. He applies just enough Pyro to Melt all of Ganyu's Charged Attacks, but the addition of Zhongli's Pillar or Ganyu's E can nullify this. However, in AoE, this does get better with additional Pyro Swirls, but Melt Ganyu is generally a single-target orientated team.
 # **Rotation Notes**
 
 Zhongli hE (Break Pillar) (dash)  
@@ -120,6 +120,6 @@ Bennett Q (clear Cryo)
 (Ganyu E explodes reapplying Cryo)  
 Kazuha Q (Swirl Cryo)  
 Ganyu 4CA  
-Benentt (N1)E (catch burst tick)  
+Benentt (N1)E (catch Burst tick)  
 Kazuha tEP  
 Bennett E  

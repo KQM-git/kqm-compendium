@@ -22,14 +22,14 @@ pros:
   - Mechanically easy to play
   - Good sustained DPS over the full rotation (25s)
   - DPS is spread across the whole team, scales well with resin investment into everyone
-  - Mix of high single target turret DPS and AoE swirls/EC
+  - Mix of high single-target turret DPS and AoE Swirls/EC
   - Strong grouping ability through Kazuha
   - Number soup is visually satisfying
   - Strong matchups against endgame content
 cons:
   - Many ranged characters without a shield can be easily staggered
-  - Uses 3 limited 5 stars
-  - Enemies moving out of Kokomi's jellyfish AoE can lead to energy problems
+  - Uses 3 limited 5-Stars
+  - Enemies moving out of Kokomi's jellyfish AoE can lead to Energy problems
   - Timing to refresh Kokomi's jellyfish can be tight
 sheet_url: https://docs.google.com/spreadsheets/d/1grKCOKfmMSQLK5MXrbZctcr055apJDpFmKhwmK-8lDA/edit?usp=sharing
 rotation:
@@ -106,10 +106,10 @@ characters:
 # **Notes**
 While the optimal rotation for this team is quite long, deviating from this rotation will not lose significant DPS for the team (due to its heavy reliance on turret damage), making it flexible and easy to play.
 <br></br>
-However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
+However, it is useful to keep the basic concepts of the rotation in mind. In the setup, we start by placing turrets and buffing everyone with Kazuha, then we use TTDS to buff Yae's Burst. Then, we cycle through and refresh our turrets, and use Kokomi's Q attacks to finish the rotation. 
 <br></br>
 The 3 most important takeaways are to:  
-Buff Yae's burst with TTDS  
+Buff Yae's Burst with TTDS  
 Refresh turrets every 12 seconds  
 Refresh Kokomi's jellyfish before it expires
 <br></br>

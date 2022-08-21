@@ -94,7 +94,7 @@ characters:
 ---
 
 # **Notes**
-This team excels in 2-3 target situations such as two ruin guards. There is also a strong emphasis on effectively weaving in auto attacks while executing the rotation to maximize Beidou's procs. This in turn makes the team pretty hard to pilot as it is punishing to miss auto attacks for building stacks and Beidou procs. Please note that Beidou's damage contribution shoots up from 18% to 37% when going from one target to two targets.
+This team excels in 2-3 target situations such as two Ruin Guards. There is also a strong emphasis on effectively weaving in Normal Attacks while executing the rotation to maximize Beidou's procs. This in turn makes the team pretty hard to pilot as it is punishing to miss Normal Attacks for building stacks and Beidou procs. Please note that Beidou's damage contribution shoots up from 18% to 37% when going from one target to two targets.
 <br></br>
 # **Energy Requirements**
 Eula - 144%  

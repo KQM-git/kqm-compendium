@@ -12,7 +12,7 @@ tags:
   - Bennett
   - Kazuha
   - Vaporize
-  - Single Target
+  - Single-Target
 pros:
   - Easy to play and low room for error 
   - Consistent DPS during Diluc's field time
@@ -103,4 +103,4 @@ Bennett N1 E
 Diluc N2  
 <br></br>
 **Video + Extra Notes**
-Video shows examples of some dash cancels that can be performed. Generally dash canceling Zhongli Hold E, Xingqiu E/Q, and Diluc N4 is best. Diluc N1's at the beginning of his field time to potentially trigger a rainsword. Whether he does or not depends on your swap speed, which is affected by ping.
+Video shows examples of some dash cancels that can be performed. Generally dash canceling Zhongli Hold E, Xingqiu E/Q, and Diluc N4 is best. Diluc N1's at the beginning of his field time to potentially trigger a Rain Sword. Whether he does or not depends on your swap speed, which is affected by ping.

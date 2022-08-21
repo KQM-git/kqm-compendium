@@ -19,7 +19,7 @@ tags:
   - Comfy
   - F2P Gear
 pros:
-  - Stronger in Single-Target scenarios
+  - Stronger in single-target scenarios
   - Crowd-Control is common
   - Comfortable healing/damage reduction
   - Streamline and sustainable damage
@@ -103,7 +103,7 @@ characters:
  
 # **Notes**
  
-This calc uses mostly Free-To-Play gear on most units. Like many other teams that involve Fischl and/or Xingqiu, in this team, Lisa aims to be a driver for these two units. Jean serves as a unit that allows for 4VV and sufficient healing to be comfortable. This variation prefers to be against Single-Target scenarios but has some merit in AoE due to Jean and Lisa. Whilst Electro-Charged is the most prevalent reaction, its damage is not its notable function but rather its crowd-control. Repetitions of rotation will increase in overall damage due to Lisa's A4 persisting and some lingering 4VV. Additionally, even though there is a given rotation for this composition, the team, realistically, can be played with loose restrictions as what is most relevant are if Fischl's Nightrider, Xingqiu's Rainswords, Jean's 4VV, and Lisa's A4 are prominently active/weaved.
+This calc uses mostly Free-To-Play gear on most units. Like many other teams that involve Fischl and/or Xingqiu, in this team, Lisa aims to be a driver for these two units. Jean serves as a unit that allows for 4VV and sufficient healing to be comfortable. This variation prefers to be against single-target scenarios but has some merit in AoE due to Jean and Lisa. Whilst Electro-Charged is the most prevalent reaction, its damage is not its notable function but rather its crowd-control. Repetitions of rotation will increase in overall damage due to Lisa's A4 persisting and some lingering 4VV. Additionally, even though there is a given rotation for this composition, the team, realistically, can be played with loose restrictions as what is most relevant are if Fischl's Nightrider, Xingqiu's Rainswords, Jean's 4VV, and Lisa's A4 are prominently active/weaved.
 <br></br>
 The Widsith is used in this calculation, but many other substitutions exist for The Widsith.			
  <br></br>

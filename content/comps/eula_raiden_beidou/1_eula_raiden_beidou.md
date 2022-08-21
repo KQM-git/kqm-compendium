@@ -97,7 +97,7 @@ characters:
 ---
 
 # **Notes**
-This team excels in 2-3 target situations such as two ruin guards. There is also a strong emphasis on effectively weaving in auto attacks while executing the rotation to maximize Beidou's procs. This in turn makes the team pretty hard to pilot as it is punishing to miss auto attacks for building stacks and Beidou procs. In addition this team has a pretty long rotation that can be harder to memorize. Please note that Beidou's damage contribution shoots up from 13% to 27% when going from one target to two targets.
+This team excels in 2-3 target situations such as two Ruin Guards. There is also a strong emphasis on effectively weaving in Normal Attacks while executing the rotation to maximize Beidou's procs. This in turn makes the team pretty hard to pilot as it is punishing to miss Normal Attacks for building stacks and Beidou procs. In addition this team has a pretty long rotation that can be harder to memorize. Please note that Beidou's damage contribution shoots up from 13% to 27% when going from one target to two targets.
 
 # **Energy Requirements**
 Eula - 121%  
@@ -106,7 +106,7 @@ Beidou - 109%
 Diona - 131%  
 
 # **Rotation Notes**
-Raiden E > Beidou E Q > Diona Hold E Q > Eula N1 E N1 Q N1 E N4 D N2 Hold E N1 > Raiden Q 2N4C N2C  (Repeat)
+Raiden E > Beidou E Q > Diona Hold E Q > Eula N1 E N1 Q N1 E N4 D N2 Hold E N1 > Raiden Q 2N4C N2C (Repeat)
 
 It is acceptable to use variations of Raiden's autoattacks such as N1C spam if 2N4C N2C is not comfortable. 
 

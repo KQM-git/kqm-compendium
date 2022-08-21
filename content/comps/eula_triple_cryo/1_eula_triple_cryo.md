@@ -14,11 +14,11 @@ tags:
   - Easy
 pros:
   - Easy to execute
-  - Doesn't use high profile 4 stars (Bennett, XQ, etc.)
-  - Leverages Cryo resonance's crit buff with Rosaria and Diona's off field application
+  - Doesn't use high profile 4-Stars (Bennett, XQ, etc.)
+  - Leverages Cryo resonance's CRIT buff with Rosaria and Diona's off field application
   - Resin efficient to farm for as Eula and Fischl use artifacts from the same domain
 cons:
-  - Dependent on enemies standing within Rosaria and Diona's burst to gain 15% crit
+  - Dependent on enemies standing within Rosaria and Diona's Burst to gain 15% CRIT
 sheet_url: /sheets/eula/sitri_eula_olympics.xlsx
 gcsim_url: 
 rotation:
@@ -92,9 +92,9 @@ characters:
 ---
 
 # **Notes**
-This team has consistent energy generation thanks to having two cryo batteries and Fischl. Although damage is not the highest out of Eula teams it is simple to execute and build for. Fishcl makes use of ToM which shares an artifact domain with Eula's ideal set. 
+This team has consistent Energy generation thanks to having two Cryo batteries and Fischl. Although damage is not the highest out of Eula teams it is simple to execute and build for. Fishcl makes use of TotM which shares an artifact domain with Eula's ideal set. 
 <br></br>
-Rosaria is encouraged to stack crit rate to share to her allies, and Diona only needs ER% and a splash of crit rate to proc Favonius Warbow. Favonius Lance is also a good option for Rosaria as it reduces the team's energy requirements even further.
+Rosaria is encouraged to stack CRIT Rate to share to her allies, and Diona only needs ER% and a splash of CRIT Rate to proc Favonius Warbow. Favonius Lance is also a good option for Rosaria as it reduces the team's Energy requirements even further.
 <br></br>
 # **Energy Requirements**
 Eula - 141%  

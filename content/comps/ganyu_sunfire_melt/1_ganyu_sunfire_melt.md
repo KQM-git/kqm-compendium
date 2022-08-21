@@ -14,7 +14,7 @@ tags:
   - Sunfire
   - The Energy Wants to make me cry
   - Single Carry
-  - Single Target
+  - Single-Target
   - Reverse Melt
   - Circle Impact
   - Dynamic
@@ -104,9 +104,9 @@ characters:
 
 # **Notes**
 
-Jean's high Pyro Application allows Ganyu to Burst without losing a single Melt on her Charged Attacks and taking advantage of the 20% Cryo Damage Bonus on her Burst. However, to burst every rotation would require an excessive amount of Energy Recharge, so its better to alternate Burst.  
+Jean's high Pyro Application allows Ganyu to Burst without losing a single Melt on her Charged Attacks and taking advantage of the 20% Cryo DMG Bonus on her Burst. However, to Burst every rotation would require an excessive amount of Energy Recharge, so its better to alternate Burst.  
 <br/><br/>
-This calc uses Free-To-Play gear on all units. The rotation relies on Bennett catching the last tick of his buff to reduce his E Cooldown allowing him to E twice, plummeting Energy Requirements. The timing is incredibly tight however, so you must have extremely fast swaps and Charged Attacks on Ganyu. This is extremely difficult on high ping and for people with slow Charged Attacks. It may also be possible to swap too fast, but in that case Normal Attack on Bennett before his E. This will not be a problem for most people though. If you can't achieve this, replace Bennett's Es with a single Hold E. You will need signficantly more Energy Recharge on Jean and Bennett though.
+This calc uses Free-To-Play gear on all units. The rotation relies on Bennett catching the last tick of his buff to reduce his E cooldown allowing him to E twice, plummeting Energy Requirements. The timing is incredibly tight however, so you must have extremely fast swaps and Charged Attacks on Ganyu. This is extremely difficult on high ping and for people with slow Charged Attacks. It may also be possible to swap too fast, but in that case Normal Attack on Bennett before his E. This will not be a problem for most people though. If you can't achieve this, replace Bennett's Es with a single Hold E. You will need signficantly more Energy Recharge on Jean and Bennett though.
 <br/><br/>
 The VV setup is quite easy. This is the only easy thing about this team.
 <br/><br/>
@@ -114,7 +114,7 @@ The team is unfortunately locked to the overlapping area between Benentt and Jea
 <br/><br/>
 Getting pushed out of your circles is a bitch.  
 <br/><br/>
-Zhongli is extremely important for help clearing the Pyro Aura left by Bennett. Failure to do so will prevent VV in Burst rotations. This can be easily achieved by placing the pillar nearby, or even breaking it on the enemy if its a boss. 
+Zhongli is extremely important for help clearing the Pyro aura left by Bennett. Failure to do so will prevent VV in Burst rotations. This can be easily achieved by placing the pillar nearby, or even breaking it on the enemy if its a boss. 
 <br/><br/>
 The Sheet assumes second rotation onwards, Melting Ganyu's E and inital Charged Attack, but the recording has first rotation, which does not do this. 
 <br/><br/>

@@ -12,7 +12,7 @@ tags:
   - Albedo
   - Fischl
   - Geo Team
-  - Single Target
+  - Single-Target
   - Ranged
   - Turrets
   - Fields
@@ -20,12 +20,12 @@ tags:
   
 pros:
   - Extremely short rotations allow to cover for mistakes
-  - Balanced between high burst damage and sustained damage
+  - Balanced between high Burst damage and sustained damage
   - Scales well with gear and consellations
   - Does not rely on reactions, so damage is highly consistent
   - Extremely high shield uptime makes for very comfortable gameplay
 cons:
-  - Damage is highly locked to a single target
+  - Damage is highly locked to a single-target
   - Involves extremely rapid switching, which can be difficult
   - Involves lots of Geo Constructs, so bosses can be a hindrance
 gcsim_url: https://gcsim.app/viewer/share/perm_qd-InMBAgRtVciKsxRy9Q
@@ -102,7 +102,7 @@ characters:
 
 # **Notes**
 
-The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. Otherwise, the gear is generally flexible - Ningguang and Fischl can switch to Atk% sets and other competitive weapons while maintaining competitive team damage. The quick nature of rotations and swaps on this team means that any mistakes made are quickly recovered by simply following along with the next rotation, and the high amount of shielding from Zhongli casting his shield every 12 seconds makes this team extremely comfortable. It should be noted that C6 for both Ningguang and Fischl are quite significant for damage, but other than that unit constellations do not significantly improve the team. Both Ningguang and Fischl scale very well with better gear. Furthermore, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon - while refinements are helpful, they are not needed.
+The ER used is an absolute minimum, and higher ER is strongly recommended. Further, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon. Otherwise, the gear is generally flexible - Ningguang and Fischl can switch to ATK% sets and other competitive weapons while maintaining competitive team damage. The quick nature of rotations and swaps on this team means that any mistakes made are quickly recovered by simply following along with the next rotation, and the high amount of shielding from Zhongli casting his shield every 12 seconds makes this team extremely comfortable. It should be noted that C6 for both Ningguang and Fischl are quite significant for damage, but other than that unit constellations do not significantly improve the team. Both Ningguang and Fischl scale very well with better gear. Furthermore, this team does not function without Favonius Lance Zhongli, and it is imperative he is used with this weapon - while refinements are helpful, they are not needed.
 <br></br>
 # **Rotation Notes**
 

@@ -18,7 +18,7 @@ tags:
   - AoE
 pros:
   - Childe Xiangling team without using Bennett
-  - Seeing Xiangling eat 8 Pyro particles at once is satisfying
+  - Seeing Xiangling eat 8 Pyro Particles at once is satisfying
 cons: 
   - Complicated rotation and gameplay
   - Prototype Amber Sucrose is your only source of healing
@@ -66,7 +66,7 @@ characters:
 ---
 
 # **Notes**
-This team trades a lot of comfort and some damage from the normal Childe Xiangling team for the sake of freeing Bennett without raising Xiangling's ER requirements or rotation time. On paper, C4 Amber can generate 8 particles at once for Xiangling. In practice, players will need to have great awareness of enemy behavior and some luck in order for those bunnies to actually hit. There is also zero healing outside of Prototype Amber Sucrose, a unit with a high cost Burst, further increasing the difficulty of this team. Nonetheless, this is still a Childe Xiangling VV vape team with similar rotation times as the standard. Elegy of the End and C6 Amber can make up some of the damage lost from not having Bennett buff.
+This team trades a lot of comfort and some damage from the normal Childe Xiangling team for the sake of freeing Bennett without raising Xiangling's ER requirements or rotation time. On paper, C4 Amber can generate 8 Particles at once for Xiangling. In practice, players will need to have great awareness of enemy behavior and some luck in order for those bunnies to actually hit. There is also zero healing outside of Prototype Amber Sucrose, a unit with a high cost Burst, further increasing the difficulty of this team. Nonetheless, this is still a Childe Xiangling VV vape team with similar rotation times as the standard. Elegy of the End and C6 Amber can make up some of the damage lost from not having Bennett buff.
 <br></br>
 
 Energy Requirements:  
@@ -82,7 +82,7 @@ Tartaglia EN1C (1st rotation only)
 Amber Q  
 Tartaglia CS (Charged Shot)  
 Xiangling E  
-Sucrose E (guoba swirl)  
+Sucrose E (Gouba Swirl)  
 Xiangling Q  
 Tartaglia Q E melee 9 seconds  
 Xiangling E  

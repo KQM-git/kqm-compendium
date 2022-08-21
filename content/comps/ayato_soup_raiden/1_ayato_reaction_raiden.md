@@ -16,11 +16,11 @@ tags:
 pros:
   - High AoE potential with Ayato, Kazuha and Raiden
   - Reaction spam requires little thought
-  - Reduced energy costs with Raiden
+  - Reduced Energy costs with Raiden
   - Ayato's range allows him to strike targets from within Bennett's field comfortably
 cons:
   - Longer rotation with Raiden reduces DPS
-  - Difficulty swirling both Electro and Hydro
+  - Difficulty Swirling both Electro and Hydro
   - Requires dodging or tanking due to lack of defensive abilities apart from Bennett's healing
 sheet_url: https://docs.google.com/spreadsheets/d/1HfRCkzlgXEYD-LIF4-IDMy4gslZh42LBESv7Bk-6Gag/edit#gid=54760154
 rotation:

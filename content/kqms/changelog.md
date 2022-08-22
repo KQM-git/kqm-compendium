@@ -1,8 +1,8 @@
 ---
-current_revision: 1.1
-last_updated: 08/09/2022
+current_revision: 1.0
+last_updated: 08/21/2022
 ---
-- 4* Artifact changes accepted.
+- Moved to KQM Compendium site.
 <!--more-->
 - 5* Artifact changes accepted.
 - 6* Artifact changes accepted.

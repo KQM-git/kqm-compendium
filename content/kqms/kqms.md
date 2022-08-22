@@ -1,3 +1,9 @@
+## What is the KQMS?
+The KQM Calculation Standard (now known as KQMS) is a set of standards codified in order to establish common ground for calculations regarding team damage, as well as even-ing the disparity between the many different and inconsistent calculation standards during the time of its creation and allow for easy calculation and sheet fact checking. It involves using standardized substat distribution, Energy Recharge specifications, equalized weapons and Constellations, as well as basic assumptions on the nature of the cycle of unit actions (rotations) in order to produce a number comparable between teams. 
+<br></br>
+It should be explicitly stated that the KQMS only addresses artifact stat distribution, weapon levels, character and talent levels, and a dummy enemy stat block. The KQMS does nothing to advise theorycrafters on what assumptions must be made in regard to rotation length, reaction uptime, buff uptime, AoE modifiers except requiring calculations to state the aforementioned deviations.
+
+
 ## Definitions
 - **Fixed substats**: rolls which are preallocated into all substats, including those which are not desirable
 - **Distributed substats**: rolls which are distributed optimally within constraints
@@ -28,7 +34,7 @@
 The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-star stats.
 
 ### Example Distribution
-<br></br>
+
  **Stat Type**         | **<div class="s5">5-star Sub Value</div>** | **Fixed Subs** | **Distributed Subs** | **Stats from Subs** 
 |:---------------------|:-------------------------------------:|:--------------:|:--------------------:|:---------:
  HP%               | 4.96%                                 | 2              |                      | 9.92%     
@@ -38,9 +44,10 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
  DEF%              | 6.20%                                 | 2              |                      | 12.40%    
  DEF               | 19.68                                 | 2              |                      | 39.36     
  Elemental Mastery | 19.82                                 | 2              |                      | 39.64     
- CRIT Rate         | 6.62%                                 | 2              | 8                    | 66.20%    
+ CRIT Rate         | 3.31%                                 | 2              | 8                    | 33.1%     
  CRIT DMG          | 5.51%                                 | 2              | 10                   | 66.12%    
- Energy Recharge   | 3.31%                                 | 2              |                      | 6.62%     
+ Energy Recharge   | 6.62%                                 | 2              |                      | 13.24%    
+
 
  <!--![](/kqms/example_distribution.png) -->
 
@@ -64,4 +71,15 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
     - Buff durations
     - AoE Modifiers (if applicable)
     - Primary or single target damage must be listed somewhere if calcs are done with AoE modifiers.
-- Map rotations to gameplay if possible with links to clips.
+    - Map rotations to gameplay if possible with links to clips.
+
+## Changing the KQMS
+As we have improved at theorycrafting and doing calculations, it has become clear that there are several issues with the KQMS. There are team compositions and levels of investment that may not be fully represented by the KQMS and the Standard may need versioning. There must be a systematic approach to addressing each concern, to determine if there is no significant difference or important information to be gleaned from developing a separate set of standards or amending the KQMS.
+
+
+### Proposals
+In order to do this, KQM has tested a proposal system. Each proposal should have:
+- **Goal:** The goal of the proposal should be extremely clear. For what purpose are you attempting to amend the KQMS?
+- **Effected Teams:** What teams are most impacted by this? You should have calculations available with damage share and changes to DPS from pre and post adjustment.
+- **Impact:** A short write-up should be posted alongside your proposal. How does the KQMS change? Are the goal and effect important enough to warrant an amendment? Does it make the KQMS more or less complicated to implement?
+

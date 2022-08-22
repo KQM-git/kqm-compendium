@@ -97,7 +97,7 @@ characters:
 
 # **Notes**
 The only purpose of this build is to reach maximum Beidou damage numbers while also having a functioning team outside of speedruns. The main goal of this rotation is to ensure full uptime on Sara's C6 on Beidou's Burst since the Crit Damage buff cannot be snapshotted.
-Weaving in normal attacks between each skill cast is imperative for maximizing Beidou's discharge uptime.
+Weaving in Normal Attacks between each skill cast is imperative for maximizing Beidou's discharge uptime.
 <br></br>
 
 Explanation of rotation: 

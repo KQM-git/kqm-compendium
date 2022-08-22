@@ -1,6 +1,6 @@
 ---
 title: Sukokomon
-sub_title: Luna Adapted
+tab_title: Luna Adapted
 authors:
  - Luna#0188
 healing: 3

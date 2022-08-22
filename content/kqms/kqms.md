@@ -27,9 +27,9 @@ It should be explicitly stated that the KQMS only addresses artifact stat distri
 | DEF%              |                        6.20% |                        4.96% |
 | DEF               |                        19.68 |                        15.74 |
 | Elemental Mastery |                        19.82 |                        15.86 |
-| CRIT Rate         |                        6.62% |                        5.30% |
-| CRIT DMG       |                        5.51% |                        4.41% |
-| Energy Recharge   |                        3.31% |                        2.65% |
+| CRIT Rate         |                        3.31% |                        2.65% |
+| CRIT DMG       |                           5.51% |                        4.41% |
+| Energy Recharge   |                        6.62% |                        5.30% |
 
 The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-star stats.
 

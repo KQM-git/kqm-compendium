@@ -71,7 +71,7 @@ characters:
 This rotation also assumes a c1 Sucrose with r1 Sac Frags in order to do two to three gooba swirls per rotation.  With c0 and r1 Sac Frags, or c1 and no Sac Frags you can do 2 instead of 3, one at each part of the rotation in order to keep up VV shred uptime for Pyronado.  If Xiangling isn't c4, then you don't have to worry about the gooba swirl near the end of the rotation as Pyronado will have ended anyways.  
 
 
-# **Rotation Notes**
+# **Rotation Notes**  
 Fischl E  
 Kokomi E  
 Xiangling E  

@@ -75,16 +75,16 @@ characters:
 Rotation showcase (multiple in the video): 11:24 - 12:01 // 12:12 - 12:36 // 14:26 - 14:52
 
 # **Rotation Notes**
-Fischl E
-Kokomi E
-Xiangling E
-Sucrose N1 E (Skill cast on Guoba "!") x2 or x3 (depends on sac proc)
-Xiangling Q
-Kokomi Q N2CA x3
-Fischl Q
-Sucrose N1 E N1 Q
-Kokomi N2 E (I might have swapped Xiangling/Kokomi by mistake)
-Xiangling E
-Sucrose N2 E (Skill cast on Guoba "!") x1 or x2
+Fischl E  
+Kokomi E  
+Xiangling E  
+Sucrose N1 E (Skill cast on Guoba "!") x2 or x3 (depends on sac proc)  
+Xiangling Q  
+Kokomi Q N2CA x3  
+Fischl Q  
+Sucrose N1 E N1 Q  
+Kokomi N2 E (I might have swapped Xiangling/Kokomi by mistake)  
+Xiangling E  
+Sucrose N2 E (Skill cast on Guoba "!") x1 or x2  
 
 <br></br>

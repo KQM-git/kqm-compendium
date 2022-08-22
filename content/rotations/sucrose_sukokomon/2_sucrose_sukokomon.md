@@ -1,6 +1,6 @@
 ---
 title: Sukokomon
-sub_title: Terraflop
+tab_title: Terraflop
 authors:
  - Terraflop
 healing: 3

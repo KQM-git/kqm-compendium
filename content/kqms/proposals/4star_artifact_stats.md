@@ -1,26 +1,23 @@
 ---
 title: 4* Artifact Stats
 status: Proposed
-date: 08/09/2022
+date: 08/03/2022
 description: Adjust the artifact sub-stat table for 4* artifacts and set up the guidelines for 4* and 5* mixed artifacts.
-reason: Stuff about why it was declined, shortened.
-sheet_url: https://youtu.be/dQw4w9WgXcQ
+reason: In proposal stage.
+sheet_url: https://docs.google.com/spreadsheets/d/123LVNodSyq19QSB6-I_8hA4AJs12miIV_QNopmptj_c/edit#gid=0
 ---
-## Proposal
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Rationale
+Some characters run a mix of 4-Star and 5-Star artifacts such as 4-piece Instructors, where many units will use a 5-Star Energy Recharge timepiece to have enough Energy Recharge to Burst consistently.
 
 ### Most Impacted
-![](https://i.imgur.com/qsIOIvO.png)
+![](/kqms/proposals/4star_impact.jpg)
+<!-- ![](https://i.imgur.com/qsIOIvO.png) -->
 
 <!-- Denied #FF6060 -->
 <!-- Proposed #FFDB7D -->
 <!-- Accepted #64E271 -->
-## Status: <span style="color: #FF6060;">Declined</span>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+## Status: <span style="color: #FFDB7D;">Proposed</span>
+Proposed by Vlad. To be filled out.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-###
-![](https://i.imgur.com/zTLB2sJ.png)
+<!-- ###
+![](https://i.imgur.com/zTLB2sJ.png) -->

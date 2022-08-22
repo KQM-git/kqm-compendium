@@ -111,7 +111,7 @@ Kazuha hEp
 Bennett EQ  
 Yae Q EEE  
 Kazuha Q  
-Raiden Q 3N3C E (can be any normal attack combo)  
+Raiden Q 3N3C E (can be any Normal Attack combo)  
 <br></br>
 
 **Subsequent Rotations:**  
@@ -120,7 +120,7 @@ Kazuha hEp
 Bennett EQ  
 Yae Q EEE  
 Kazuha Q   
-Raiden Q 3N3C (E) (can be any normal attack combo, only perform E again if you still need more rotations)
+Raiden Q 3N3C (E) (can be any Normal Attack combo, only perform E again if you still need more rotations)
 <br></br>
 
 **Disclaimer:** Dashing used to dodge in the video along with hitlag and relatively slow swaps all were factors into rotation time differences. Sim time should be as fast as you can go.

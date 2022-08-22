@@ -67,7 +67,7 @@ characters:
 
 # **Notes**
 
-This team replaces Xingqiu with Yelan in the famous Raiden Xiangling Overvape composition, freeing up Xingqiu for another team, such as Hu Tao vape. Weaving in normal attacks between each ability cast is highly recommended for higher DPS. Yelan's Burst triggers extremely early during the normal attack animation, allowing players to cancel their attacks instantly and still trigger a wave at the cost of very little time. This is known as an N0 cancel. If this is too difficult, N1s can be used instead. 
+This team replaces Xingqiu with Yelan in the famous Raiden Xiangling Overvape composition, freeing up Xingqiu for another team, such as Hu Tao vape. Weaving in Normal Attacks between each ability cast is highly recommended for higher DPS. Yelan's Burst triggers extremely early during the Normal Attack animation, allowing players to cancel their attacks instantly and still trigger a wave at the cost of very little time. This is known as an N0 cancel. If this is too difficult, N1s can be used instead. 
 <br></br>
 This team excels in single-target content, as overloads can launch mob enemies out of range of attacks, and Xiangling's Burst will not vape on enemies that aren't targetted by Yelan's Burst.
 <br></br>

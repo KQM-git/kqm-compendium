@@ -32,11 +32,10 @@ cons:
   - Does not do well against unfreezable enemies or in single-target
   - Many enemies cannot be grouped by Venti while unfrozen, though this can be offset by proper gameplay
   - 3 5-Stars, with 2 being limited makes this team quite expensive
-sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsrWzWNB-dvt3DARRK?e=1dM6dG
-gcsim_url: https://gcsim.app/viewer/share/perm_hnHmvaxIRA6MUBkaY-Mo3
+sheet_url: https://1drv.ms/x/s!Ap7IaLqG1nQsrkTvuLaDDs6uZ45D?e=jiNfrc
 rotation:
-  duration: 17.5s
-  video_url: https://youtu.be/1ybZ2mSOYg8
+  duration: 16.83s
+  video_url: https://youtu.be/RISzWIe1Pkg
 characters:
   - name: Ganyu
     star: 5
@@ -53,7 +52,7 @@ characters:
     cr: 44.7
     cd: 216.8
     er: 111.0
-    dps: 30650
+    dps: 32721.9
   - name: Mona
     star: 5
     constellation: 0
@@ -69,7 +68,7 @@ characters:
     cr: 62.58
     cd: 103.0
     er: 247.5
-    dps: 2176
+    dps: 2504.1
   - name: Venti
     star: 5
     constellation: 0
@@ -85,7 +84,7 @@ characters:
     cr: 14.9
     cd: 63.2
     er: 170.6
-    dps: 9073
+    dps: 8929.2
   - name: Diona
     star: 4
     constellation: 6
@@ -101,7 +100,7 @@ characters:
     cr: 69.2
     cd: 129.4
     er: 172.2
-    dps: 380
+    dps: 751.7
 ---
 
 # **Notes:**  
@@ -119,10 +118,7 @@ Ganyu CA at the start if using Prototype Crescent, otherwise ignore at this step
 Diona hE (proc fav and funnel to Ganyu)  
 Ganyu EQ  
 Venti EQ  
-Mona QN1E  
+Mona EQN1  
 Ganyu 2CA  
 Venti EN1 (should skip if not enough time)  
 Ganyu CA  
-<br></br>
-# **Note About Sim**  
-Sim has slightly higher DPS due to its speed, compeleting the rotation a whole two seconds faster, even with waits. In addition, sim generally demands higher Energy Requirements, so the sim was done with infinite ER but with the stats used in the sheet. 

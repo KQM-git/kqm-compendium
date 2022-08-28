@@ -49,7 +49,7 @@ characters:
     cr: 69.2
     cd: 167.8
     er: 111
-    dps: 31539
+    dps: 31699.7
   - name: Zhongli
     star: 5
     constellation: 0
@@ -97,7 +97,7 @@ characters:
     cr: 39.3
     cd: 129.4
     er: 251
-    dps: 2041.2
+    dps: 1933.2
 ---
 
 # **Notes**

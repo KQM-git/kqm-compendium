@@ -49,7 +49,7 @@ characters:
     cr: 69.2
     cd: 167.8
     er: 111
-    dps: 26580
+    dps: 26741.3
   - name: Zhongli
     star: 5
     constellation: 0
@@ -81,7 +81,7 @@ characters:
     cr: 44.7
     cd: 63.2
     er: 224
-    dps: 3517.7
+    dps: 3541.4
   - name: Bennett
     star: 4
     constellation: 6
@@ -97,7 +97,7 @@ characters:
     cr: 69.2
     cd: 129.4
     er: 235
-    dps: 2761.2
+    dps: 2647.1
 ---
 
 # **Notes**

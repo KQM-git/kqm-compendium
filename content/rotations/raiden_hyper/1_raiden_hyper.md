@@ -33,7 +33,7 @@ characters:
     star: 5
     constellation: 0
     weapon:
-      name: "The Catch"
+      name: The Catch
       refinement: 5
     artifacts:
       - Emblem of Severed Fate

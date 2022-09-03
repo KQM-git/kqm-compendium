@@ -18,7 +18,7 @@ It should be explicitly stated that the KQMS only addresses artifact stat distri
 - 4* artifacts if used have a x0.8 stat modifier, and a penalty of -2 distributed substats per 4* artifact
 
 ## Stat Scalars Per Roll
-|                   | <div class="s5">5-star</div> | <div class="s4">4-star</div> |
+|                   | <div class="s5">5-Star</div> | <div class="s4">4-Star</div> |
 |:------------------|:----------------------------:|:----------------------------:|
 | HP%               |                        4.96% |                        3.97% |
 | HP                |                       253.94 |                       203.15 |
@@ -28,14 +28,14 @@ It should be explicitly stated that the KQMS only addresses artifact stat distri
 | DEF               |                        19.68 |                        15.74 |
 | Elemental Mastery |                        19.82 |                        15.86 |
 | CRIT Rate         |                        3.31% |                        2.65% |
-| CRIT DMG       |                           5.51% |                        4.41% |
-| Energy Recharge   |                        6.62% |                        5.30% |
+| CRIT DMG          |                        6.62% |                        5.30% |
+| Energy Recharge   |                        5.51% |                        4.41% |
 
-The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-star stats.
+The KQMS uses an average artifact substat scalar that is an average of the possible sub-stat rolls. There is a 0.8x penalty on 4-Star stats.
 
 ### Example Distribution
 
- **Stat Type**         | **<div class="s5">5-star Sub Value</div>** | **Fixed Subs** | **Distributed Subs** | **Stats from Subs** 
+ **Stat Type**         | **<div class="s5">5-Star Sub Value</div>** | **Fixed Subs** | **Distributed Subs** | **Stats from Subs** 
 |:---------------------|:-------------------------------------:|:--------------:|:--------------------:|:---------:
  HP%               | 4.96%                                 | 2              |                      | 9.92%     
  HP                | 253.94                                | 2              |                      | 507.88    
@@ -44,9 +44,9 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
  DEF%              | 6.20%                                 | 2              |                      | 12.40%    
  DEF               | 19.68                                 | 2              |                      | 39.36     
  Elemental Mastery | 19.82                                 | 2              |                      | 39.64     
- CRIT Rate         | 3.31%                                 | 2              | 8                    | 33.1%     
- CRIT DMG          | 5.51%                                 | 2              | 10                   | 66.12%    
- Energy Recharge   | 6.62%                                 | 2              |                      | 13.24%    
+ CRIT Rate         | 3.31%                                 | 2              | 8                    | 33.10%     
+ CRIT DMG          | 6.62%                                 | 2              | 10                   | 79.44%    
+ Energy Recharge   | 5.51%                                 | 2              |                      | 11.02%    
 
 
  <!--![](/kqms/example_distribution.png) -->

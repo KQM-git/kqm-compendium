@@ -44,9 +44,9 @@ The KQMS uses an average artifact substat scalar that is an average of the possi
  DEF%              | 6.20%                                 | 2              |                      | 12.40%    
  DEF               | 19.68                                 | 2              |                      | 39.36     
  Elemental Mastery | 19.82                                 | 2              |                      | 39.64     
- CRIT Rate         | 3.31%                                 | 2              | 8                    | 33.1%     
- CRIT DMG          | 6.62%                                 | 2              | 10                   | 66.12%    
- Energy Recharge   | 5.51%                                 | 2              |                      | 13.24%    
+ CRIT Rate         | 3.31%                                 | 2              | 8                    | 33.10%     
+ CRIT DMG          | 6.62%                                 | 2              | 10                   | 79.44%    
+ Energy Recharge   | 5.51%                                 | 2              |                      | 11.02%    
 
 
  <!--![](/kqms/example_distribution.png) -->

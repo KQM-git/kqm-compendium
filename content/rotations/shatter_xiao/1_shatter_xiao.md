@@ -30,7 +30,7 @@ cons:
   - Easily interruptible 
   - Requires high technical skill to utilise to the fullest
   - Swaps need to be done extremely quickly for most optimal buffs and Energy
-sheet_url: https://docs.google.com/spreadsheets/d/17vxZSHPjLMM-6lqqICQb0DJOC76Sv0yaqgWd8HDBq6w/edit?usp=sharing
+# sheet_url: https://docs.google.com/spreadsheets/d/17vxZSHPjLMM-6lqqICQb0DJOC76Sv0yaqgWd8HDBq6w/edit?usp=sharing
 rotation:
   duration: 28s
   video_url: https://youtu.be/zdAughJUWis

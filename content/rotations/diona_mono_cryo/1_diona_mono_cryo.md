@@ -54,7 +54,7 @@ characters:
     star: 5
     constellation: 1
     weapon:
-      name: Favonious Lance
+      name: Favonius Lance
       refinement: 3
     artifacts:
       - Noblesse Oblige

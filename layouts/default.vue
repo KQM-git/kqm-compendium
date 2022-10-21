@@ -15,8 +15,38 @@ export default Vue.extend({
         return {
             bodyAttrs: {
                 style: 'background-color: #232024'
-            }
+            },
+            script: [
+                {
+                    src: 'https://s.nitropay.com/ads-938.js',
+                    async: true
+                }
+            ]
         }
+    },
+    mounted () {
+        const wndw = window as any
+        wndw.nitroAds = wndw.nitroAds || {
+            createAd () {
+                // @ts-ignore
+                window.nitroAds.queue.push(['createAd', arguments])
+            },
+            queue: []
+        }
+        // @ts-ignore
+        wndw.nitroAds.createAd('KQM-anchor-compendium', {
+            refreshLimit: 10,
+            refreshTime: 30,
+            format: 'anchor',
+            anchor: 'bottom',
+            anchorPersistClose: false,
+            report: {
+                enabled: true,
+                wording: 'Report Ad',
+                position: 'top-right'
+            },
+            mediaQuery: '(min-width: 1025px), (min-width: 320px) and (max-width: 767px)'
+        })
     }
 })
 </script>

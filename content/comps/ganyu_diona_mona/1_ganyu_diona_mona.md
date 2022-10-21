@@ -7,6 +7,7 @@ shielding: 2
 difficulty: 2
 target: 4
 tags:
+  - Verified
   - Ganyu
   - Venti
   - Diona

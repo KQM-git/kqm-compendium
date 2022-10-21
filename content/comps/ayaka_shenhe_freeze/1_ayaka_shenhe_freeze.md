@@ -7,6 +7,7 @@ shielding: 1
 difficulty: 2
 target: 2
 tags:
+  - Verified
   - Ayaka
   - Shenhe
   - Kazuha

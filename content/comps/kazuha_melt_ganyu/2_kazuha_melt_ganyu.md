@@ -8,6 +8,7 @@ shielding: 3
 difficulty: 3
 target: 2
 tags:
+  - Verified
   - Ganyu
   - Zhongli
   - Kaedehara Kazuha

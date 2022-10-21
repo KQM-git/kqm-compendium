@@ -7,8 +7,6 @@ shielding: 1
 difficulty: 3
 target: 3
 tags:
-  - Verified
-  - Unverified
   - Childe
   - Tartaglia
   - Ajax

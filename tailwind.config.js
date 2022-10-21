@@ -7,7 +7,9 @@ module.exports = {
             },
             colors: {
                 'kqm-purple': '#9457C3',
-                whale: '#DCB131'
+                whale: '#DCB131',
+                verified: '#22C55E',
+                unverified: '#F87171'
             }
         }
     }

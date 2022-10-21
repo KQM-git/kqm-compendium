@@ -13,6 +13,18 @@
             >
                 Whale
             </div>
+            <div
+                v-if="composition.tags.includes('Unverified')"
+                class="bg-red-400 text-white font-bold h-full flex items-center px-2 rounded-lg"
+            >
+                Unverified
+            </div>
+            <div
+                v-if="composition.tags.includes('Verified')"
+                class="bg-green-500 text-white font-bold h-full flex items-center px-2 rounded-lg"
+            >
+                Verified
+            </div>
         </div>
         <NuxtLink :to="`${path}/${composition.dir.split('/').pop()}`">
             <div :class="'bg-[#2D282F] border-2 border-[#584F65] h-full p-5 pb-8 rounded-xl text-white ' + (!detailedView ? 'lg:flex flex-row' : '')">
@@ -21,7 +33,7 @@
                         {{ composition.title }}
                     </div>
                     <div class="flex justify-end items-end">
-                        <p class="text-gray-500 lg:text-xl">
+                        <p class="text-gray-400 lg:text-xl">
                             {{ composition.authors.join(', ') }}
                         </p>
                     </div>
@@ -104,7 +116,7 @@
                     </div>
                     <p v-if="detailedView" class="hidden lg:block w-full py-3 text-gray-500">
                         <span v-for="(tag, index) in composition.tags" :key="index">
-                            <span v-if="index != 0">, </span><span :class="{'KQM Choice': 'text-kqm-purple', 'Whale': 'text-whale'}[tag]">{{ tag }}</span>
+                            <span v-if="index != 0">, </span><span :class="{'KQM Choice': 'text-kqm-purple', 'Whale': 'text-whale', 'Unverified': 'text-unverified', 'Verified': 'text-verified'}[tag]">{{ tag }}</span>
                         </span>
                     </p>
                     <div v-if="detailedView" class="hidden lg:grid grid-cols-2 gap-5">

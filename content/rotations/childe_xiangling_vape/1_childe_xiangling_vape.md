@@ -15,6 +15,8 @@ tags:
   - Sucrose
   - Dual Carry
   - Single-Target
+  - Whale
+  - KQM Choice
 pros:
   - Flexible rotations
   - Balanced between high Burst damage and sustained damage

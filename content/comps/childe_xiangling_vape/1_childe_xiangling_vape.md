@@ -7,6 +7,8 @@ shielding: 1
 difficulty: 3
 target: 3
 tags:
+  - Verified
+  - Unverified
   - Childe
   - Tartaglia
   - Ajax
@@ -15,6 +17,8 @@ tags:
   - Sucrose
   - Dual Carry
   - Single-Target
+  - Whale
+  - KQM Choice
 pros:
   - Flexible rotations
   - Balanced between high Burst damage and sustained damage

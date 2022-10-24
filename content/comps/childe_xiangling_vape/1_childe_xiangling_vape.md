@@ -7,7 +7,7 @@ shielding: 1
 difficulty: 3
 target: 3
 tags:
-  - Unverified
+  - Verified
   - Childe
   - Tartaglia
   - Ajax
@@ -66,7 +66,7 @@ characters:
     cr: 69.20
     cd: 129.44
     er: 176.92
-    dps: 19146
+    dps: 17944
   - name: Sucrose
     star: 4
     constellation: 6

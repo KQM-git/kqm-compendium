@@ -7,7 +7,7 @@ shielding: 3
 difficulty: 1
 target: 3
 tags:
-  - Unverified
+  - Verified
   - Itto
   - Gorou
   - Albedo
@@ -26,7 +26,7 @@ pros:
 cons:
   - No supplemental damage from reactions
   - Matchup dependent, struggles in content with spread out mobs, and Abyss Elemental shield
-sheet_url: https://docs.google.com/spreadsheets/d/1GPEzkjr3Xdt0pHVjBFyo_VV3uMkMZg6f042Quv26yAw/edit?usp=sharing
+sheet_url: https://docs.google.com/spreadsheets/d/1cDAJJ6yOiVkF_CZKiFEdvH6VddAi89AriFZPJpfIRXU/edit#gid=280106241
 rotation:
   duration: 22s
   video_url: https://www.youtube.com/watch?v=SWVsgoCWHUU
@@ -46,7 +46,7 @@ characters:
     cr: 88.4
     cd: 129.44
     er: 122.04
-    dps: 24274.4
+    dps: 23081.15
   - name: Albedo
     star: 5
     constellation: 0
@@ -62,7 +62,7 @@ characters:
     cr: 69.2
     cd: 129.44
     er: 111.02
-    dps: 10201.7
+    dps: 11201.64
   - name: Gorou
     star: 4
     constellation: 0
@@ -78,7 +78,7 @@ characters:
     cr: 69.2
     cd: 89.72
     er: 268.2
-    dps: 1914.6
+    dps: 1332.81
   - name: Zhongli
     star: 5
     constellation: 0
@@ -87,14 +87,15 @@ characters:
       refinement: 1
     artifacts:
       - Tenacity of the Millelith
-    hp: 25936
-    atk: 1784
+      - Archaic Petra
+    hp: 29625
+    atk: 1241
     def: 869
     em: 40
     cr: 69.2
     cd: 129.44
-    er: 141.62
-    dps: 2887.7
+    er: 111.02
+    dps: 3292.17
 ---
 
 # **Notes**

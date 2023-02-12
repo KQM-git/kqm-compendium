@@ -47,7 +47,7 @@ characters:
     cr: 44.7
     cd: 216.8
     er: 111.0
-    dps: 33992
+    dps: 35431
   - name: Shenhe
     star: 5
     constellation: 0
@@ -63,7 +63,7 @@ characters:
     cr: 44.7
     cd: 63.2
     er: 185.7
-    dps: 5610
+    dps: 5666
   - name: Kaedehara Kazuha
     star: 5
     constellation: 0
@@ -79,7 +79,7 @@ characters:
     cr: 44.7
     cd: 63.2
     er: 172.3
-    dps: 8187
+    dps: 8494
   - name: Sangonomiya Kokomi
     star: 5
     constellation: 0
@@ -95,7 +95,7 @@ characters:
     cr: -88.4
     cd: 63.2
     er: 166.1
-    dps: 409
+    dps: 506
 ---
 
 # **Notes**  

@@ -11,15 +11,15 @@
                 <NuxtLink to="/" class="text-white m-3 pb-1">
                     Team Compendium
                 </NuxtLink>
-                <NuxtLink to="/rotation-bank" class="text-white m-3 pb-1">
+                <!-- <NuxtLink to="/rotation-bank" class="text-white m-3 pb-1">
                     Rotation Bank
-                </NuxtLink>
+                </NuxtLink> -->
                 <NuxtLink to="/kqm-standards" class="text-white m-3 pb-1">
                     KQM Standards
                 </NuxtLink>
-                <NuxtLink to="/about" class="text-white m-3 pb-1">
+                <!-- <NuxtLink to="/about" class="text-white m-3 pb-1">
                     About
-                </NuxtLink>
+                </NuxtLink> -->
             </div>
         </div>
         <!-- Mobile -->
@@ -98,7 +98,7 @@
                         Team Compendium
                     </NuxtLink>
                 </li>
-                <li>
+                <!-- <li>
                     <NuxtLink
                         to="/rotation-bank"
                         class="my-4 inline-block"
@@ -106,7 +106,7 @@
                     >
                         Rotation Bank
                     </NuxtLink>
-                </li>
+                </li> -->
                 <li>
                     <NuxtLink
                         to="/kqm-standards"
@@ -116,7 +116,7 @@
                         KQM Standards
                     </NuxtLink>
                 </li>
-                <li>
+                <!-- <li>
                     <NuxtLink
                         to="/about"
                         class="my-4 inline-block"
@@ -124,7 +124,7 @@
                     >
                         About
                     </NuxtLink>
-                </li>
+                </li> -->
             </ul>
         </aside>
     </div>

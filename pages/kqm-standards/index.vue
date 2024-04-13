@@ -11,9 +11,9 @@
             </p>
             <div class="flex flex-row justify-between items-end mt-1">
                 <nuxt-content :document="{ body : changelog.excerpt }" />
-                <button class="bg-[#423745] border-2 border-[#584F65] py-1 px-5 rounded-lg">
+                <!-- <button class="bg-[#423745] border-2 border-[#584F65] py-1 px-5 rounded-lg">
                     Changelog
-                </button>
+                </button> -->
             </div>
         </div>
 
@@ -25,6 +25,7 @@
                 <li
                     v-for="link of kqms.toc"
                     :key="link.id"
+                    :class="link.depth === 2 ? 'font-bold' : 'ml-8'"
                 >
                     <a
                         role="button"
@@ -41,7 +42,7 @@
             v-for="(section, index) in mainSection"
             :key="index"
             class="main m-3 p-5 border-2 border-[#584F65] rounded-xl text-white"
-            :class="section[0].tag === 'h2' ? 'bg-[#2D282F]' : 'bg-[#423745] -mt-6 rounded-t-none'"
+            :class="section[0].tag === 'h2' ? 'bg-[#2D282F]' : '-mt-6 rounded-t-none' + (section[0].alt ? ' bg-[#423745]' : ' bg-[#2D282F]')"
         >
             <nuxt-content :document="{ body: { children : section } }" />
         </div>
@@ -49,7 +50,7 @@
         <div class="m-3 p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl text-white text-4xl font-bold text-center">
             Any deviations from these assumptions must be clearly stated and explained.
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-2">
             <div
                 v-for="proposal of proposals"
                 :key="proposal.slug"
@@ -84,7 +85,7 @@
                     </NuxtLink>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -113,6 +114,13 @@ export default Vue.extend({
                 currentSection.push(children)
             }
         }
+
+        for (let i = 1; i < mainSection.length; i++) {
+            if (mainSection[i][0].tag === 'h3' && !mainSection[i - 1][0].alt) {
+                mainSection[i][0].alt = true
+            }
+        }
+
         const proposals = (await $content('kqms', 'proposals').fetch() as any[]).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
         return { changelog, kqms, mainSection, proposals }
@@ -152,12 +160,16 @@ export default Vue.extend({
     @apply font-bold text-xl
 }
 
+::v-deep .main .nuxt-content h4 {
+    @apply font-bold text-lg pt-5
+}
+
 ::v-deep .nuxt-content table {
-    @apply mb-3 font-bold
+    @apply mb-3 font-bold border-2
 }
 
 ::v-deep .nuxt-content td, ::v-deep .nuxt-content th {
-    @apply pl-5
+    @apply pl-5 border-2
 }
 
 ::v-deep .nuxt-content tr:nth-child(2n) {
@@ -170,5 +182,13 @@ export default Vue.extend({
 
 ::v-deep .nuxt-content th .s4 {
     @apply text-[#9070A8]
+}
+
+::v-deep .boxed {
+    @apply mx-auto my-2 p-1 border-2 max-w-max
+}
+
+::v-deep a {
+    @apply underline text-[#9070A8]
 }
 </style>

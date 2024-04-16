@@ -8,18 +8,9 @@
                 </NuxtLink>
             </div>
             <div class="top-bar flex flex-row items-end">
-                <NuxtLink to="/" class="text-white m-3 pb-1">
-                    Team Compendium
-                </NuxtLink>
-                <!-- <NuxtLink to="/rotation-bank" class="text-white m-3 pb-1">
-                    Rotation Bank
-                </NuxtLink> -->
                 <NuxtLink to="/kqm-standards" class="text-white m-3 pb-1">
                     KQM Standards
                 </NuxtLink>
-                <!-- <NuxtLink to="/about" class="text-white m-3 pb-1">
-                    About
-                </NuxtLink> -->
             </div>
         </div>
         <!-- Mobile -->
@@ -95,36 +86,9 @@
                         class="my-4 inline-block"
                         @click.native="isOpen = false"
                     >
-                        Team Compendium
-                    </NuxtLink>
-                </li>
-                <!-- <li>
-                    <NuxtLink
-                        to="/rotation-bank"
-                        class="my-4 inline-block"
-                        @click.native="isOpen = false"
-                    >
-                        Rotation Bank
-                    </NuxtLink>
-                </li> -->
-                <li>
-                    <NuxtLink
-                        to="/kqm-standards"
-                        class="my-4 inline-block"
-                        @click.native="isOpen = false"
-                    >
                         KQM Standards
                     </NuxtLink>
                 </li>
-                <!-- <li>
-                    <NuxtLink
-                        to="/about"
-                        class="my-4 inline-block"
-                        @click.native="isOpen = false"
-                    >
-                        About
-                    </NuxtLink>
-                </li> -->
             </ul>
         </aside>
     </div>

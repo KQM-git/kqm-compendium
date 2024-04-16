@@ -98,3 +98,4 @@ This value (0.84) will be multiplied with the roll value of a 5-star artifact to
         - Dual Target: 2 Ruin Guard sized enemies
         - Multi Target: 1 Ruin Guard and 2 Hilichurl sized enemies
 - Team rotation must be written in a comment alongside other useful notes
+- Example sim: [gcsim.app/sh/WHRdGBMbmGnH](https://gcsim.app/sh/WHRdGBMbmGnH)

@@ -118,10 +118,6 @@ fn execute_action(char_id number, action_id number, p map) {
     execute_action(char_id, .action.swap, []);
   }
 
-  # this following if block handles conditionally adding in delay depending on
-  # what the previous and next action is. in this example, delay is not added between attacks
-  # and charge attack following an attack
-  # modify these conditions as you see fit
   if action_id == .action.swap {
     # add delay before swap
       # ~3% chance at 6

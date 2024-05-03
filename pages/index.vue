@@ -199,4 +199,8 @@ export default Vue.extend({
 ::v-deep a {
     @apply underline text-[#9070A8]
 }
+
+::v-deep summary {
+    @apply bg-kqm-purple max-w-max p-1 m-1
+}
 </style>

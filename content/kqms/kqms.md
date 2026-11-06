@@ -88,7 +88,7 @@ This value (0.84) will be multiplied with the roll value of a 5-star artifact to
 
 ### gcsim:
 - The rotation must be running for a minimum of 90 seconds with 1000 iterations
-- Kolibri’s random delay method must be used. Choose a delay from below which you consider is the best one for the unit you are calculating
+- The random delay method is highly recommended in general, and there must be at least one calculation using random delay for highly timing-sensitive teams. Choose a delay from below or adapt one to your needs, whichever you consider best for the unit you are calculating.
   <details>
   <summary>Standard Delay</summary>
 

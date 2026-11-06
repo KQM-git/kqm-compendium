@@ -66,7 +66,7 @@ This value (0.84) will be multiplied with the roll value of a 5-star artifact to
 
 ## Character and Talent Levels
 - All characters must be level 90
-- All talents must be level 9(+3) / 9(+3) / 9(+3)
+- All talents must be level 10(+3) / 10(+3) / 10(+3)
 - All characters start with 100% HP and Elemental Burst charged, unless specified otherwise
 
 

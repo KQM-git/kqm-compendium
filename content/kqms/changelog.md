@@ -1,9 +1,10 @@
 ---
-current_revision: '2.0.2'
-last_updated: May 3rd 2024
+current_revision: '3.0.0'
+last_updated: November 6th 2026
 ---
 
 <!--more-->
+- Talents levels changed to level 10.
 - Moved to KQM Compendium site.
 - 5* Artifact changes accepted.
 - 6* Artifact changes accepted.
